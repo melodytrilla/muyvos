@@ -6,7 +6,7 @@ import { AccesoriosComponent } from './accesorios/accesorios.component';
 
 const routes: Routes = [
   { path: '', component: InicioComponent},
-  { path: 'https://muyvos.netlify.com/nosotros', component: NosotrosComponent},
+  { path: 'nosotros', component: NosotrosComponent},
   { path: 'accesorios/:tipo', component: AccesoriosComponent}
 ];
 
