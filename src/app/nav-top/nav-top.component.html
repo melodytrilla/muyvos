@@ -1,1 +1,103 @@
-<p>nav-top works!</p>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+<div class="space">
+    <!--<div class="alinear">
+        <div class="usuario"><mat-icon class="usuarioI">person_outline</mat-icon></div>
+        <div class="carrito"><mat-icon class="carritoI">shopping_cart</mat-icon></div>
+    </div>-->
+    <div mat-list class="nav-top">
+        <div class="item"><div mat-list-item><a href="/nosotros">NOSOTROS</a></div></div>
+        <div class="item"><div mat-list-item><a href="#contacto">CONTACTO</a></div></div>
+        <div class="item"><div mat-list-item><a href="#informacion">INFORMACIÓN</a></div></div>
+    </div>
+</div>
+<div class="logo">
+    <a href="/"><img src="..\assets\logo.jpg" class="cover"></a>
+</div>
+
+<div class="menu">
+    <button mat-button [matMenuTriggerFor]="bijouterie"  #matMenuTrigger="matMenuTrigger">BIJOUTERIE</button>
+        <mat-menu #bijouterie="matMenu" >
+            <button mat-menu-item (click)="this.sendTo('collares')">COLLARES</button>
+            <button mat-menu-item (click)="this.sendTo('dijes')">DIJES</button>
+            <button mat-menu-item (click)="this.sendTo('pulseras')">PULSERAS</button>
+            <button mat-menu-item (click)="this.sendTo('anillos')">ANILLOS</button>
+            <button mat-menu-item (click)="this.sendTo('aros')">AROS</button>
+            <button mat-menu-item (click)="this.sendTo('abridores')">ABRIDORES</button>
+            <button mat-menu-item (click)="this.sendTo('llaveros')">LLAVEROS</button>
+            <button mat-menu-item (click)="this.sendTo('cadenitas')">CADENITAS</button>
+            <button mat-menu-item (click)="this.sendTo('tobilleras')">TOBILLERAS</button>
+            <button mat-menu-item (click)="this.sendTo('prendedores')">PRENDEDORES</button>
+        </mat-menu>
+        <button mat-button [matMenuTriggerFor]="acero" #matMenuTrigger2="matMenuTrigger">ACERO</button>
+        <mat-menu #acero="matMenu">
+            <button mat-menu-item (click)="this.sendTo('pulserasAcero')">PULSERAS</button>
+            <button mat-menu-item (click)="this.sendTo('dijesAcero')">DIJES</button>
+            <button mat-menu-item (click)="this.sendTo('anillosAcero')">ANILLOS</button>
+            <button mat-menu-item (click)="this.sendTo('cadenitasAcero')">CADENITAS</button>
+            <button mat-menu-item (click)="this.sendTo('arosAcero')">AROS</button>
+        </mat-menu>
+        <button mat-button [matMenuTriggerFor]="manicura" #matMenuTrigger3="matMenuTrigger">MANICURA</button>
+        <mat-menu #manicura="matMenu">
+            <button mat-menu-item (click)="this.sendTo('esmaltes')">ESMALTES</button>
+            <button mat-menu-item (click)="this.sendTo('NailArt')">NAIL ART</button>
+            <button mat-menu-item (click)="this.sendTo('limas')">LIMAS</button>
+            <button mat-menu-item (click)="this.sendTo('quitaesmaltes')">QUITAESMALTES</button>
+            <button mat-menu-item (click)="this.sendTo('sets')">SETS</button>
+            <button mat-menu-item (click)="this.sendTo('alicates')">ALICATES</button>
+        </mat-menu>
+        <button mat-button [matMenuTriggerFor]="maquillaje" #matMenuTrigger4="matMenuTrigger">MAQUILLAJE</button>
+        <mat-menu #maquillaje="matMenu">
+            <button mat-menu-item (click)="this.sendTo('labiales')">LABIALES</button>
+            <button mat-menu-item (click)="this.sendTo('rimmel')">MÁSCARA DE PESTAÑAS</button>
+            <button mat-menu-item (click)="this.sendTo('sombras')">SOMBRAS</button>
+            <button mat-menu-item (click)="this.sendTo('delineadores')">DELINEADORES</button>
+            <button mat-menu-item (click)="this.sendTo('bases')">BASES</button>
+            <button mat-menu-item (click)="this.sendTo('rubores')">RUBORES</button>
+            <button mat-menu-item (click)="this.sendTo('pinceles')">PINCELES Y ESPONJAS</button>
+            <button mat-menu-item (click)="this.sendTo('maquillajeArtistico')">ARTÍSTICO</button>
+            <button mat-menu-item (click)="this.sendTo('maquillajeNiñas')">PARA NIÑAS</button>
+        </mat-menu>
+        <button mat-button [matMenuTriggerFor]="accesorios" #matMenuTrigger5="matMenuTrigger">ACCESORIOS</button>
+        <mat-menu #accesorios="matMenu">
+            <button mat-menu-item (click)="this.sendTo('relojes')">RELOJES</button>
+            <button mat-menu-item (click)="this.sendTo('espejos')">ESPEJOS</button>
+            <button mat-menu-item (click)="this.sendTo('paraguas')">PARAGUAS</button>
+            <button mat-menu-item (click)="this.sendTo('lentes')">LENTES</button>
+            <button mat-menu-item (click)="this.sendTo('gorras')">GORRAS</button>
+            <button mat-menu-item (click)="this.sendTo('abanicos')">ABANICOS</button>
+            <button mat-menu-item (click)="this.sendTo('variados')">VARIADOS</button>
+        </mat-menu>
+        <button mat-button [matMenuTriggerFor]="marroquineria" #matMenuTrigger6="matMenuTrigger">MARROQUINERÍA</button>
+        <mat-menu #marroquineria="matMenu" >
+            <button mat-menu-item (click)="this.sendTo('billeteras')">BILLETERAS</button>
+            <button mat-menu-item (click)="this.sendTo('carteras')">CARTERAS</button>
+            <button mat-menu-item (click)="this.sendTo('necesers')">NECESERS</button>
+            <button mat-menu-item (click)="this.sendTo('mochilas')">MOCHILAS</button>
+            <button mat-menu-item (click)="this.sendTo('pañuelos')">PAÑUELOS</button>
+            <button mat-menu-item (click)="this.sendTo('monederos')">MONEDEROS</button>
+            <button mat-menu-item (click)="this.sendTo('bolsos')">BOLSOS</button>
+            <button mat-menu-item (click)="this.sendTo('sobres')">SOBRES</button>
+            <button mat-menu-item (click)="this.sendTo('cofres')">COFRES</button>
+            <button mat-menu-item (click)="this.sendTo('cintos')">CINTOS</button>
+            <button mat-menu-item (click)="this.sendTo('MarroquineriaNiñas')">PARA NIÑAS</button>
+        </mat-menu>
+        <button mat-button [matMenuTriggerFor]="pelo" #matMenuTrigger6="matMenuTrigger">PELO</button>
+        <mat-menu #pelo="matMenu" >
+            <button mat-menu-item (click)="this.sendTo('colitas')">COLITAS</button>
+            <button mat-menu-item (click)="this.sendTo('vinchas')">VINCHAS</button>
+            <button mat-menu-item (click)="this.sendTo('broches')">BROCHES</button>
+            <button mat-menu-item (click)="this.sendTo('invisibles')">INVISIBLES</button>
+            <button mat-menu-item (click)="this.sendTo('coronitas')">CORONITAS</button>
+            <button mat-menu-item (click)="this.sendTo('otros')">OTROS</button>
+        </mat-menu>
+        <button mat-button [matMenuTriggerFor]="piercings" #matMenuTrigger6="matMenuTrigger">PIERCINGS</button>
+        <mat-menu #piercings="matMenu" >
+            <button mat-menu-item (click)="this.sendTo('ombligo')">OMBLIGO</button>
+            <button mat-menu-item (click)="this.sendTo('nariz')">NARIZ</button>
+            <button mat-menu-item (click)="this.sendTo('boca')">BOCA</button>
+            <button mat-menu-item (click)="this.sendTo('oreja')">OREJA</button>
+            <button mat-menu-item (click)="this.sendTo('lengua')">LENGUA</button>
+            <button mat-menu-item (click)="this.sendTo('ceja')">CEJA</button>
+        </mat-menu>
+</div>
+

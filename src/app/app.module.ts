@@ -10,6 +10,9 @@ import { NavBottomComponent } from './nav-bottom/nav-bottom.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { HttpClientModule } from '@angular/common/http';
+import { MaterialModule } from './material.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { AngularFontAwesomeModule } from 'angular-font-awesome';
 
 @NgModule({
   declarations: [
@@ -25,10 +28,13 @@ import { HttpClientModule } from '@angular/common/http';
     AppRoutingModule,
     NgbModule,
     MDBBootstrapModule.forRoot(),
-    HttpClientModule
+    HttpClientModule,
+    MaterialModule,
+    BrowserAnimationsModule,
+    AngularFontAwesomeModule
   ],
-  exports: [InicioComponent],
+  exports: [MaterialModule],
   providers: [],
-  bootstrap: [AppComponent, InicioComponent]
+  bootstrap: [AppComponent]
 })
 export class AppModule { }
