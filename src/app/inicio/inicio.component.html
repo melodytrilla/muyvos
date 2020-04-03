@@ -1,1 +1,23 @@
-<p>inicio works!</p>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.16.0/themes/prism.css" />
+<app-nav-top></app-nav-top>
+  <div class="foto">
+      <div class="col-md-12 py-3">
+        <ngb-carousel [showNavigationArrows]="true" [showNavigationIndicators]="true">
+          <ng-template ngbSlide>
+            <img src="..\assets\collares.png" alt="Random slide" class="cover">
+          </ng-template>
+          <ng-template ngbSlide>
+            <img src="..\assets\acero.png" alt="Random slide" class="cover">
+          </ng-template>
+          <ng-template ngbSlide>
+            <img src="..\assets\manicura.png" alt="Random slide" class="cover">
+          </ng-template>
+          <ng-template ngbSlide>
+            <img src="..\assets\maquillaje.png" alt="Random slide" class="cover">
+          </ng-template>
+        </ngb-carousel>
+      </div>
+  </div>
+<app-nav-bottom></app-nav-bottom>
+
