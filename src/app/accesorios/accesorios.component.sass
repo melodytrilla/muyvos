@@ -1,0 +1,48 @@
+#galeria
+    margin: 2rem auto 0rem auto
+    text-align: center
+    column-count: 4
+    
+@media only screen and (max-width: 1000px)
+  #galeria 
+    column-count: 3
+
+@media only screen and (max-width: 700px)
+  #galeria 
+    column-count: 2
+
+.imagen
+  margin-bottom: 40px
+  
+.imagen img 
+  height: 220px
+  width: 220px
+
+.agregar
+  max-width: 220px
+  background-color: pink
+  padding: 5px
+  font-weight: 400
+  font-size: 17px
+  margin: 0px auto
+
+.precio p
+  padding: 5px
+  border-style: solid
+  border-color: pink
+  font-weight: 700
+  max-width: 20%
+  margin: 1.5% 0% 0% 40%
+
+@media only screen and (max-width: 500px)
+  .imagen img
+    width: 120px
+    height: 120px
+  .agregar
+    max-width: 120px
+    font-size: 14px
+  .precio p
+    max-width: 33%
+    margin: 1.5% auto
+    font-size: 14px
+

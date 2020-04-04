@@ -13,6 +13,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { MaterialModule } from './material.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
+import { LightboxModule } from 'ngx-lightbox';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { AngularFontAwesomeModule } from 'angular-font-awesome';
     HttpClientModule,
     MaterialModule,
     BrowserAnimationsModule,
-    AngularFontAwesomeModule
+    AngularFontAwesomeModule,
+    LightboxModule,
   ],
   exports: [MaterialModule],
   providers: [],

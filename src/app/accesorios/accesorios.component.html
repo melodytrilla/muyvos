@@ -1,1 +1,11 @@
-<p>accesorios works!</p>
+<app-nav-top></app-nav-top>
+<section id="galeria">
+        <div *ngFor="let acces of acc; let i=index" class="imagen">
+                <img src="{{acces.imagen}}" (click)="open(i)"> 
+                <div class="agregar"><p style="margin-bottom: 0px;">{{acces.codigo}} - {{acces.descripcion}}</p></div>
+                <div class="precio"><p> ${{acces.precio}}</p></div>
+                <!--<div class="agregar">AGREGAR AL CARRITO</div>-->
+        </div>
+</section>
+<app-nav-bottom></app-nav-bottom>
+

@@ -7,7 +7,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "accjson": "json-server accesorios.json -p 3000"
   },
   "private": true,
   "dependencies": {
@@ -24,6 +25,8 @@
     "@ng-bootstrap/ng-bootstrap": "^5.2.2",
     "angular-bootstrap-md": "^8.10.1",
     "angular-font-awesome": "^3.1.2",
+    "json-server": "^0.16.1",
+    "ngx-lightbox": "^2.1.2",
     "rxjs": "~6.4.0",
     "tslib": "^1.11.1",
     "zone.js": "~0.9.1"
