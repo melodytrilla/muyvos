@@ -1,1 +1,2 @@
-/nosotros /post
+from = "/*"
+to = "/nosotros"
