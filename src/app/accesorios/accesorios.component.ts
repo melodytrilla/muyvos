@@ -13,7 +13,7 @@ export class AccesoriosComponent implements OnInit {
   public acc: any[] = [];
   album:  any[] = [];
   
-  collares : [
+  collares = [
     {
       codigo: "c100",
       imagen: "https://i.pinimg.com/originals/95/41/cf/9541cfe47c3e3941f765edaf03c2fe8e.jpg",
@@ -43,10 +43,10 @@ export class AccesoriosComponent implements OnInit {
       descripcion: "Chocker"
     }]
     
-  pulseras : [
+  pulseras = [
 
   ]
-  colitas: [
+  colitas= [
     {
       codigo: "co100",
       imagen: "../assets/accesorios/colitas/1.jpg",
@@ -72,7 +72,80 @@ export class AccesoriosComponent implements OnInit {
       descripcion: "Colita con strass"
     }
   ]
-  
+  vinchas = [
+    {
+      codigo: "vi100",
+      imagen: "assets/accesorios/vinchas/1.jpg",
+      precio: "110",
+      descripcion: "Vincha"
+    },
+    {
+      codigo: "vi101",
+      imagen: "assets/accesorios/vinchas/2.jpg",
+      precio: "120",
+      descripcion: "Vincha"
+    },
+    {
+      codigo: "vi102",
+      imagen: "assets/accesorios/vinchas/3.jpg",
+      precio: "120",
+      descripcion: "Vincha"
+    },
+    {
+      codigo: "vi103",
+      imagen: "assets/accesorios/vinchas/4.jpg",
+      precio: "150",
+      descripcion: "Vincha"
+    },
+    {
+      codigo: "vi104",
+      imagen: "assets/accesorios/vinchas/5.jpg",
+      precio: "170",
+      descripcion: "Vincha"
+    },
+    {
+      codigo: "vi105",
+      imagen: "assets/accesorios/vinchas/6.jpg",
+      precio: "170",
+      descripcion: "Vincha"
+    },
+    {
+      codigo: "vi106",
+      imagen: "assets/accesorios/vinchas/7.jpg",
+      precio: "120",
+      descripcion: "Vincha"
+    },
+    {
+      codigo: "vi107",
+      imagen: "assets/accesorios/vinchas/8.jpg",
+      precio: "130",
+      descripcion: "Vincha"
+    },
+    {
+      codigo: "vi108",
+      imagen: "assets/accesorios/vinchas/9.jpg",
+      precio: "120",
+      descripcion: "Vincha"
+    },
+    {
+      codigo: "vi109",
+      imagen: "assets/accesorios/vinchas/10.jpg",
+      precio: "120",
+      descripcion: "Vincha"
+    },
+    {
+      codigo: "vi110",
+      imagen: "assets/accesorios/vinchas/11.jpg",
+      precio: "160",
+      descripcion: "Vincha"
+    },
+    {
+      codigo: "vi111",
+      imagen: "assets/accesorios/vinchas/12.jpg",
+      precio: "160",
+      descripcion: "Vincha"
+    }
+  ]
   constructor(public service: AccesoriosService,
               private rutaActiva: ActivatedRoute,
               private _lightbox: Lightbox) { 
@@ -87,17 +160,20 @@ export class AccesoriosComponent implements OnInit {
     this.accesorio = {
       tipo: this.rutaActiva.snapshot.params.tipo
     };
+    console.log(this.accesorio.tipo)
     if (this.accesorio.tipo == 'collares'){
-      this.acc = this.collares
+      console.log(this.collares);
+      this.acc = this.collares;
+      console.log(this.acc)
     }
     else if (this.accesorio.tipo == "colitas"){
       this.acc = this.colitas
     }
-    this.service.getAccesorios(this.accesorio.tipo).subscribe(data => {this.acc= data, 
+    /*this.service.getAccesorios(this.accesorio.tipo).subscribe(data => {this.acc= data, 
       data.forEach(value => {
       this.album.push({'src': value.imagen, 'caption': value.codigo + ' - ' + '$' + value.precio})
     })
-  })
+  })*/
       }
     
       
