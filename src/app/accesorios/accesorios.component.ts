@@ -11,7 +11,7 @@ import { AccesoriosService } from '../accesorios.service';
 export class AccesoriosComponent implements OnInit {
   accesorio: {tipo: string};
   public acc: any[] = [];
-  album:  any[] = [];
+  album:  any = [];
   
   collares = [
     {
@@ -162,9 +162,7 @@ export class AccesoriosComponent implements OnInit {
     };
     console.log(this.accesorio.tipo)
     if (this.accesorio.tipo == 'collares'){
-      console.log(this.collares);
       this.acc = this.collares;
-      console.log(this.acc)
     }
     else if (this.accesorio.tipo == "colitas"){
       this.acc = this.colitas
@@ -172,6 +170,9 @@ export class AccesoriosComponent implements OnInit {
     else if (this.accesorio.tipo == "vinchas"){
       this.acc = this.vinchas
     }
+    this.acc.forEach(value => {
+      this.album.push({'src': value.imagen, 'caption': value.codigo + ' - ' + '$' + value.precio})
+    })
     /*this.service.getAccesorios(this.accesorio.tipo).subscribe(data => {this.acc= data, 
       data.forEach(value => {
       this.album.push({'src': value.imagen, 'caption': value.codigo + ' - ' + '$' + value.precio})
