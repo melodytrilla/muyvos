@@ -11,7 +11,7 @@ import { AccesoriosService } from '../accesorios.service';
 export class AccesoriosComponent implements OnInit {
   accesorio: {tipo: string};
   public acc: any[] = [];
-  album:any = [];
+  album:  any[] = [];
   constructor(public service: AccesoriosService,
               private rutaActiva: ActivatedRoute,
               private _lightbox: Lightbox) { 
@@ -26,7 +26,8 @@ export class AccesoriosComponent implements OnInit {
     this.accesorio = {
       tipo: this.rutaActiva.snapshot.params.tipo
     };
-    this.service.getAccesorios(this.accesorio.tipo).subscribe(data => {this.acc= data, data.forEach(value => {
+    this.service.getAccesorios(this.accesorio.tipo).subscribe(data => {this.acc= data, 
+      data.forEach(value => {
       this.album.push({'src': value.imagen, 'caption': value.codigo + ' - ' + '$' + value.precio})
     })
   })
