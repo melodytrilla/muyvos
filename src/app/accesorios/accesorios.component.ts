@@ -12,8 +12,8 @@ export class AccesoriosComponent implements OnInit {
   accesorio: {tipo: string};
   public acc: any[] = [];
   album:  any[] = [];
-
-  collares = [
+  
+  collares : [
     {
       codigo: "c100",
       imagen: "https://i.pinimg.com/originals/95/41/cf/9541cfe47c3e3941f765edaf03c2fe8e.jpg",
@@ -42,6 +42,37 @@ export class AccesoriosComponent implements OnInit {
       tipo: "collar",
       descripcion: "Chocker"
     }]
+    
+  pulseras : [
+
+  ]
+  colitas: [
+    {
+      codigo: "co100",
+      imagen: "../assets/accesorios/colitas/1.jpg",
+      precio: "70",
+      descripcion: "Colita con strass"
+    },
+    {
+      codigo: "co101",
+      imagen: "../assets/accesorios/colitas/2.jpg",
+      precio: "70",
+      descripcion: "Colita con strass"
+    },
+    {
+      codigo: "co102",
+      imagen: "../assets/accesorios/colitas/3.jpg",
+      precio: "70",
+      descripcion: "Colita con strass"
+    },
+    {
+      codigo: "co103",
+      imagen: "../assets/accesorios/colitas/4.jpg",
+      precio: "70",
+      descripcion: "Colita con strass"
+    }
+  ]
+  
   constructor(public service: AccesoriosService,
               private rutaActiva: ActivatedRoute,
               private _lightbox: Lightbox) { 
@@ -56,7 +87,12 @@ export class AccesoriosComponent implements OnInit {
     this.accesorio = {
       tipo: this.rutaActiva.snapshot.params.tipo
     };
-    this.acc = this.collares;
+    if (this.accesorio.tipo == 'collares'){
+      this.acc = this.collares
+    }
+    else if (this.accesorio.tipo == "colitas"){
+      this.acc = this.colitas
+    }
     this.service.getAccesorios(this.accesorio.tipo).subscribe(data => {this.acc= data, 
       data.forEach(value => {
       this.album.push({'src': value.imagen, 'caption': value.codigo + ' - ' + '$' + value.precio})
