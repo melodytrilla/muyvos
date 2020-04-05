@@ -27,7 +27,7 @@
               "src/favicon.ico",
               "src/assets",
               "src/_redirects",
-              "./accesorios.json"
+              "src/accesorios.json"
             ],
             "styles": [
               "src/styles.sass",
