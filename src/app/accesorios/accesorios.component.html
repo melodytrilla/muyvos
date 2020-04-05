@@ -1,4 +1,7 @@
 <app-nav-top></app-nav-top>
+<div class="acc">
+        <img src="{{imag}}" class="im">
+</div>
 <section id="galeria">
         <div *ngFor="let acces of acc; let i=index" class="imagen">
                 <img src="{{acces.imagen}}" (click)="open(i)"> 

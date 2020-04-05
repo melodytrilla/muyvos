@@ -12,7 +12,8 @@ export class AccesoriosComponent implements OnInit {
   accesorio: {tipo: string};
   public acc: any[] = [];
   album:  any = [];
-  
+  imag: string;
+
   collares = [
     {
       codigo: "c100",
@@ -162,6 +163,7 @@ export class AccesoriosComponent implements OnInit {
     };
     console.log(this.accesorio.tipo)
     if (this.accesorio.tipo == 'collares'){
+      this.imag = "../assets/acc/collares.png"
       this.acc = this.collares;
     }
     else if (this.accesorio.tipo == "colitas"){
