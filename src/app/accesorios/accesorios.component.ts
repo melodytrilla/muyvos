@@ -75,73 +75,73 @@ export class AccesoriosComponent implements OnInit {
   vinchas = [
     {
       codigo: "vi100",
-      imagen: "assets/accesorios/vinchas/1.jpg",
+      imagen: "../assets/accesorios/vinchas/1.jpg",
       precio: "110",
       descripcion: "Vincha"
     },
     {
       codigo: "vi101",
-      imagen: "assets/accesorios/vinchas/2.jpg",
+      imagen: "../assets/accesorios/vinchas/2.jpg",
       precio: "120",
       descripcion: "Vincha"
     },
     {
       codigo: "vi102",
-      imagen: "assets/accesorios/vinchas/3.jpg",
+      imagen: "../assets/accesorios/vinchas/3.jpg",
       precio: "120",
       descripcion: "Vincha"
     },
     {
       codigo: "vi103",
-      imagen: "assets/accesorios/vinchas/4.jpg",
+      imagen: "../assets/accesorios/vinchas/4.jpg",
       precio: "150",
       descripcion: "Vincha"
     },
     {
       codigo: "vi104",
-      imagen: "assets/accesorios/vinchas/5.jpg",
+      imagen: "../assets/accesorios/vinchas/5.jpg",
       precio: "170",
       descripcion: "Vincha"
     },
     {
       codigo: "vi105",
-      imagen: "assets/accesorios/vinchas/6.jpg",
+      imagen: "../assets/accesorios/vinchas/6.jpg",
       precio: "170",
       descripcion: "Vincha"
     },
     {
       codigo: "vi106",
-      imagen: "assets/accesorios/vinchas/7.jpg",
+      imagen: "../assets/accesorios/vinchas/7.jpg",
       precio: "120",
       descripcion: "Vincha"
     },
     {
       codigo: "vi107",
-      imagen: "assets/accesorios/vinchas/8.jpg",
+      imagen: "../assets/accesorios/vinchas/8.jpg",
       precio: "130",
       descripcion: "Vincha"
     },
     {
       codigo: "vi108",
-      imagen: "assets/accesorios/vinchas/9.jpg",
+      imagen: "../assets/accesorios/vinchas/9.jpg",
       precio: "120",
       descripcion: "Vincha"
     },
     {
       codigo: "vi109",
-      imagen: "assets/accesorios/vinchas/10.jpg",
+      imagen: "../assets/accesorios/vinchas/10.jpg",
       precio: "120",
       descripcion: "Vincha"
     },
     {
       codigo: "vi110",
-      imagen: "assets/accesorios/vinchas/11.jpg",
+      imagen: "../assets/accesorios/vinchas/11.jpg",
       precio: "160",
       descripcion: "Vincha"
     },
     {
       codigo: "vi111",
-      imagen: "assets/accesorios/vinchas/12.jpg",
+      imagen: "../assets/accesorios/vinchas/12.jpg",
       precio: "160",
       descripcion: "Vincha"
     }
@@ -168,6 +168,9 @@ export class AccesoriosComponent implements OnInit {
     }
     else if (this.accesorio.tipo == "colitas"){
       this.acc = this.colitas
+    }
+    else if (this.accesorio.tipo == "vinchas"){
+      this.acc = this.vinchas
     }
     /*this.service.getAccesorios(this.accesorio.tipo).subscribe(data => {this.acc= data, 
       data.forEach(value => {
