@@ -14,6 +14,80 @@ export class AccesoriosComponent implements OnInit {
   album:  any = [];
   imag: string;
 
+  abanicos = [
+    {
+      codigo: "ab100",
+      imagen: "../assets/accesorios/abanicos/1.jpg",
+      precio: "334",
+      descripcion: "Abanico"
+    },
+    {
+      codigo: "ab101",
+      imagen: "../assets/accesorios/abanicos/2.jpg",
+      precio: "334",
+      descripcion: "Abanico"
+    },
+    {
+      codigo: "ab102",
+      imagen: "../assets/accesorios/abanicos/3.jpg",
+      precio: "334",
+      descripcion: "Abanico"
+    },
+    {
+      codigo: "ab103",
+      imagen: "../assets/accesorios/abanicos/4.jpg",
+      precio: "334",
+      descripcion: "Abanico"
+    },
+    {
+      codigo: "ab104",
+      imagen: "../assets/accesorios/abanicos/5.jpg",
+      precio: "334",
+      descripcion: "Abanico"
+    },
+    {
+      codigo: "ab105",
+      imagen: "../assets/accesorios/abanicos/6.jpg",
+      precio: "334",
+      descripcion: "Abanico"
+    },
+    {
+      codigo: "ab106",
+      imagen: "../assets/accesorios/abanicos/7.jpg",
+      precio: "334",
+      descripcion: "Abanico"
+    },
+    {
+      codigo: "ab107",
+      imagen: "../assets/accesorios/abanicos/8.jpg",
+      precio: "230",
+      descripcion: "Abanico"
+    },
+    {
+      codigo: "ab108",
+      imagen: "../assets/accesorios/abanicos/9.jpg",
+      precio: "230",
+      descripcion: "Abanico"
+    },
+    {
+      codigo: "ab109",
+      imagen: "../assets/accesorios/abanicos/10.jpg",
+      precio: "230",
+      descripcion: "Abanico"
+    },
+    {
+      codigo: "ab110",
+      imagen: "../assets/accesorios/abanicos/11.jpg",
+      precio: "220",
+      descripcion: "Abanico"
+    },
+    {
+      codigo: "ab111",
+      imagen: "../assets/accesorios/abanicos/12.jpg",
+      precio: "220",
+      descripcion: "Abanico"
+    }
+  ]
   collares = [
     {
       codigo: "c100",
@@ -71,6 +145,342 @@ export class AccesoriosComponent implements OnInit {
       imagen: "../assets/accesorios/colitas/4.jpg",
       precio: "70",
       descripcion: "Colita con strass"
+    },
+    {
+      codigo: "co104",
+      imagen: "../assets/accesorios/colitas/5.jpg",
+      precio: "300",
+      descripcion: "Colita moño"
+    },
+    {
+      codigo: "co105",
+      imagen: "../assets/accesorios/colitas/6.jpg",
+      precio: "300",
+      descripcion: "Colita moño"
+    },
+    {
+      codigo: "co106",
+      imagen: "../assets/accesorios/colitas/7.jpg",
+      precio: "300",
+      descripcion: "Colita moño"
+    },
+    {
+      codigo: "co107",
+      imagen: "../assets/accesorios/colitas/8.jpg",
+      precio: "130",
+      descripcion: "Colita moño"
+    },
+    {
+      codigo: "co108",
+      imagen: "../assets/accesorios/colitas/9.jpg",
+      precio: "190",
+      descripcion: "Colita moño"
+    },
+    {
+      codigo: "co109",
+      imagen: "../assets/accesorios/colitas/10.jpg",
+      precio: "190",
+      descripcion: "Colita moño"
+    },
+    {
+      codigo: "co110",
+      imagen: "../assets/accesorios/colitas/11.jpg",
+      precio: "190",
+      descripcion: "Colita moño"
+    },
+    {
+      codigo: "co111",
+      imagen: "../assets/accesorios/colitas/12.jpg",
+      precio: "130",
+      descripcion: "Colita moño"
+    },
+    {
+      codigo: "co112",
+      imagen: "../assets/accesorios/colitas/13.jpg",
+      precio: "130",
+      descripcion: "Colita moño"
+    },
+    {
+      codigo: "co113",
+      imagen: "../assets/accesorios/colitas/14.jpg",
+      precio: "130",
+      descripcion: "Colita moño"
+    },
+    {
+      codigo: "co114",
+      imagen: "../assets/accesorios/colitas/15.jpg",
+      precio: "130",
+      descripcion: "Colita moño"
+    },
+    {
+      codigo: "co115",
+      imagen: "../assets/accesorios/colitas/16.jpg",
+      precio: "130",
+      descripcion: "Colita moño"
+    },
+    {
+      codigo: "co116",
+      imagen: "../assets/accesorios/colitas/17.jpg",
+      precio: "130",
+      descripcion: "Colita moño"
+    },
+    {
+      codigo: "co117",
+      imagen: "../assets/accesorios/colitas/18.jpg",
+      precio: "130",
+      descripcion: "Colita moño"
+    },
+    {
+      codigo: "co118",
+      imagen: "../assets/accesorios/colitas/19.jpg",
+      precio: "130",
+      descripcion: "Colita moño"
+    },
+    {
+      codigo: "co119",
+      imagen: "../assets/accesorios/colitas/20.jpg",
+      precio: "130",
+      descripcion: "Colita moño"
+    },
+    {
+      codigo: "co120",
+      imagen: "../assets/accesorios/colitas/21.jpg",
+      precio: "130",
+      descripcion: "Colita moño"
+    },
+    {
+      codigo: "co121",
+      imagen: "../assets/accesorios/colitas/22.jpg",
+      precio: "110",
+      descripcion: "Colita moño"
+    },
+    {
+      codigo: "co122",
+      imagen: "../assets/accesorios/colitas/23.jpg",
+      precio: "110",
+      descripcion: "Colita moño"
+    },
+    {
+      codigo: "co123",
+      imagen: "../assets/accesorios/colitas/24.jpg",
+      precio: "110",
+      descripcion: "Colita moño"
+    },
+    {
+      codigo: "co124",
+      imagen: "../assets/accesorios/colitas/25.jpg",
+      precio: "70",
+      descripcion: "Colita corazón"
+    },
+    {
+      codigo: "co125",
+      imagen: "../assets/accesorios/colitas/26.jpg",
+      precio: "70",
+      descripcion: "Colita corazón"
+    },
+    {
+      codigo: "co126",
+      imagen: "../assets/accesorios/colitas/27.jpg",
+      precio: "80",
+      descripcion: "Colita moño"
+    },
+    {
+      codigo: "co127",
+      imagen: "../assets/accesorios/colitas/28.jpg",
+      precio: "190",
+      descripcion: "Colita moño"
+    },
+    {
+      codigo: "co128",
+      imagen: "../assets/accesorios/colitas/29.jpg",
+      precio: "80",
+      descripcion: "Colita moño"
+    },
+    {
+      codigo: "co129",
+      imagen: "../assets/accesorios/colitas/30.jpg",
+      precio: "80",
+      descripcion: "Colita moño"
+    },
+    {
+      codigo: "co130",
+      imagen: "../assets/accesorios/colitas/31.jpg",
+      precio: "80",
+      descripcion: "Colita moño"
+    },
+    {
+      codigo: "co131",
+      imagen: "../assets/accesorios/colitas/32.jpg",
+      precio: "80",
+      descripcion: "Colita moño"
+    },
+    {
+      codigo: "co132",
+      imagen: "../assets/accesorios/colitas/33.jpg",
+      precio: "80",
+      descripcion: "Colita moño"
+    },
+    {
+      codigo: "co133",
+      imagen: "../assets/accesorios/colitas/34.jpg",
+      precio: "80",
+      descripcion: "Colita moño"
+    },
+    {
+      codigo: "co134",
+      imagen: "../assets/accesorios/colitas/35.jpg",
+      precio: "80",
+      descripcion: "Colita moño"
+    },
+    {
+      codigo: "co135",
+      imagen: "../assets/accesorios/colitas/36.jpg",
+      precio: "95",
+      descripcion: "Colita"
+    },
+    {
+      codigo: "co136",
+      imagen: "../assets/accesorios/colitas/37.jpg",
+      precio: "95",
+      descripcion: "Colita"
+    },
+    {
+      codigo: "co137",
+      imagen: "../assets/accesorios/colitas/38.jpg",
+      precio: "95",
+      descripcion: "Colita"
+    },
+    {
+      codigo: "co138",
+      imagen: "../assets/accesorios/colitas/39.jpg",
+      precio: "95",
+      descripcion: "Colita"
+    },
+    {
+      codigo: "co139",
+      imagen: "../assets/accesorios/colitas/40.jpg",
+      precio: "95",
+      descripcion: "Colita"
+    },
+    {
+      codigo: "co140",
+      imagen: "../assets/accesorios/colitas/41.jpg",
+      precio: "70",
+      descripcion: "Colita"
+    },
+    {
+      codigo: "co141",
+      imagen: "../assets/accesorios/colitas/42.jpg",
+      precio: "70",
+      descripcion: "Colita"
+    },
+    {
+      codigo: "co142",
+      imagen: "../assets/accesorios/colitas/43.jpg",
+      precio: "70",
+      descripcion: "Colita"
+    },
+    {
+      codigo: "co143",
+      imagen: "../assets/accesorios/colitas/44.jpg",
+      precio: "70",
+      descripcion: "Colita"
+    },
+    {
+      codigo: "co144",
+      imagen: "../assets/accesorios/colitas/45.jpg",
+      precio: "70",
+      descripcion: "Colita"
+    },
+    {
+      codigo: "co145",
+      imagen: "../assets/accesorios/colitas/46.jpg",
+      precio: "70",
+      descripcion: "Colita"
+    },
+    {
+      codigo: "co146",
+      imagen: "../assets/accesorios/colitas/47.jpg",
+      precio: "40",
+      descripcion: "Colita"
+    },
+    {
+      codigo: "co147",
+      imagen: "../assets/accesorios/colitas/48.jpg",
+      precio: "40",
+      descripcion: "Colita"
+    },
+    {
+      codigo: "co148",
+      imagen: "../assets/accesorios/colitas/49.jpg",
+      precio: "45",
+      descripcion: "Colita"
+    },
+    {
+      codigo: "co149",
+      imagen: "../assets/accesorios/colitas/50.jpg",
+      precio: "45",
+      descripcion: "Colita"
+    },
+    {
+      codigo: "co150",
+      imagen: "../assets/accesorios/colitas/51.jpg",
+      precio: "20",
+      descripcion: "Colita"
+    },
+    {
+      codigo: "co151",
+      imagen: "../assets/accesorios/colitas/52.jpg",
+      precio: "150",
+      descripcion: "Colita"
+    },
+    {
+      codigo: "co152",
+      imagen: "../assets/accesorios/colitas/53.jpg",
+      precio: "80",
+      descripcion: "Colita"
+    },
+    {
+      codigo: "co153",
+      imagen: "../assets/accesorios/colitas/54.jpg",
+      precio: "40",
+      descripcion: "Colita"
+    },
+    {
+      codigo: "co154",
+      imagen: "../assets/accesorios/colitas/55.jpg",
+      precio: "40",
+      descripcion: "Colita"
+    },
+    {
+      codigo: "co155",
+      imagen: "../assets/accesorios/colitas/56.jpg",
+      precio: "48",
+      descripcion: "Colita"
+    },
+    {
+      codigo: "co156",
+      imagen: "../assets/accesorios/colitas/57.jpg",
+      precio: "48",
+      descripcion: "Colita"
+    },
+    {
+      codigo: "co157",
+      imagen: "../assets/accesorios/colitas/58.jpg",
+      precio: "48",
+      descripcion: "Colita"
+    },
+    {
+      codigo: "co158",
+      imagen: "../assets/accesorios/colitas/59.jpg",
+      precio: "48",
+      descripcion: "Colita"
+    },
+    {
+      codigo: "co159",
+      imagen: "../assets/accesorios/colitas/60.jpg",
+      precio: "48",
+      descripcion: "Colita"
     }
   ]
   vinchas = [
@@ -162,14 +572,20 @@ export class AccesoriosComponent implements OnInit {
       tipo: this.rutaActiva.snapshot.params.tipo
     };
     console.log(this.accesorio.tipo)
+    if (this.accesorio.tipo == 'abanicos'){
+      this.imag = "../assets/acc/abanicos.png"
+      this.acc = this.abanicos;
+    }
     if (this.accesorio.tipo == 'collares'){
       this.imag = "../assets/acc/collares.png"
       this.acc = this.collares;
     }
     else if (this.accesorio.tipo == "colitas"){
+      this.imag = "../assets/acc/colitas.png"
       this.acc = this.colitas
     }
     else if (this.accesorio.tipo == "vinchas"){
+      this.imag = "../assets/acc/vinchas.png"
       this.acc = this.vinchas
     }
     this.acc.forEach(value => {
