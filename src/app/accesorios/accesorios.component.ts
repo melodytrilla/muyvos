@@ -1020,6 +1020,56 @@ export class AccesoriosComponent implements OnInit {
       descripcion: "Corrector"
     },
   ]
+  iluminadores=[
+    {
+      codigo: "i100",
+      imagen: "../assets/accesorios/iluminadores/1.jpg",
+      precio: "450",
+      descripcion: "Iluminador"
+    },
+    {
+      codigo: "i101",
+      imagen: "../assets/accesorios/iluminadores/2.jpg",
+      precio: "450",
+      descripcion: "Iluminador"
+    },
+    {
+      codigo: "i102",
+      imagen: "../assets/accesorios/iluminadores/3.jpg",
+      precio: "450",
+      descripcion: "Iluminador"
+    },
+    {
+      codigo: "i103",
+      imagen: "../assets/accesorios/iluminadores/4.jpg",
+      precio: "430",
+      descripcion: "Iluminador"
+    },
+    {
+      codigo: "i104",
+      imagen: "../assets/accesorios/iluminadores/5.jpg",
+      precio: "430",
+      descripcion: "Iluminador"
+    },
+    {
+      codigo: "i105",
+      imagen: "../assets/accesorios/iluminadores/6.jpg",
+      precio: "420",
+      descripcion: "Iluminador"
+    },
+    {
+      codigo: "i106",
+      imagen: "../assets/accesorios/iluminadores/7.jpg",
+      precio: "420",
+      descripcion: "Iluminador"
+    },
+    {
+      codigo: "i107",
+      imagen: "../assets/accesorios/iluminadores/8.jpg",
+      precio: "410",
+      descripcion: "Iluminador"
+    },
+  ]
   vinchas = [
     {
       codigo: "vi100",
@@ -1136,6 +1186,10 @@ export class AccesoriosComponent implements OnInit {
     else if (this.accesorio.tipo == "colitas"){
       this.imag = "../assets/acc/colitas.png"
       this.acc = this.colitas
+    }
+    else if (this.accesorio.tipo == "iluminadores"){
+      this.imag = "../assets/acc/iluminadores.png"
+      this.acc = this.iluminadores
     }
     else if (this.accesorio.tipo == "vinchas"){
       this.imag = "../assets/acc/vinchas.png"
