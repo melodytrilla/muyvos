@@ -88,6 +88,128 @@ export class AccesoriosComponent implements OnInit {
       descripcion: "Abanico"
     }
   ]
+  abridores=[
+    {
+      codigo: "a100",
+      imagen: "../assets/accesorios/abridores/1.jpg",
+      precio: "90",
+      descripcion: "Abridor Ench. Oro"
+    },
+    {
+      codigo: "a101",
+      imagen: "../assets/accesorios/abridores/2.jpg",
+      precio: "90",
+      descripcion: "Abridor Ench. Oro"
+    },
+    {
+      codigo: "a102",
+      imagen: "../assets/accesorios/abridores/3.jpg",
+      precio: "90",
+      descripcion: "Abridor Ench. Oro"
+    },
+    {
+      codigo: "a103",
+      imagen: "../assets/accesorios/abridores/4.jpg",
+      precio: "90",
+      descripcion: "Abridor Ench. Oro"
+    },
+    {
+      codigo: "a104",
+      imagen: "../assets/accesorios/abridores/5.jpg",
+      precio: "90",
+      descripcion: "Abridor Ench. Oro"
+    },
+    {
+      codigo: "a105",
+      imagen: "../assets/accesorios/abridores/6.jpg",
+      precio: "90",
+      descripcion: "Abridor Acero"
+    },
+    {
+      codigo: "a106",
+      imagen: "../assets/accesorios/abridores/7.jpg",
+      precio: "90",
+      descripcion: "Abridor Acero"
+    },
+    {
+      codigo: "a107",
+      imagen: "../assets/accesorios/abridores/8.jpg",
+      precio: "90",
+      descripcion: "Abridor Acero"
+    },
+    {
+      codigo: "a108",
+      imagen: "../assets/accesorios/abridores/9.jpg",
+      precio: "90",
+      descripcion: "Abridor Acero"
+    },
+    {
+      codigo: "a109",
+      imagen: "../assets/accesorios/abridores/10.jpg",
+      precio: "90",
+      descripcion: "Abridor Acero"
+    },
+    {
+      codigo: "a110",
+      imagen: "../assets/accesorios/abridores/11.jpg",
+      precio: "90",
+      descripcion: "Abridor Acero"
+    },
+    {
+      codigo: "a111",
+      imagen: "../assets/accesorios/abridores/12.jpg",
+      precio: "90",
+      descripcion: "Abridor Acero"
+    },
+    {
+      codigo: "a112",
+      imagen: "../assets/accesorios/abridores/13.jpg",
+      precio: "90",
+      descripcion: "Abridor Acero"
+    },
+    {
+      codigo: "a113",
+      imagen: "../assets/accesorios/abridores/14.jpg",
+      precio: "90",
+      descripcion: "Abridor Acero"
+    },
+    {
+      codigo: "a114",
+      imagen: "../assets/accesorios/abridores/15.jpg",
+      precio: "90",
+      descripcion: "Abridor Acero"
+    },
+    {
+      codigo: "a115",
+      imagen: "../assets/accesorios/abridores/16.jpg",
+      precio: "90",
+      descripcion: "Abridor Acero"
+    },
+    {
+      codigo: "a116",
+      imagen: "../assets/accesorios/abridores/17.jpg",
+      precio: "90",
+      descripcion: "Abridor Ench. Plata"
+    },
+    {
+      codigo: "a117",
+      imagen: "../assets/accesorios/abridores/18.jpg",
+      precio: "90",
+      descripcion: "Abridor Ench. Plata"
+    },
+    {
+      codigo: "a118",
+      imagen: "../assets/accesorios/abridores/19.jpg",
+      precio: "90",
+      descripcion: "Abridor Ench. Plata"
+    },
+    {
+      codigo: "a119",
+      imagen: "../assets/accesorios/abridores/20.jpg",
+      precio: "90",
+      descripcion: "Abridor Ench. Plata"
+    },
+  ]
   collares = [
     {
       codigo: "c100",
@@ -576,7 +698,11 @@ export class AccesoriosComponent implements OnInit {
       this.imag = "../assets/acc/abanicos.png"
       this.acc = this.abanicos;
     }
-    if (this.accesorio.tipo == 'collares'){
+    else if (this.accesorio.tipo == 'abridores'){
+      this.imag = "../assets/acc/abridores.png"
+      this.acc = this.abridores;
+    }
+    else if (this.accesorio.tipo == 'collares'){
       this.imag = "../assets/acc/collares.png"
       this.acc = this.collares;
     }
