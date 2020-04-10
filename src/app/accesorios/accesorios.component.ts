@@ -210,6 +210,200 @@ export class AccesoriosComponent implements OnInit {
       descripcion: "Abridor Ench. Plata"
     },
   ]
+  billeteras=[
+    {
+      codigo: "b100",
+      imagen: "../assets/accesorios/billeteras/1.jpg",
+      precio: "1200",
+      descripcion: "Billetera"
+    },
+    {
+      codigo: "b101",
+      imagen: "../assets/accesorios/billeteras/2.jpg",
+      precio: "1200",
+      descripcion: "Billetera"
+    },
+    {
+      codigo: "b102",
+      imagen: "../assets/accesorios/billeteras/3.jpg",
+      precio: "1100",
+      descripcion: "Billetera"
+    },
+    {
+      codigo: "b103",
+      imagen: "../assets/accesorios/billeteras/4.jpg",
+      precio: "950",
+      descripcion: "Billetera"
+    },
+    {
+      codigo: "b104",
+      imagen: "../assets/accesorios/billeteras/5.jpg",
+      precio: "1100",
+      descripcion: "Billetera"
+    },
+    {
+      codigo: "b105",
+      imagen: "../assets/accesorios/billeteras/6.jpg",
+      precio: "750",
+      descripcion: "Billetera"
+    },
+    {
+      codigo: "b106",
+      imagen: "../assets/accesorios/billeteras/7.jpg",
+      precio: "750",
+      descripcion: "Billetera"
+    },
+    {
+      codigo: "b107",
+      imagen: "../assets/accesorios/billeteras/8.jpg",
+      precio: "820",
+      descripcion: "Billetera"
+    },
+    {
+      codigo: "b108",
+      imagen: "../assets/accesorios/billeteras/9.jpg",
+      precio: "690",
+      descripcion: "Billetera"
+    },
+    {
+      codigo: "b109",
+      imagen: "../assets/accesorios/billeteras/10.jpg",
+      precio: "850",
+      descripcion: "Billetera"
+    },
+    {
+      codigo: "b110",
+      imagen: "../assets/accesorios/billeteras/11.jpg",
+      precio: "1100",
+      descripcion: "Billetera"
+    },
+    {
+      codigo: "b111",
+      imagen: "../assets/accesorios/billeteras/12.jpg",
+      precio: "780",
+      descripcion: "Billetera"
+    },
+    {
+      codigo: "b112",
+      imagen: "../assets/accesorios/billeteras/13.jpg",
+      precio: "890",
+      descripcion: "Billetera"
+    },
+    {
+      codigo: "b113",
+      imagen: "../assets/accesorios/billeteras/14.jpg",
+      precio: "680",
+      descripcion: "Billetera"
+    },
+    {
+      codigo: "b114",
+      imagen: "../assets/accesorios/billeteras/15.jpg",
+      precio: "850",
+      descripcion: "Billetera"
+    },
+    {
+      codigo: "b115",
+      imagen: "../assets/accesorios/billeteras/16.jpg",
+      precio: "890",
+      descripcion: "Billetera"
+    },
+    {
+      codigo: "b116",
+      imagen: "../assets/accesorios/billeteras/17.jpg",
+      precio: "890",
+      descripcion: "Billetera"
+    },
+    {
+      codigo: "b117",
+      imagen: "../assets/accesorios/billeteras/18.jpg",
+      precio: "630",
+      descripcion: "Billetera"
+    },
+    {
+      codigo: "b118",
+      imagen: "../assets/accesorios/billeteras/19.jpg",
+      precio: "480",
+      descripcion: "Billetera"
+    },
+    {
+      codigo: "b119",
+      imagen: "../assets/accesorios/billeteras/20.jpg",
+      precio: "650",
+      descripcion: "Billetera"
+    },
+    {
+      codigo: "b120",
+      imagen: "../assets/accesorios/billeteras/21.jpg",
+      precio: "1100",
+      descripcion: "Billetera"
+    },
+    {
+      codigo: "b121",
+      imagen: "../assets/accesorios/billeteras/22.jpg",
+      precio: "750",
+      descripcion: "Billetera"
+    },
+    {
+      codigo: "b122",
+      imagen: "../assets/accesorios/billeteras/23.jpg",
+      precio: "750",
+      descripcion: "Billetera"
+    },
+    {
+      codigo: "b123",
+      imagen: "../assets/accesorios/billeteras/24.jpg",
+      precio: "550",
+      descripcion: "Billetera"
+    },
+    {
+      codigo: "b124",
+      imagen: "../assets/accesorios/billeteras/25.jpg",
+      precio: "650",
+      descripcion: "Billetera"
+    },
+    {
+      codigo: "b125",
+      imagen: "../assets/accesorios/billeteras/26.jpg",
+      precio: "650",
+      descripcion: "Billetera"
+    },
+    {
+      codigo: "b126",
+      imagen: "../assets/accesorios/billeteras/27.jpg",
+      precio: "750",
+      descripcion: "Billetera"
+    },
+    {
+      codigo: "b127",
+      imagen: "../assets/accesorios/billeteras/28.jpg",
+      precio: "210",
+      descripcion: "Billetera"
+    },
+    {
+      codigo: "b128",
+      imagen: "../assets/accesorios/billeteras/29.jpg",
+      precio: "210",
+      descripcion: "Billetera"
+    },
+    {
+      codigo: "b129",
+      imagen: "../assets/accesorios/billeteras/30.jpg",
+      precio: "210",
+      descripcion: "Billetera"
+    },
+    {
+      codigo: "b130",
+      imagen: "../assets/accesorios/billeteras/31.jpg",
+      precio: "210",
+      descripcion: "Billetera"
+    },
+    {
+      codigo: "b131",
+      imagen: "../assets/accesorios/billeteras/32.jpg",
+      precio: "210",
+      descripcion: "Billetera"
+    }
+  ]
   collares = [
     {
       codigo: "c100",
@@ -701,6 +895,10 @@ export class AccesoriosComponent implements OnInit {
     else if (this.accesorio.tipo == 'abridores'){
       this.imag = "../assets/acc/abridores.png"
       this.acc = this.abridores;
+    }
+    else if (this.accesorio.tipo == 'billeteras'){
+      this.imag = "../assets/acc/billeteras.png"
+      this.acc = this.billeteras;
     }
     else if (this.accesorio.tipo == 'collares'){
       this.imag = "../assets/acc/collares.png"
