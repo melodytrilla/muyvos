@@ -1070,6 +1070,104 @@ export class AccesoriosComponent implements OnInit {
       descripcion: "Iluminador"
     },
   ]
+  necesers=[
+    {
+      codigo: "n100",
+      imagen: "../assets/accesorios/necesers/1.jpg",
+      precio: "695",
+      descripcion: "Neceser"
+    },
+    {
+      codigo: "n101",
+      imagen: "../assets/accesorios/necesers/2.jpg",
+      precio: "720",
+      descripcion: "Neceser"
+    },
+    {
+      codigo: "n102",
+      imagen: "../assets/accesorios/necesers/3.jpg",
+      precio: "900",
+      descripcion: "Neceser"
+    },
+    {
+      codigo: "n103",
+      imagen: "../assets/accesorios/necesers/4.jpg",
+      precio: "780",
+      descripcion: "Neceser"
+    },
+    {
+      codigo: "n104",
+      imagen: "../assets/accesorios/necesers/5.jpg",
+      precio: "665",
+      descripcion: "Neceser"
+    },
+    {
+      codigo: "n105",
+      imagen: "../assets/accesorios/necesers/6.jpg",
+      precio: "525",
+      descripcion: "Neceser"
+    },
+    {
+      codigo: "n106",
+      imagen: "../assets/accesorios/necesers/7.jpg",
+      precio: "790",
+      descripcion: "Neceser"
+    },
+    {
+      codigo: "n107",
+      imagen: "../assets/accesorios/necesers/8.jpg",
+      precio: "490",
+      descripcion: "Neceser"
+    },
+    {
+      codigo: "n108",
+      imagen: "../assets/accesorios/necesers/9.jpg",
+      precio: "490",
+      descripcion: "Neceser"
+    },
+    {
+      codigo: "n109",
+      imagen: "../assets/accesorios/necesers/10.jpg",
+      precio: "1200",
+      descripcion: "Neceser"
+    },
+    {
+      codigo: "n110",
+      imagen: "../assets/accesorios/necesers/11.jpg",
+      precio: "670",
+      descripcion: "Neceser"
+    },
+    {
+      codigo: "n111",
+      imagen: "../assets/accesorios/necesers/12.jpg",
+      precio: "720",
+      descripcion: "Neceser"
+    },
+    {
+      codigo: "n112",
+      imagen: "../assets/accesorios/necesers/13.jpg",
+      precio: "1200",
+      descripcion: "Neceser"
+    },
+    {
+      codigo: "n113",
+      imagen: "../assets/accesorios/necesers/14.jpg",
+      precio: "1300",
+      descripcion: "Neceser"
+    },
+    {
+      codigo: "n114",
+      imagen: "../assets/accesorios/necesers/15.jpg",
+      precio: "670",
+      descripcion: "Neceser"
+    },
+    {
+      codigo: "n115",
+      imagen: "../assets/accesorios/necesers/16.jpg",
+      precio: "780",
+      descripcion: "Neceser"
+    },
+  ]
   vinchas = [
     {
       codigo: "vi100",
@@ -1190,6 +1288,10 @@ export class AccesoriosComponent implements OnInit {
     else if (this.accesorio.tipo == "iluminadores"){
       this.imag = "../assets/acc/iluminadores.png"
       this.acc = this.iluminadores
+    }
+    else if (this.accesorio.tipo == "necesers"){
+      this.imag = "../assets/acc/necesers.png"
+      this.acc = this.necesers
     }
     else if (this.accesorio.tipo == "vinchas"){
       this.imag = "../assets/acc/vinchas.png"
