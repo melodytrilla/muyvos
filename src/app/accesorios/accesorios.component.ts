@@ -404,9 +404,181 @@ export class AccesoriosComponent implements OnInit {
       descripcion: "Billetera"
     }
   ]
+  billeterasHombre=[
+    {
+      codigo: "bh100",
+      imagen: "../assets/accesorios/billeterasHombre/1.jpg",
+      precio: "",
+      descripcion: "Billetera"
+    },
+    {
+      codigo: "bh101",
+      imagen: "../assets/accesorios/billeterasHombre/2.jpg",
+      precio: "",
+      descripcion: "Billetera"
+    },
+    {
+      codigo: "bh102",
+      imagen: "../assets/accesorios/billeterasHombre/3.jpg",
+      precio: "",
+      descripcion: "Billetera"
+    },
+    {
+      codigo: "bh103",
+      imagen: "../assets/accesorios/billeterasHombre/4.jpg",
+      precio: "",
+      descripcion: "Billetera"
+    },
+    {
+      codigo: "bh104",
+      imagen: "../assets/accesorios/billeterasHombre/5.jpg",
+      precio: "",
+      descripcion: "Billetera"
+    },
+    {
+      codigo: "bh105",
+      imagen: "../assets/accesorios/billeterasHombre/6.jpg",
+      precio: "",
+      descripcion: "Billetera"
+    },
+    {
+      codigo: "bh106",
+      imagen: "../assets/accesorios/billeterasHombre/7.jpg",
+      precio: "",
+      descripcion: "Billetera"
+    },
+    {
+      codigo: "bh107",
+      imagen: "../assets/accesorios/billeterasHombre/8.jpg",
+      precio: "",
+      descripcion: "Billetera"
+    },
+    {
+      codigo: "bh108",
+      imagen: "../assets/accesorios/billeterasHombre/9.jpg",
+      precio: "",
+      descripcion: "Billetera"
+    },
+    {
+      codigo: "bh109",
+      imagen: "../assets/accesorios/billeterasHombre/10.jpg",
+      precio: "",
+      descripcion: "Billetera"
+    },
+    {
+      codigo: "bh110",
+      imagen: "../assets/accesorios/billeterasHombre/11.jpg",
+      precio: "",
+      descripcion: "Billetera"
+    },
+    {
+      codigo: "bh111",
+      imagen: "../assets/accesorios/billeterasHombre/12.jpg",
+      precio: "",
+      descripcion: "Billetera"
+    },
+  ]
+  cintos=[
+    {
+      codigo: "ci100",
+      imagen: "../assets/accesorios/cintos/1.jpg",
+      precio: "640",
+      descripcion: "Cinto"
+    },
+    {
+      codigo: "ci101",
+      imagen: "../assets/accesorios/cintos/2.jpg",
+      precio: "450",
+      descripcion: "Cinto"
+    },
+    {
+      codigo: "ci102",
+      imagen: "../assets/accesorios/cintos/3.jpg",
+      precio: "640",
+      descripcion: "Cinto"
+    },
+    {
+      codigo: "ci103",
+      imagen: "../assets/accesorios/cintos/4.jpg",
+      precio: "410",
+      descripcion: "Cinto"
+    },
+    {
+      codigo: "ci104",
+      imagen: "../assets/accesorios/cintos/5.jpg",
+      precio: "495",
+      descripcion: "Cinto"
+    },
+    {
+      codigo: "ci105",
+      imagen: "../assets/accesorios/cintos/6.jpg",
+      precio: "640",
+      descripcion: "Cinto"
+    },
+    {
+      codigo: "ci106",
+      imagen: "../assets/accesorios/cintos/7.jpg",
+      precio: "550",
+      descripcion: "Cinto"
+    },
+    {
+      codigo: "ci107",
+      imagen: "../assets/accesorios/cintos/8.jpg",
+      precio: "590",
+      descripcion: "Cinto"
+    },
+    {
+      codigo: "ci108",
+      imagen: "../assets/accesorios/cintos/9.jpg",
+      precio: "305",
+      descripcion: "Cinto"
+    },
+    {
+      codigo: "ci109",
+      imagen: "../assets/accesorios/cintos/10.jpg",
+      precio: "390",
+      descripcion: "Cinto"
+    },
+    {
+      codigo: "ci110",
+      imagen: "../assets/accesorios/cintos/11.jpg",
+      precio: "240",
+      descripcion: "Cinto"
+    },
+    {
+      codigo: "ci111",
+      imagen: "../assets/accesorios/cintos/12.jpg",
+      precio: "160",
+      descripcion: "Cinto"
+    },
+    {
+      codigo: "ci112",
+      imagen: "../assets/accesorios/cintos/13.jpg",
+      precio: "340",
+      descripcion: "Cinto"
+    },
+    {
+      codigo: "ci113",
+      imagen: "../assets/accesorios/cintos/14.jpg",
+      precio: "570",
+      descripcion: "Cinto"
+    },
+    {
+      codigo: "ci114",
+      imagen: "../assets/accesorios/cintos/15.jpg",
+      precio: "470",
+      descripcion: "Cinto"
+    },
+    {
+      codigo: "ci115",
+      imagen: "../assets/accesorios/cintos/16.jpg",
+      precio: "470",
+      descripcion: "Cinto"
+    },
+  ]
   collares = [
     {
-      codigo: "c100",
+      codigo: "co100",
       imagen: "https://i.pinimg.com/originals/95/41/cf/9541cfe47c3e3941f765edaf03c2fe8e.jpg",
       precio: "334",
       tipo: "collar",
@@ -433,7 +605,6 @@ export class AccesoriosComponent implements OnInit {
       tipo: "collar",
       descripcion: "Chocker"
     }]
-    
   pulseras = [
 
   ]
@@ -899,6 +1070,14 @@ export class AccesoriosComponent implements OnInit {
     else if (this.accesorio.tipo == 'billeteras'){
       this.imag = "../assets/acc/billeteras.png"
       this.acc = this.billeteras;
+    }
+    else if (this.accesorio.tipo == 'billeterasHombre'){
+      this.imag = "../assets/acc/billeteras.png"
+      this.acc = this.billeterasHombre;
+    }
+    else if (this.accesorio.tipo == 'cintos'){
+      this.imag = "../assets/acc/cintos.png"
+      this.acc = this.cintos;
     }
     else if (this.accesorio.tipo == 'collares'){
       this.imag = "../assets/acc/collares.png"

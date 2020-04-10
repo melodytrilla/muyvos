@@ -69,7 +69,8 @@
         </mat-menu>
         <button mat-button [matMenuTriggerFor]="marroquineria" #matMenuTrigger6="matMenuTrigger">MARROQUINERÍA</button>
         <mat-menu #marroquineria="matMenu" >
-            <button mat-menu-item (click)="this.sendTo('billeteras')">BILLETERAS</button>
+            <button mat-menu-item (click)="this.sendTo('billeteras')">BILLETERAS MUJER</button>
+            <button mat-menu-item (click)="this.sendTo('billeterasHombre')">BILLETERAS HOMBRE</button>
             <button mat-menu-item (click)="this.sendTo('carteras')">CARTERAS</button>
             <button mat-menu-item (click)="this.sendTo('necesers')">NECESERS</button>
             <button mat-menu-item (click)="this.sendTo('mochilas')">MOCHILAS</button>
@@ -77,7 +78,6 @@
             <button mat-menu-item (click)="this.sendTo('monederos')">MONEDEROS</button>
             <button mat-menu-item (click)="this.sendTo('bolsos')">BOLSOS</button>
             <button mat-menu-item (click)="this.sendTo('sobres')">SOBRES</button>
-            <button mat-menu-item (click)="this.sendTo('cofres')">COFRES</button>
             <button mat-menu-item (click)="this.sendTo('cintos')">CINTOS</button>
             <button mat-menu-item (click)="this.sendTo('MarroquineriaNiñas')">PARA NIÑAS</button>
         </mat-menu>
