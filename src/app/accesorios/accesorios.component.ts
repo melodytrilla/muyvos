@@ -578,7 +578,7 @@ export class AccesoriosComponent implements OnInit {
   ]
   collares = [
     {
-      codigo: "co100",
+      codigo: "k100",
       imagen: "https://i.pinimg.com/originals/95/41/cf/9541cfe47c3e3941f765edaf03c2fe8e.jpg",
       precio: "334",
       tipo: "collar",
@@ -969,6 +969,56 @@ export class AccesoriosComponent implements OnInit {
       precio: "48",
       descripcion: "Colita"
     }
+  ]
+  correctores=[
+    {
+      codigo: "c100",
+      imagen: "../assets/accesorios/correctores/1.jpg",
+      precio: "410",
+      descripcion: "Corrector"
+    },
+    {
+      codigo: "c101",
+      imagen: "../assets/accesorios/correctores/2.jpg",
+      precio: "410",
+      descripcion: "Corrector"
+    },
+    {
+      codigo: "c102",
+      imagen: "../assets/accesorios/correctores/3.jpg",
+      precio: "320",
+      descripcion: "Corrector"
+    },
+    {
+      codigo: "c103",
+      imagen: "../assets/accesorios/correctores/4.jpg",
+      precio: "220",
+      descripcion: "Corrector"
+    },
+    {
+      codigo: "c104",
+      imagen: "../assets/accesorios/correctores/5.jpg",
+      precio: "220",
+      descripcion: "Corrector"
+    },
+    {
+      codigo: "c105",
+      imagen: "../assets/accesorios/correctores/6.jpg",
+      precio: "630",
+      descripcion: "Corrector"
+    },
+    {
+      codigo: "c106",
+      imagen: "../assets/accesorios/correctores/7.jpg",
+      precio: "365",
+      descripcion: "Corrector"
+    },
+    {
+      codigo: "c107",
+      imagen: "../assets/accesorios/correctores/8.jpg",
+      precio: "495",
+      descripcion: "Corrector"
+    },
   ]
   vinchas = [
     {
