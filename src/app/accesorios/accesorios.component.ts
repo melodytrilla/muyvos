@@ -1510,6 +1510,273 @@ export class AccesoriosComponent implements OnInit {
       descripcion: "Sobre"
     },
   ]
+  sombras=[
+    {
+      codigo: "so100",
+      imagen: "../assets/accesorios/sombras/1.jpg",
+      precio: "360",
+      descripcion: "Sombra"
+    },
+    {
+      codigo: "so101",
+      imagen: "../assets/accesorios/sombras/2.jpg",
+      precio: "360",
+      descripcion: "Sombra"
+    },
+    {
+      codigo: "so102",
+      imagen: "../assets/accesorios/sombras/3.jpg",
+      precio: "480",
+      descripcion: "Sombra"
+    },
+    {
+      codigo: "so103",
+      imagen: "../assets/accesorios/sombras/4.jpg",
+      precio: "440",
+      descripcion: "Sombra"
+    },
+    {
+      codigo: "so104",
+      imagen: "../assets/accesorios/sombras/5.jpg",
+      precio: "440",
+      descripcion: "Sombra"
+    },
+    {
+      codigo: "so105",
+      imagen: "../assets/accesorios/sombras/6.jpg",
+      precio: "440",
+      descripcion: "Sombra"
+    },
+    {
+      codigo: "so106",
+      imagen: "../assets/accesorios/sombras/7.jpg",
+      precio: "440",
+      descripcion: "Sombra"
+    },
+    {
+      codigo: "so107",
+      imagen: "../assets/accesorios/sombras/8.jpg",
+      precio: "360",
+      descripcion: "Sombra"
+    },
+    {
+      codigo: "so108",
+      imagen: "../assets/accesorios/sombras/9.jpg",
+      precio: "420",
+      descripcion: "Sombra"
+    },
+    {
+      codigo: "so109",
+      imagen: "../assets/accesorios/sombras/10.jpg",
+      precio: "420",
+      descripcion: "Sombra"
+    },
+    {
+      codigo: "so110",
+      imagen: "../assets/accesorios/sombras/11.jpg",
+      precio: "420",
+      descripcion: "Sombra"
+    },
+    {
+      codigo: "so111",
+      imagen: "../assets/accesorios/sombras/12.jpg",
+      precio: "680",
+      descripcion: "Sombra"
+    },
+    {
+      codigo: "so112",
+      imagen: "../assets/accesorios/sombras/13.jpg",
+      precio: "680",
+      descripcion: "Sombra"
+    },
+    {
+      codigo: "so113",
+      imagen: "../assets/accesorios/sombras/14.jpg",
+      precio: "480",
+      descripcion: "Sombra"
+    },
+    {
+      codigo: "so114",
+      imagen: "../assets/accesorios/sombras/15.jpg",
+      precio: "480",
+      descripcion: "Sombra"
+    },
+    {
+      codigo: "so115",
+      imagen: "../assets/accesorios/sombras/16.jpg",
+      precio: "320",
+      descripcion: "Sombra"
+    },
+    {
+      codigo: "so116",
+      imagen: "../assets/accesorios/sombras/17.jpg",
+      precio: "320",
+      descripcion: "Sombra"
+    },
+    {
+      codigo: "so117",
+      imagen: "../assets/accesorios/sombras/18.jpg",
+      precio: "320",
+      descripcion: "Sombra"
+    },
+    {
+      codigo: "so118",
+      imagen: "../assets/accesorios/sombras/19.jpg",
+      precio: "320",
+      descripcion: "Sombra"
+    },
+    {
+      codigo: "so119",
+      imagen: "../assets/accesorios/sombras/20.jpg",
+      precio: "380",
+      descripcion: "Sombra"
+    },
+    {
+      codigo: "so120",
+      imagen: "../assets/accesorios/sombras/21.jpg",
+      precio: "230",
+      descripcion: "Sombra"
+    },
+    {
+      codigo: "so121",
+      imagen: "../assets/accesorios/sombras/22.jpg",
+      precio: "230",
+      descripcion: "Sombra"
+    },
+    {
+      codigo: "so122",
+      imagen: "../assets/accesorios/sombras/23.jpg",
+      precio: "395",
+      descripcion: "Sombra"
+    },
+    {
+      codigo: "so123",
+      imagen: "../assets/accesorios/sombras/24.jpg",
+      precio: "420",
+      descripcion: "Sombra"
+    },
+    {
+      codigo: "so124",
+      imagen: "../assets/accesorios/sombras/25.jpg",
+      precio: "420",
+      descripcion: "Sombra"
+    },
+    {
+      codigo: "so125",
+      imagen: "../assets/accesorios/sombras/26.jpg",
+      precio: "265",
+      descripcion: "Sombra"
+    },
+    {
+      codigo: "so126",
+      imagen: "../assets/accesorios/sombras/27.jpg",
+      precio: "265",
+      descripcion: "Sombra"
+    },
+    {
+      codigo: "so127",
+      imagen: "../assets/accesorios/sombras/28.jpg",
+      precio: "210",
+      descripcion: "Sombra"
+    },
+    {
+      codigo: "so128",
+      imagen: "../assets/accesorios/sombras/29.jpg",
+      precio: "210",
+      descripcion: "Sombra"
+    },
+    {
+      codigo: "so129",
+      imagen: "../assets/accesorios/sombras/30.jpg",
+      precio: "515",
+      descripcion: "Sombra"
+    },
+    {
+      codigo: "so130",
+      imagen: "../assets/accesorios/sombras/31.jpg",
+      precio: "160",
+      descripcion: "Sombra"
+    },
+    {
+      codigo: "so131",
+      imagen: "../assets/accesorios/sombras/32.jpg",
+      precio: "",
+      descripcion: "Sombra"
+    },
+    {
+      codigo: "so132",
+      imagen: "../assets/accesorios/sombras/33.jpg",
+      precio: "490",
+      descripcion: "Sombra"
+    },
+    {
+      codigo: "so133",
+      imagen: "../assets/accesorios/sombras/34.jpg",
+      precio: "595",
+      descripcion: "Sombra"
+    },
+    {
+      codigo: "so134",
+      imagen: "../assets/accesorios/sombras/35.jpg",
+      precio: "",
+      descripcion: "Sombra"
+    },
+    {
+      codigo: "so135",
+      imagen: "../assets/accesorios/sombras/36.jpg",
+      precio: "",
+      descripcion: "Sombra"
+    },
+    {
+      codigo: "so136",
+      imagen: "../assets/accesorios/sombras/37.jpg",
+      precio: "435",
+      descripcion: "Sombra"
+    },
+    {
+      codigo: "so137",
+      imagen: "../assets/accesorios/sombras/38.jpg",
+      precio: "360",
+      descripcion: "Sombra"
+    },
+    {
+      codigo: "so138",
+      imagen: "../assets/accesorios/sombras/39.jpg",
+      precio: "210",
+      descripcion: "Sombra"
+    },
+    {
+      codigo: "so139",
+      imagen: "../assets/accesorios/sombras/40.jpg",
+      precio: "210",
+      descripcion: "Sombra"
+    },
+    {
+      codigo: "so140",
+      imagen: "../assets/accesorios/sombras/41.jpg",
+      precio: "",
+      descripcion: "Sombra"
+    },
+    {
+      codigo: "so141",
+      imagen: "../assets/accesorios/sombras/42.jpg",
+      precio: "",
+      descripcion: "Sombra"
+    },
+    {
+      codigo: "so142",
+      imagen: "../assets/accesorios/sombras/43.jpg",
+      precio: "",
+      descripcion: "Sombra"
+    },
+    {
+      codigo: "so143",
+      imagen: "../assets/accesorios/sombras/44.jpg",
+      precio: "",
+      descripcion: "Sombra"
+    },
+    
+  ]
   vinchas = [
     {
       codigo: "vi100",
@@ -1646,6 +1913,10 @@ export class AccesoriosComponent implements OnInit {
     else if (this.accesorio.tipo == "sobres"){
       this.imag = "../assets/acc/sobres.png"
       this.acc = this.sobres
+    }
+    else if (this.accesorio.tipo == "sombras"){
+      this.imag = "../assets/acc/sombras.png"
+      this.acc = this.sombras
     }
     else if (this.accesorio.tipo == "vinchas"){
       this.imag = "../assets/acc/vinchas.png"
