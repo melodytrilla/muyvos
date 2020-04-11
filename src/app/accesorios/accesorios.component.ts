@@ -1362,6 +1362,154 @@ export class AccesoriosComponent implements OnInit {
       descripcion: "Reloj"
     },
   ]
+  riñoneras=[
+    {
+      codigo: "ri100",
+      imagen: "../assets/accesorios/riñoneras/1.jpg",
+      precio: "660",
+      descripcion: "Riñonera"
+    },
+    {
+      codigo: "ri101",
+      imagen: "../assets/accesorios/riñoneras/2.jpg",
+      precio: "660",
+      descripcion: "Riñonera"
+    },
+    {
+      codigo: "ri102",
+      imagen: "../assets/accesorios/riñoneras/3.jpg",
+      precio: "580",
+      descripcion: "Riñonera"
+    },
+    {
+      codigo: "ri103",
+      imagen: "../assets/accesorios/riñoneras/4.jpg",
+      precio: "880",
+      descripcion: "Riñonera"
+    },
+  ]
+  sobres=[
+    {
+      codigo: "s100",
+      imagen: "../assets/accesorios/sobres/1.jpg",
+      precio: "640",
+      descripcion: "Sobre"
+    },
+    {
+      codigo: "s101",
+      imagen: "../assets/accesorios/sobres/2.jpg",
+      precio: "690",
+      descripcion: "Sobre"
+    },
+    {
+      codigo: "s102",
+      imagen: "../assets/accesorios/sobres/3.jpg",
+      precio: "620",
+      descripcion: "Sobre"
+    },
+    {
+      codigo: "s103",
+      imagen: "../assets/accesorios/sobres/4.jpg",
+      precio: "720",
+      descripcion: "Sobre"
+    },
+    {
+      codigo: "s104",
+      imagen: "../assets/accesorios/sobres/5.jpg",
+      precio: "750",
+      descripcion: "Sobre"
+    },
+    {
+      codigo: "s105",
+      imagen: "../assets/accesorios/sobres/6.jpg",
+      precio: "640",
+      descripcion: "Sobre"
+    },
+    {
+      codigo: "s106",
+      imagen: "../assets/accesorios/sobres/7.jpg",
+      precio: "620",
+      descripcion: "Sobre"
+    },
+    {
+      codigo: "s107",
+      imagen: "../assets/accesorios/sobres/8.jpg",
+      precio: "620",
+      descripcion: "Sobre"
+    },
+    {
+      codigo: "s108",
+      imagen: "../assets/accesorios/sobres/9.jpg",
+      precio: "620",
+      descripcion: "Sobre"
+    },
+    {
+      codigo: "s109",
+      imagen: "../assets/accesorios/sobres/10.jpg",
+      precio: "620",
+      descripcion: "Sobre"
+    },
+    {
+      codigo: "s110",
+      imagen: "../assets/accesorios/sobres/11.jpg",
+      precio: "620",
+      descripcion: "Sobre"
+    },
+    {
+      codigo: "s111",
+      imagen: "../assets/accesorios/sobres/12.jpg",
+      precio: "620",
+      descripcion: "Sobre"
+    },
+    {
+      codigo: "s112",
+      imagen: "../assets/accesorios/sobres/13.jpg",
+      precio: "290",
+      descripcion: "Sobre"
+    },
+    {
+      codigo: "s113",
+      imagen: "../assets/accesorios/sobres/14.jpg",
+      precio: "300",
+      descripcion: "Sobre"
+    },
+    {
+      codigo: "s114",
+      imagen: "../assets/accesorios/sobres/15.jpg",
+      precio: "690",
+      descripcion: "Sobre"
+    },
+    {
+      codigo: "s115",
+      imagen: "../assets/accesorios/sobres/16.jpg",
+      precio: "640",
+      descripcion: "Sobre"
+    },
+    {
+      codigo: "s116",
+      imagen: "../assets/accesorios/sobres/17.jpg",
+      precio: "620",
+      descripcion: "Sobre"
+    },
+    {
+      codigo: "s117",
+      imagen: "../assets/accesorios/sobres/18.jpg",
+      precio: "720",
+      descripcion: "Sobre"
+    },
+    {
+      codigo: "s118",
+      imagen: "../assets/accesorios/sobres/19.jpg",
+      precio: "720",
+      descripcion: "Sobre"
+    },
+    {
+      codigo: "s119",
+      imagen: "../assets/accesorios/sobres/20.jpg",
+      precio: "690",
+      descripcion: "Sobre"
+    },
+  ]
   vinchas = [
     {
       codigo: "vi100",
@@ -1490,6 +1638,10 @@ export class AccesoriosComponent implements OnInit {
     else if (this.accesorio.tipo == "relojes"){
       this.imag = "../assets/acc/relojes.png"
       this.acc = this.relojes
+    }
+    else if (this.accesorio.tipo == "riñoneras"){
+      this.imag = "../assets/acc/riñoneras.png"
+      this.acc = this.riñoneras
     }
     else if (this.accesorio.tipo == "vinchas"){
       this.imag = "../assets/acc/vinchas.png"
