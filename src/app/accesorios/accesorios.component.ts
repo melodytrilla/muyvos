@@ -1643,6 +1643,10 @@ export class AccesoriosComponent implements OnInit {
       this.imag = "../assets/acc/riñoneras.png"
       this.acc = this.riñoneras
     }
+    else if (this.accesorio.tipo == "sobres"){
+      this.imag = "../assets/acc/sobres.png"
+      this.acc = this.sobres
+    }
     else if (this.accesorio.tipo == "vinchas"){
       this.imag = "../assets/acc/vinchas.png"
       this.acc = this.vinchas
