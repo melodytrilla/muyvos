@@ -1168,6 +1168,200 @@ export class AccesoriosComponent implements OnInit {
       descripcion: "Neceser"
     },
   ]
+  relojes=[
+    {
+      codigo: "r100",
+      imagen: "../assets/accesorios/relojes/1.jpg",
+      precio: "530",
+      descripcion: "Reloj"
+    },
+    {
+      codigo: "r101",
+      imagen: "../assets/accesorios/relojes/2.jpg",
+      precio: "530",
+      descripcion: "Reloj"
+    },
+    {
+      codigo: "r102",
+      imagen: "../assets/accesorios/relojes/3.jpg",
+      precio: "530",
+      descripcion: "Reloj"
+    },
+    {
+      codigo: "r103",
+      imagen: "../assets/accesorios/relojes/4.jpg",
+      precio: "530",
+      descripcion: "Reloj"
+    },
+    {
+      codigo: "r104",
+      imagen: "../assets/accesorios/relojes/5.jpg",
+      precio: "530",
+      descripcion: "Reloj"
+    },
+    {
+      codigo: "r105",
+      imagen: "../assets/accesorios/relojes/6.jpg",
+      precio: "530",
+      descripcion: "Reloj"
+    },
+    {
+      codigo: "r106",
+      imagen: "../assets/accesorios/relojes/7.jpg",
+      precio: "450",
+      descripcion: "Reloj"
+    },
+    {
+      codigo: "r107",
+      imagen: "../assets/accesorios/relojes/8.jpg",
+      precio: "350",
+      descripcion: "Reloj"
+    },
+    {
+      codigo: "r108",
+      imagen: "../assets/accesorios/relojes/9.jpg",
+      precio: "350",
+      descripcion: "Reloj"
+    },
+    {
+      codigo: "r109",
+      imagen: "../assets/accesorios/relojes/10.jpg",
+      precio: "350",
+      descripcion: "Reloj"
+    },
+    {
+      codigo: "r110",
+      imagen: "../assets/accesorios/relojes/11.jpg",
+      precio: "350",
+      descripcion: "Reloj"
+    },
+    {
+      codigo: "r111",
+      imagen: "../assets/accesorios/relojes/12.jpg",
+      precio: "350",
+      descripcion: "Reloj"
+    },
+    {
+      codigo: "r112",
+      imagen: "../assets/accesorios/relojes/13.jpg",
+      precio: "530",
+      descripcion: "Reloj"
+    },
+    {
+      codigo: "r113",
+      imagen: "../assets/accesorios/relojes/14.jpg",
+      precio: "530",
+      descripcion: "Reloj"
+    },
+    {
+      codigo: "r114",
+      imagen: "../assets/accesorios/relojes/15.jpg",
+      precio: "530",
+      descripcion: "Reloj"
+    },
+    {
+      codigo: "r115",
+      imagen: "../assets/accesorios/relojes/16.jpg",
+      precio: "530",
+      descripcion: "Reloj"
+    },
+    {
+      codigo: "r116",
+      imagen: "../assets/accesorios/relojes/17.jpg",
+      precio: "530",
+      descripcion: "Reloj"
+    },
+    {
+      codigo: "r117",
+      imagen: "../assets/accesorios/relojes/18.jpg",
+      precio: "350",
+      descripcion: "Reloj"
+    },
+    {
+      codigo: "r118",
+      imagen: "../assets/accesorios/relojes/19.jpg",
+      precio: "630",
+      descripcion: "Reloj"
+    },
+    {
+      codigo: "r119",
+      imagen: "../assets/accesorios/relojes/20.jpg",
+      precio: "480",
+      descripcion: "Reloj"
+    },
+    {
+      codigo: "r120",
+      imagen: "../assets/accesorios/relojes/21.jpg",
+      precio: "630",
+      descripcion: "Reloj"
+    },
+    {
+      codigo: "r121",
+      imagen: "../assets/accesorios/relojes/22.jpg",
+      precio: "230",
+      descripcion: "Reloj"
+    },
+    {
+      codigo: "r122",
+      imagen: "../assets/accesorios/relojes/23.jpg",
+      precio: "330",
+      descripcion: "Reloj"
+    },
+    {
+      codigo: "r123",
+      imagen: "../assets/accesorios/relojes/24.jpg",
+      precio: "470",
+      descripcion: "Reloj"
+    },
+    {
+      codigo: "r124",
+      imagen: "../assets/accesorios/relojes/25.jpg",
+      precio: "480",
+      descripcion: "Reloj"
+    },
+    {
+      codigo: "r125",
+      imagen: "../assets/accesorios/relojes/26.jpg",
+      precio: "480",
+      descripcion: "Reloj"
+    },
+    {
+      codigo: "r126",
+      imagen: "../assets/accesorios/relojes/27.jpg",
+      precio: "460",
+      descripcion: "Reloj"
+    },
+    {
+      codigo: "r127",
+      imagen: "../assets/accesorios/relojes/28.jpg",
+      precio: "480",
+      descripcion: "Reloj"
+    },
+    {
+      codigo: "r128",
+      imagen: "../assets/accesorios/relojes/29.jpg",
+      precio: "460",
+      descripcion: "Reloj"
+    },
+    {
+      codigo: "r129",
+      imagen: "../assets/accesorios/relojes/30.jpg",
+      precio: "460",
+      descripcion: "Reloj"
+    },
+    {
+      codigo: "r130",
+      imagen: "../assets/accesorios/relojes/31.jpg",
+      precio: "440",
+      descripcion: "Reloj"
+    },
+    {
+      codigo: "r131",
+      imagen: "../assets/accesorios/relojes/32.jpg",
+      precio: "450",
+      descripcion: "Reloj"
+    },
+  ]
   vinchas = [
     {
       codigo: "vi100",
@@ -1292,6 +1486,10 @@ export class AccesoriosComponent implements OnInit {
     else if (this.accesorio.tipo == "necesers"){
       this.imag = "../assets/acc/necesers.png"
       this.acc = this.necesers
+    }
+    else if (this.accesorio.tipo == "relojes"){
+      this.imag = "../assets/acc/relojes.png"
+      this.acc = this.relojes
     }
     else if (this.accesorio.tipo == "vinchas"){
       this.imag = "../assets/acc/vinchas.png"
