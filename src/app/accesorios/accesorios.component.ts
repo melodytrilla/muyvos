@@ -579,32 +579,221 @@ export class AccesoriosComponent implements OnInit {
   collares = [
     {
       codigo: "k100",
-      imagen: "https://i.pinimg.com/originals/95/41/cf/9541cfe47c3e3941f765edaf03c2fe8e.jpg",
-      precio: "334",
-      tipo: "collar",
-      descripcion: "Chocker"
-    },
-    {
-      codigo: "c101",
-      imagen: "https://previews.123rf.com/images/reamolko/reamolko1601/reamolko160100046/51440212-collares-de-cadena-de-oro-fijadas-con-los-colgantes-redondos-y-rub%C3%AD-tri%C3%A1ngulo-y-de-la-perla-vector-de-di.jpg",
-      precio: "335",
-      tipo: "collar",
+      imagen: "../assets/accesorios/collares/1.jpg",
+      precio: "420",
       descripcion: "Collar"
     },
     {
-      codigo: "c102",
-      imagen: "https://www.dhresource.com/600x600/f2/albu/g10/M01/F9/3D/rBVaVlwPdRmAabhWAAHIAr-IKvw751.jpg",
-      precio: "100",
-      tipo: "collar",
+      codigo: "k101",
+      imagen: "../assets/accesorios/collares/2.jpg",
+      precio: "360",
+      descripcion: "Collar"
+    },
+    {
+      codigo: "k102",
+      imagen: "../assets/accesorios/collares/3.jpg",
+      precio: "540",
+      descripcion: "Collar"
+    },
+    {
+      codigo: "k103",
+      imagen: "../assets/accesorios/collares/4.jpg",
+      precio: "540",
+      descripcion: "Collar"
+    },
+    {
+      codigo: "k104",
+      imagen: "../assets/accesorios/collares/5.jpg",
+      precio: "210",
+      descripcion: "Collar"
+    },
+    {
+      codigo: "k105",
+      imagen: "../assets/accesorios/collares/6.jpg",
+      precio: "298",
+      descripcion: "Collar"
+    },
+    {
+      codigo: "k106",
+      imagen: "../assets/accesorios/collares/7.jpg",
+      precio: "298",
+      descripcion: "Collar"
+    },
+    {
+      codigo: "k107",
+      imagen: "../assets/accesorios/collares/8.jpg",
+      precio: "210",
       descripcion: "Chocker"
     },
     {
-      codigo: "c102",
-      imagen: "https://www.dhresource.com/600x600/f2/albu/g10/M01/F9/3D/rBVaVlwPdRmAabhWAAHIAr-IKvw751.jpg",
-      precio: "100",
-      tipo: "collar",
+      codigo: "k108",
+      imagen: "../assets/accesorios/collares/9.jpg",
+      precio: "210",
       descripcion: "Chocker"
-    }]
+    },
+    {
+      codigo: "k109",
+      imagen: "../assets/accesorios/collares/10.jpg",
+      precio: "210",
+      descripcion: "Chocker"
+    },
+    {
+      codigo: "k110",
+      imagen: "../assets/accesorios/collares/11.jpg",
+      precio: "170",
+      descripcion: "Chocker"
+    },
+    {
+      codigo: "k111",
+      imagen: "../assets/accesorios/collares/12.jpg",
+      precio: "110",
+      descripcion: "Chocker"
+    },
+    {
+      codigo: "k112",
+      imagen: "../assets/accesorios/collares/13.jpg",
+      precio: "350",
+      descripcion: "Chocker"
+    },
+    {
+      codigo: "k113",
+      imagen: "../assets/accesorios/collares/14.jpg",
+      precio: "110",
+      descripcion: "Chocker"
+    },
+    {
+      codigo: "k114",
+      imagen: "../assets/accesorios/collares/15.jpg",
+      precio: "530",
+      descripcion: "Collar"
+    },
+    {
+      codigo: "k115",
+      imagen: "../assets/accesorios/collares/16.jpg",
+      precio: "160",
+      descripcion: "Chocker"
+    },
+    {
+      codigo: "k116",
+      imagen: "../assets/accesorios/collares/17.jpg",
+      precio: "490",
+      descripcion: "Chocker"
+    },
+    {
+      codigo: "k117",
+      imagen: "../assets/accesorios/collares/18.jpg",
+      precio: "410",
+      descripcion: "Collar"
+    },
+    {
+      codigo: "k118",
+      imagen: "../assets/accesorios/collares/19.jpg",
+      precio: "210",
+      descripcion: "Collar"
+    },
+    {
+      codigo: "k119",
+      imagen: "../assets/accesorios/collares/20.jpg",
+      precio: "290",
+      descripcion: "Collar"
+    },
+    {
+      codigo: "k120",
+      imagen: "../assets/accesorios/collares/21.jpg",
+      precio: "540",
+      descripcion: "Collar"
+    },
+    {
+      codigo: "k121",
+      imagen: "../assets/accesorios/collares/22.jpg",
+      precio: "450",
+      descripcion: "Collar"
+    },
+    {
+      codigo: "k122",
+      imagen: "../assets/accesorios/collares/23.jpg",
+      precio: "450",
+      descripcion: "Collar"
+    },
+    {
+      codigo: "k123",
+      imagen: "../assets/accesorios/collares/24.jpg",
+      precio: "540",
+      descripcion: "Collar"
+    },
+    {
+      codigo: "k124",
+      imagen: "../assets/accesorios/collares/25.jpg",
+      precio: "180",
+      descripcion: "Collar"
+    },
+    {
+      codigo: "k125",
+      imagen: "../assets/accesorios/collares/26.jpg",
+      precio: "900",
+      descripcion: "Collar"
+    },
+    {
+      codigo: "k126",
+      imagen: "../assets/accesorios/collares/27.jpg",
+      precio: "1180",
+      descripcion: "Collar"
+    },
+    {
+      codigo: "k127",
+      imagen: "../assets/accesorios/collares/28.jpg",
+      precio: "780",
+      descripcion: "Collar"
+    },
+    {
+      codigo: "k128",
+      imagen: "../assets/accesorios/collares/29.jpg",
+      precio: "550",
+      descripcion: "Collar"
+    },
+    {
+      codigo: "k129",
+      imagen: "../assets/accesorios/collares/30.jpg",
+      precio: "125",
+      descripcion: "Chocker"
+    },
+    {
+      codigo: "k130",
+      imagen: "../assets/accesorios/collares/31.jpg",
+      precio: "210",
+      descripcion: "Chocker"
+    },
+    {
+      codigo: "k131",
+      imagen: "../assets/accesorios/collares/32.jpg",
+      precio: "310",
+      descripcion: "Collar"
+    },
+    {
+      codigo: "k132",
+      imagen: "../assets/accesorios/collares/33.jpg",
+      precio: "210",
+      descripcion: "Collar"
+    },
+    {
+      codigo: "k133",
+      imagen: "../assets/accesorios/collares/34.jpg",
+      precio: "110",
+      descripcion: "Collar"
+    },
+    {
+      codigo: "k134",
+      imagen: "../assets/accesorios/collares/35.jpg",
+      precio: "220",
+      descripcion: "Collar"
+    },
+    {
+      codigo: "k135",
+      imagen: "../assets/accesorios/collares/36.jpg",
+      precio: "170",
+      descripcion: "Collar"
+    },
+    ]
   pulseras = [
 
   ]
@@ -1777,6 +1966,80 @@ export class AccesoriosComponent implements OnInit {
     },
     
   ]
+  tarjeteros=[
+    {
+      codigo: "t100",
+      imagen: "../assets/accesorios/tarjeteros/1.jpg",
+      precio: "330",
+      descripcion: "Tarjetero"
+    },
+    {
+      codigo: "t101",
+      imagen: "../assets/accesorios/tarjeteros/2.jpg",
+      precio: "330",
+      descripcion: "Tarjetero"
+    },
+    {
+      codigo: "t102",
+      imagen: "../assets/accesorios/tarjeteros/3.jpg",
+      precio: "330",
+      descripcion: "Tarjetero"
+    },
+    {
+      codigo: "t103",
+      imagen: "../assets/accesorios/tarjeteros/4.jpg",
+      precio: "330",
+      descripcion: "Tarjetero"
+    },
+    {
+      codigo: "t104",
+      imagen: "../assets/accesorios/tarjeteros/5.jpg",
+      precio: "330",
+      descripcion: "Tarjetero"
+    },
+    {
+      codigo: "t105",
+      imagen: "../assets/accesorios/tarjeteros/6.jpg",
+      precio: "330",
+      descripcion: "Tarjetero"
+    },
+    {
+      codigo: "t106",
+      imagen: "../assets/accesorios/tarjeteros/7.jpg",
+      precio: "330",
+      descripcion: "Tarjetero"
+    },
+    {
+      codigo: "t107",
+      imagen: "../assets/accesorios/tarjeteros/8.jpg",
+      precio: "330",
+      descripcion: "Tarjetero"
+    },
+    {
+      codigo: "t108",
+      imagen: "../assets/accesorios/tarjeteros/9.jpg",
+      precio: "330",
+      descripcion: "Tarjetero"
+    },
+    {
+      codigo: "t109",
+      imagen: "../assets/accesorios/tarjeteros/10.jpg",
+      precio: "330",
+      descripcion: "Tarjetero"
+    },
+    {
+      codigo: "t110",
+      imagen: "../assets/accesorios/tarjeteros/11.jpg",
+      precio: "330",
+      descripcion: "Tarjetero"
+    },
+    {
+      codigo: "t111",
+      imagen: "../assets/accesorios/tarjeteros/12.jpg",
+      precio: "330",
+      descripcion: "Tarjetero"
+    },
+  ]
   vinchas = [
     {
       codigo: "vi100",
@@ -1917,6 +2180,10 @@ export class AccesoriosComponent implements OnInit {
     else if (this.accesorio.tipo == "sombras"){
       this.imag = "../assets/acc/sombras.png"
       this.acc = this.sombras
+    }
+    else if (this.accesorio.tipo == "tarjeteros"){
+      this.imag = "../assets/acc/tarjeteros.png"
+      this.acc = this.tarjeteros
     }
     else if (this.accesorio.tipo == "vinchas"){
       this.imag = "../assets/acc/vinchas.png"

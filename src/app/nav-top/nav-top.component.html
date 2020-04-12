@@ -17,7 +17,7 @@
 <div class="menu">
     <button mat-button [matMenuTriggerFor]="bijouterie"  #matMenuTrigger="matMenuTrigger">BIJOUTERIE</button>
         <mat-menu #bijouterie="matMenu" >
-            <button mat-menu-item disabled="true" (click)="this.sendTo('collares')">COLLARES</button>
+            <button mat-menu-item (click)="this.sendTo('collares')">COLLARES</button>
             <button mat-menu-item disabled="true" (click)="this.sendTo('dijes')">DIJES</button>
             <button mat-menu-item disabled="true" (click)="this.sendTo('pulseras')">PULSERAS</button>
             <button mat-menu-item disabled="true" (click)="this.sendTo('anillos')">ANILLOS</button>
@@ -66,7 +66,7 @@
             <button mat-menu-item disabled="true" (click)="this.sendTo('lentes')">LENTES</button>
             <button mat-menu-item disabled="true" (click)="this.sendTo('gorras')">GORRAS</button>
             <button mat-menu-item (click)="this.sendTo('abanicos')">ABANICOS</button>
-            <button mat-menu-item disabled="true" (click)="this.sendTo('tarjeteros')">TARJETEROS</button>
+            <button mat-menu-item (click)="this.sendTo('tarjeteros')">TARJETEROS</button>
             <button mat-menu-item disabled="true" (click)="this.sendTo('variados')">VARIADOS</button>
         </mat-menu>
         <button mat-button [matMenuTriggerFor]="marroquineria" #matMenuTrigger6="matMenuTrigger">MARROQUINERÍA</button>
