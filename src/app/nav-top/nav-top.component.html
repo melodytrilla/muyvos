@@ -38,7 +38,7 @@
         </mat-menu>
         <button mat-button [matMenuTriggerFor]="manicura" #matMenuTrigger3="matMenuTrigger">MANICURA</button>
         <mat-menu #manicura="matMenu">
-            <button mat-menu-item disabled="true" (click)="this.sendTo('esmaltes')">ESMALTES</button>
+            <button mat-menu-item (click)="this.sendTo('esmaltes')">ESMALTES</button>
             <button mat-menu-item disabled="true" (click)="this.sendTo('NailArt')">NAIL ART</button>
             <button mat-menu-item disabled="true" (click)="this.sendTo('limas')">LIMAS</button>
             <button mat-menu-item disabled="true" (click)="this.sendTo('quitaesmaltes')">QUITAESMALTES</button>

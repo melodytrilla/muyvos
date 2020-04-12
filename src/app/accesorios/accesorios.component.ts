@@ -1404,6 +1404,320 @@ export class AccesoriosComponent implements OnInit {
       descripcion: "Delineador en gel"
     },
   ]
+  esmaltes=[
+    {
+      codigo: "e100",
+      imagen: "../assets/accesorios/esmaltes/1.jpg",
+      precio: "360",
+      descripcion: "Set para Francesitas"
+    },
+    {
+      codigo: "e101",
+      imagen: "../assets/accesorios/esmaltes/2.jpg",
+      precio: "190",
+      descripcion: "Ablandador de Cutículas"
+    },
+    {
+      codigo: "e102",
+      imagen: "../assets/accesorios/esmaltes/3.jpg",
+      precio: "365",
+      descripcion: "Esmalte semipermanente"
+    },
+    {
+      codigo: "e103",
+      imagen: "../assets/accesorios/esmaltes/4.jpg",
+      precio: "365",
+      descripcion: "Esmalte semipermanente"
+    },
+    {
+      codigo: "e104",
+      imagen: "../assets/accesorios/esmaltes/5.jpg",
+      precio: "365",
+      descripcion: "Esmalte semipermanente"
+    },
+    {
+      codigo: "e105",
+      imagen: "../assets/accesorios/esmaltes/6.jpg",
+      precio: "365",
+      descripcion: "Esmalte semipermanente"
+    },
+    {
+      codigo: "e106",
+      imagen: "../assets/accesorios/esmaltes/7.jpg",
+      precio: "365",
+      descripcion: "Esmalte semipermanente"
+    },
+    {
+      codigo: "e107",
+      imagen: "../assets/accesorios/esmaltes/8.jpg",
+      precio: "365",
+      descripcion: "Esmalte semipermanente"
+    },
+    {
+      codigo: "e108",
+      imagen: "../assets/accesorios/esmaltes/9.jpg",
+      precio: "365",
+      descripcion: "Esmalte semipermanente"
+    },
+    {
+      codigo: "e109",
+      imagen: "../assets/accesorios/esmaltes/10.jpg",
+      precio: "365",
+      descripcion: "Esmalte semipermanente"
+    },
+    {
+      codigo: "e110",
+      imagen: "../assets/accesorios/esmaltes/11.jpg",
+      precio: "365",
+      descripcion: "Esmalte semipermanente"
+    },
+    {
+      codigo: "e111",
+      imagen: "../assets/accesorios/esmaltes/12.jpg",
+      precio: "320",
+      descripcion: "Esmalte semipermanente"
+    },
+    {
+      codigo: "e112",
+      imagen: "../assets/accesorios/esmaltes/13.jpg",
+      precio: "320",
+      descripcion: "Esmalte semipermanente"
+    },
+    {
+      codigo: "e113",
+      imagen: "../assets/accesorios/esmaltes/14.jpg",
+      precio: "320",
+      descripcion: "Esmalte semipermanente"
+    },
+    {
+      codigo: "e114",
+      imagen: "../assets/accesorios/esmaltes/15.jpg",
+      precio: "320",
+      descripcion: "Esmalte semipermanente"
+    },
+    {
+      codigo: "e115",
+      imagen: "../assets/accesorios/esmaltes/16.jpg",
+      precio: "320",
+      descripcion: "Esmalte semipermanente"
+    },
+    {
+      codigo: "e116",
+      imagen: "../assets/accesorios/esmaltes/17.jpg",
+      precio: "320",
+      descripcion: "Esmalte semipermanente"
+    },
+    {
+      codigo: "e117",
+      imagen: "../assets/accesorios/esmaltes/18.jpg",
+      precio: "320",
+      descripcion: "Esmalte semipermanente"
+    },
+    {
+      codigo: "e118",
+      imagen: "../assets/accesorios/esmaltes/19.jpg",
+      precio: "320",
+      descripcion: "Esmalte semipermanente"
+    },
+    {
+      codigo: "e119",
+      imagen: "../assets/accesorios/esmaltes/20.jpg",
+      precio: "320",
+      descripcion: "Esmalte semipermanente"
+    },
+    {
+      codigo: "e120",
+      imagen: "../assets/accesorios/esmaltes/21.jpg",
+      precio: "320",
+      descripcion: "Esmalte semipermanente"
+    },
+    {
+      codigo: "e121",
+      imagen: "../assets/accesorios/esmaltes/22.jpg",
+      precio: "150",
+      descripcion: "Secado rápido"
+    },
+    {
+      codigo: "e122",
+      imagen: "../assets/accesorios/esmaltes/23.jpg",
+      precio: "180",
+      descripcion: "Esmalte stamping"
+    },
+    {
+      codigo: "e123",
+      imagen: "../assets/accesorios/esmaltes/24.jpg",
+      precio: "180",
+      descripcion: "Esmalte stamping"
+    },
+    {
+      codigo: "e124",
+      imagen: "../assets/accesorios/esmaltes/25.jpg",
+      precio: "240",
+      descripcion: "Esmalte espejado"
+    },
+    {
+      codigo: "e125",
+      imagen: "../assets/accesorios/esmaltes/26.jpg",
+      precio: "240",
+      descripcion: "Esmalte espejado"
+    },
+    {
+      codigo: "e126",
+      imagen: "../assets/accesorios/esmaltes/27.jpg",
+      precio: "235",
+      descripcion: "Esmalte metal"
+    },
+    {
+      codigo: "e127",
+      imagen: "../assets/accesorios/esmaltes/28.jpg",
+      precio: "235",
+      descripcion: "Esmalte metal"
+    },
+    {
+      codigo: "e128",
+      imagen: "../assets/accesorios/esmaltes/29.jpg",
+      precio: "180",
+      descripcion: "Esmalte espejado"
+    },
+    {
+      codigo: "e129",
+      imagen: "../assets/accesorios/esmaltes/30.jpg",
+      precio: "180",
+      descripcion: "Esmalte espejado"
+    },
+    {
+      codigo: "e130",
+      imagen: "../assets/accesorios/esmaltes/31.jpg",
+      precio: "180",
+      descripcion: "Esmalte espejado"
+    },
+    {
+      codigo: "e131",
+      imagen: "../assets/accesorios/esmaltes/32.jpg",
+      precio: "198",
+      descripcion: "Esmalte gel"
+    },
+    {
+      codigo: "e132",
+      imagen: "../assets/accesorios/esmaltes/33.jpg",
+      precio: "198",
+      descripcion: "Esmalte gel"
+    },
+    {
+      codigo: "e133",
+      imagen: "../assets/accesorios/esmaltes/34.jpg",
+      precio: "255",
+      descripcion: "Esmalte espejado"
+    },
+    {
+      codigo: "e134",
+      imagen: "../assets/accesorios/esmaltes/35.jpg",
+      precio: "255",
+      descripcion: "Esmalte espejado"
+    },
+    {
+      codigo: "e135",
+      imagen: "../assets/accesorios/esmaltes/36.jpg",
+      precio: "255",
+      descripcion: "Esmalte espejado"
+    },
+    {
+      codigo: "e136",
+      imagen: "../assets/accesorios/esmaltes/37.jpg",
+      precio: "255",
+      descripcion: "Esmalte espejado"
+    },
+    {
+      codigo: "e137",
+      imagen: "../assets/accesorios/esmaltes/38.jpg",
+      precio: "255",
+      descripcion: "Esmalte espejado"
+    },
+    {
+      codigo: "e138",
+      imagen: "../assets/accesorios/esmaltes/39.jpg",
+      precio: "255",
+      descripcion: "Esmalte espejado"
+    },
+    {
+      codigo: "e139",
+      imagen: "../assets/accesorios/esmaltes/40.jpg",
+      precio: "220",
+      descripcion: "Esmalte brilloso"
+    },
+    {
+      codigo: "e140",
+      imagen: "../assets/accesorios/esmaltes/41.jpg",
+      precio: "220",
+      descripcion: "Esmalte brilloso"
+    },
+    {
+      codigo: "e141",
+      imagen: "../assets/accesorios/esmaltes/42.jpg",
+      precio: "180",
+      descripcion: "Esmalte"
+    },
+    {
+      codigo: "e142",
+      imagen: "../assets/accesorios/esmaltes/43.jpg",
+      precio: "180",
+      descripcion: "Esmalte"
+    },
+    {
+      codigo: "e143",
+      imagen: "../assets/accesorios/esmaltes/44.jpg",
+      precio: "180",
+      descripcion: "Esmalte"
+    },
+    {
+      codigo: "e144",
+      imagen: "../assets/accesorios/esmaltes/45.jpg",
+      precio: "180",
+      descripcion: "Esmalte"
+    },
+    {
+      codigo: "e145",
+      imagen: "../assets/accesorios/esmaltes/46.jpg",
+      precio: "180",
+      descripcion: "Esmalte"
+    },
+    {
+      codigo: "e146",
+      imagen: "../assets/accesorios/esmaltes/47.jpg",
+      precio: "180",
+      descripcion: "Esmalte"
+    },
+    {
+      codigo: "e147",
+      imagen: "../assets/accesorios/esmaltes/48.jpg",
+      precio: "180",
+      descripcion: "Esmalte"
+    },
+    {
+      codigo: "e148",
+      imagen: "../assets/accesorios/esmaltes/49.jpg",
+      precio: "180",
+      descripcion: "Esmalte"
+    },
+    {
+      codigo: "e149",
+      imagen: "../assets/accesorios/esmaltes/50.jpg",
+      precio: "180",
+      descripcion: "Esmalte"
+    },
+    {
+      codigo: "e150",
+      imagen: "../assets/accesorios/esmaltes/51.jpg",
+      precio: "220",
+      descripcion: "Esmalte"
+    },
+    {
+      codigo: "e151",
+      imagen: "../assets/accesorios/esmaltes/52.jpg",
+      precio: "220",
+      descripcion: "Esmalte"
+    },
+  ]
   iluminadores=[
     {
       codigo: "i100",
@@ -2559,6 +2873,10 @@ export class AccesoriosComponent implements OnInit {
     else if (this.accesorio.tipo == "delineadores"){
       this.imag = "../assets/acc/delineadores.png"
       this.acc = this.delineadores
+    }
+    else if (this.accesorio.tipo == "esmaltes"){
+      this.imag = "../assets/acc/esmaltes.png"
+      this.acc = this.esmaltes
     }
     else if (this.accesorio.tipo == "iluminadores"){
       this.imag = "../assets/acc/iluminadores.png"
