@@ -1454,6 +1454,128 @@ export class AccesoriosComponent implements OnInit {
       descripcion: "Iluminador"
     },
   ]
+  labiales=[
+    {
+      codigo: "l100",
+      imagen: "../assets/accesorios/labiales/1.jpg",
+      precio: "215",
+      descripcion: "Labial"
+    },
+    {
+      codigo: "l101",
+      imagen: "../assets/accesorios/labiales/2.jpg",
+      precio: "215",
+      descripcion: "Labial"
+    },
+    {
+      codigo: "l102",
+      imagen: "../assets/accesorios/labiales/3.jpg",
+      precio: "215",
+      descripcion: "Labial"
+    },
+    {
+      codigo: "l103",
+      imagen: "../assets/accesorios/labiales/4.jpg",
+      precio: "215",
+      descripcion: "Labial"
+    },
+    {
+      codigo: "l104",
+      imagen: "../assets/accesorios/labiales/5.jpg",
+      precio: "215",
+      descripcion: "Labial"
+    },
+    {
+      codigo: "l105",
+      imagen: "../assets/accesorios/labiales/6.jpg",
+      precio: "215",
+      descripcion: "Labial"
+    },
+    {
+      codigo: "l106",
+      imagen: "../assets/accesorios/labiales/7.jpg",
+      precio: "215",
+      descripcion: "Labial"
+    },
+    {
+      codigo: "l107",
+      imagen: "../assets/accesorios/labiales/8.jpg",
+      precio: "215",
+      descripcion: "Labial"
+    },
+    {
+      codigo: "l108",
+      imagen: "../assets/accesorios/labiales/9.jpg",
+      precio: "195",
+      descripcion: "Glitter"
+    },
+    {
+      codigo: "l109",
+      imagen: "../assets/accesorios/labiales/10.jpg",
+      precio: "195",
+      descripcion: "Glitter"
+    },
+    {
+      codigo: "l110",
+      imagen: "../assets/accesorios/labiales/11.jpg",
+      precio: "195",
+      descripcion: "Glitter"
+    },
+    {
+      codigo: "l111",
+      imagen: "../assets/accesorios/labiales/12.jpg",
+      precio: "195",
+      descripcion: "Glitter"
+    },
+    {
+      codigo: "l112",
+      imagen: "../assets/accesorios/labiales/13.jpg",
+      precio: "160",
+      descripcion: "Labial"
+    },
+    {
+      codigo: "l113",
+      imagen: "../assets/accesorios/labiales/14.jpg",
+      precio: "160",
+      descripcion: "Labial"
+    },
+    {
+      codigo: "l114",
+      imagen: "../assets/accesorios/labiales/15.jpg",
+      precio: "160",
+      descripcion: "Labial"
+    },
+    {
+      codigo: "l115",
+      imagen: "../assets/accesorios/labiales/16.jpg",
+      precio: "160",
+      descripcion: "Labial"
+    },
+    {
+      codigo: "l116",
+      imagen: "../assets/accesorios/labiales/17.jpg",
+      precio: "160",
+      descripcion: "Labial"
+    },
+    {
+      codigo: "l117",
+      imagen: "../assets/accesorios/labiales/18.jpg",
+      precio: "195",
+      descripcion: "Labial"
+    },
+    {
+      codigo: "l118",
+      imagen: "../assets/accesorios/labiales/19.jpg",
+      precio: "195",
+      descripcion: "Labial"
+    },
+    {
+      codigo: "l119",
+      imagen: "../assets/accesorios/labiales/20.jpg",
+      precio: "265",
+      descripcion: "Labial"
+    },
+  ]
   mochilas=[
     {
       codigo: "m100",
@@ -2441,6 +2563,10 @@ export class AccesoriosComponent implements OnInit {
     else if (this.accesorio.tipo == "iluminadores"){
       this.imag = "../assets/acc/iluminadores.png"
       this.acc = this.iluminadores
+    }
+    else if (this.accesorio.tipo == "labiales"){
+      this.imag = "../assets/acc/labiales.png"
+      this.acc = this.labiales
     }
     else if (this.accesorio.tipo == "mochilas"){
       this.imag = "../assets/acc/mochilas.png"
