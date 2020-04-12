@@ -210,6 +210,56 @@ export class AccesoriosComponent implements OnInit {
       descripcion: "Abridor Ench. Plata"
     },
   ]
+  alcoholes=[
+    {
+      codigo: "ag100",
+      imagen: "../assets/accesorios/alcoholEnGel/1.jpg",
+      precio: "195",
+      descripcion: "Alcohol en gel"
+    },
+    {
+      codigo: "ag101",
+      imagen: "../assets/accesorios/alcoholEnGel/2.jpg",
+      precio: "195",
+      descripcion: "Alcohol en gel"
+    },
+    {
+      codigo: "ag102",
+      imagen: "../assets/accesorios/alcoholEnGel/3.jpg",
+      precio: "195",
+      descripcion: "Alcohol en gel"
+    },
+    {
+      codigo: "ag103",
+      imagen: "../assets/accesorios/alcoholEnGel/4.jpg",
+      precio: "195",
+      descripcion: "Alcohol en gel"
+    },
+    {
+      codigo: "ag104",
+      imagen: "../assets/accesorios/alcoholEnGel/5.jpg",
+      precio: "250",
+      descripcion: "Alcohol en gel"
+    },
+    {
+      codigo: "ag105",
+      imagen: "../assets/accesorios/alcoholEnGel/6.jpg",
+      precio: "195",
+      descripcion: "Alcohol en gel"
+    },
+    {
+      codigo: "ag106",
+      imagen: "../assets/accesorios/alcoholEnGel/7.jpg",
+      precio: "195",
+      descripcion: "Alcohol en gel"
+    },
+    {
+      codigo: "ag107",
+      imagen: "../assets/accesorios/alcoholEnGel/8.jpg",
+      precio: "195",
+      descripcion: "Alcohol en gel"
+    }
+  ]
   billeteras=[
     {
       codigo: "b100",
@@ -476,6 +526,80 @@ export class AccesoriosComponent implements OnInit {
       imagen: "../assets/accesorios/billeterasHombre/12.jpg",
       precio: "",
       descripcion: "Billetera"
+    },
+  ]
+  carteras=[
+    {
+      codigo: "ca100",
+      imagen: "../assets/accesorios/carteras/1.jpg",
+      precio: "2900",
+      descripcion: "Cartera"
+    },
+    {
+      codigo: "ca101",
+      imagen: "../assets/accesorios/carteras/2.jpg",
+      precio: "2115",
+      descripcion: "Cartera"
+    },
+    {
+      codigo: "ca102",
+      imagen: "../assets/accesorios/carteras/3.jpg",
+      precio: "1980",
+      descripcion: "Cartera"
+    },
+    {
+      codigo: "ca103",
+      imagen: "../assets/accesorios/carteras/4.jpg",
+      precio: "2850",
+      descripcion: "Cartera"
+    },
+    {
+      codigo: "ca104",
+      imagen: "../assets/accesorios/carteras/5.jpg",
+      precio: "2970",
+      descripcion: "Cartera"
+    },
+    {
+      codigo: "ca105",
+      imagen: "../assets/accesorios/carteras/6.jpg",
+      precio: "1320",
+      descripcion: "Cartera"
+    },
+    {
+      codigo: "ca106",
+      imagen: "../assets/accesorios/carteras/7.jpg",
+      precio: "1100",
+      descripcion: "Cartera"
+    },
+    {
+      codigo: "ca107",
+      imagen: "../assets/accesorios/carteras/8.jpg",
+      precio: "1870",
+      descripcion: "Cartera"
+    },
+    {
+      codigo: "ca108",
+      imagen: "../assets/accesorios/carteras/9.jpg",
+      precio: "2460",
+      descripcion: "Cartera"
+    },
+    {
+      codigo: "ca109",
+      imagen: "../assets/accesorios/carteras/10.jpg",
+      precio: "1160",
+      descripcion: "Cartera"
+    },
+    {
+      codigo: "ca110",
+      imagen: "../assets/accesorios/carteras/11.jpg",
+      precio: "580",
+      descripcion: "Cartera"
+    },
+    {
+      codigo: "ca111",
+      imagen: "../assets/accesorios/carteras/12.jpg",
+      precio: "1400",
+      descripcion: "Cartera"
     },
   ]
   cintos=[
@@ -794,9 +918,6 @@ export class AccesoriosComponent implements OnInit {
       descripcion: "Collar"
     },
     ]
-  pulseras = [
-
-  ]
   colitas= [
     {
       codigo: "co100",
@@ -1207,6 +1328,80 @@ export class AccesoriosComponent implements OnInit {
       imagen: "../assets/accesorios/correctores/8.jpg",
       precio: "495",
       descripcion: "Corrector"
+    },
+  ]
+  delineadores=[
+    {
+      codigo: "d100",
+      imagen: "../assets/accesorios/delineadores/1.jpg",
+      precio: "160",
+      descripcion: "Delineador glitter"
+    },
+    {
+      codigo: "d101",
+      imagen: "../assets/accesorios/delineadores/2.jpg",
+      precio: "160",
+      descripcion: "Delineador glitter"
+    },
+    {
+      codigo: "d102",
+      imagen: "../assets/accesorios/delineadores/3.jpg",
+      precio: "160",
+      descripcion: "Delineador glitter"
+    },
+    {
+      codigo: "d103",
+      imagen: "../assets/accesorios/delineadores/4.jpg",
+      precio: "160",
+      descripcion: "Delineador glitter"
+    },
+    {
+      codigo: "d104",
+      imagen: "../assets/accesorios/delineadores/5.jpg",
+      precio: "90",
+      descripcion: "Lapiz delineador"
+    },
+    {
+      codigo: "d105",
+      imagen: "../assets/accesorios/delineadores/6.jpg",
+      precio: "70",
+      descripcion: "Delineador retráctil"
+    },
+    {
+      codigo: "d106",
+      imagen: "../assets/accesorios/delineadores/7.jpg",
+      precio: "125",
+      descripcion: "Delineador líq."
+    },
+    {
+      codigo: "d107",
+      imagen: "../assets/accesorios/delineadores/8.jpg",
+      precio: "225",
+      descripcion: "Delineador líq."
+    },
+    {
+      codigo: "d108",
+      imagen: "../assets/accesorios/delineadores/9.jpg",
+      precio: "140",
+      descripcion: "Delineador en gel"
+    },
+    {
+      codigo: "d109",
+      imagen: "../assets/accesorios/delineadores/10.jpg",
+      precio: "220",
+      descripcion: "Delineador en gel"
+    },
+    {
+      codigo: "d110",
+      imagen: "../assets/accesorios/delineadores/11.jpg",
+      precio: "200",
+      descripcion: "Delineador en gel"
+    },
+    {
+      codigo: "d111",
+      imagen: "../assets/accesorios/delineadores/12.jpg",
+      precio: "200",
+      descripcion: "Delineador en gel"
     },
   ]
   iluminadores=[
@@ -2137,6 +2332,10 @@ export class AccesoriosComponent implements OnInit {
       this.imag = "../assets/acc/abridores.png"
       this.acc = this.abridores;
     }
+    else if (this.accesorio.tipo == 'alcoholEnGel'){
+      this.imag = "../assets/acc/alcoholEnGel.png"
+      this.acc = this.alcoholes;
+    }
     else if (this.accesorio.tipo == 'billeteras'){
       this.imag = "../assets/acc/billeteras.png"
       this.acc = this.billeteras;
@@ -2144,6 +2343,10 @@ export class AccesoriosComponent implements OnInit {
     else if (this.accesorio.tipo == 'billeterasHombre'){
       this.imag = "../assets/acc/billeteras.png"
       this.acc = this.billeterasHombre;
+    }
+    else if (this.accesorio.tipo == 'carteras'){
+      this.imag = "../assets/acc/carteras.png"
+      this.acc = this.carteras;
     }
     else if (this.accesorio.tipo == 'cintos'){
       this.imag = "../assets/acc/cintos.png"
@@ -2156,6 +2359,10 @@ export class AccesoriosComponent implements OnInit {
     else if (this.accesorio.tipo == "colitas"){
       this.imag = "../assets/acc/colitas.png"
       this.acc = this.colitas
+    }
+    else if (this.accesorio.tipo == "delineadores"){
+      this.imag = "../assets/acc/delineadores.png"
+      this.acc = this.delineadores
     }
     else if (this.accesorio.tipo == "iluminadores"){
       this.imag = "../assets/acc/iluminadores.png"

@@ -51,7 +51,7 @@
             <button mat-menu-item disabled="true" (click)="this.sendTo('rimmel')">MÁSCARAS DE PESTAÑAS</button>
             <button mat-menu-item (click)="this.sendTo('sombras')">SOMBRAS</button>
             <button mat-menu-item (click)="this.sendTo('iluminadores')">ILUMINADORES</button>
-            <button mat-menu-item disabled="true" (click)="this.sendTo('delineadores')">DELINEADORES</button>
+            <button mat-menu-item (click)="this.sendTo('delineadores')">DELINEADORES</button>
             <button mat-menu-item disabled="true" (click)="this.sendTo('bases')">BASES</button>
             <button mat-menu-item disabled="true" (click)="this.sendTo('rubores')">RUBORES</button>
             <button mat-menu-item disabled="true" (click)="this.sendTo('pinceles')">PINCELES Y ESPONJAS</button>
@@ -67,13 +67,14 @@
             <button mat-menu-item disabled="true" (click)="this.sendTo('gorras')">GORRAS</button>
             <button mat-menu-item (click)="this.sendTo('abanicos')">ABANICOS</button>
             <button mat-menu-item (click)="this.sendTo('tarjeteros')">TARJETEROS</button>
+            <button mat-menu-item (click)="this.sendTo('alcoholEnGel')">ALCOHOL EN GEL</button>
             <button mat-menu-item disabled="true" (click)="this.sendTo('variados')">VARIADOS</button>
         </mat-menu>
         <button mat-button [matMenuTriggerFor]="marroquineria" #matMenuTrigger6="matMenuTrigger">MARROQUINERÍA</button>
         <mat-menu #marroquineria="matMenu" >
             <button mat-menu-item (click)="this.sendTo('billeteras')">BILLETERAS MUJER</button>
             <button mat-menu-item (click)="this.sendTo('billeterasHombre')">BILLETERAS HOMBRE</button>
-            <button mat-menu-item disabled="true" (click)="this.sendTo('carteras')">CARTERAS</button>
+            <button mat-menu-item (click)="this.sendTo('carteras')">CARTERAS</button>
             <button mat-menu-item (click)="this.sendTo('necesers')">NECESERS</button>
             <button mat-menu-item disabled="true" (click)="this.sendTo('mochilas')">MOCHILAS</button>
             <button mat-menu-item (click)="this.sendTo('pañuelos')">PAÑUELOS</button>
