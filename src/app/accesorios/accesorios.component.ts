@@ -1454,6 +1454,80 @@ export class AccesoriosComponent implements OnInit {
       descripcion: "Iluminador"
     },
   ]
+  mochilas=[
+    {
+      codigo: "m100",
+      imagen: "../assets/accesorios/mochilas/1.jpg",
+      precio: "1320",
+      descripcion: "Mochila"
+    },
+    {
+      codigo: "m101",
+      imagen: "../assets/accesorios/mochilas/2.jpg",
+      precio: "610",
+      descripcion: "Mochila"
+    },
+    {
+      codigo: "m102",
+      imagen: "../assets/accesorios/mochilas/3.jpg",
+      precio: "610",
+      descripcion: "Mochila"
+    },
+    {
+      codigo: "m103",
+      imagen: "../assets/accesorios/mochilas/4.jpg",
+      precio: "610",
+      descripcion: "Mochila"
+    },
+    {
+      codigo: "m104",
+      imagen: "../assets/accesorios/mochilas/5.jpg",
+      precio: "",
+      descripcion: "Mochila"
+    },
+    {
+      codigo: "m105",
+      imagen: "../assets/accesorios/mochilas/6.jpg",
+      precio: "1900",
+      descripcion: "Mochila"
+    },
+    {
+      codigo: "m106",
+      imagen: "../assets/accesorios/mochilas/7.jpg",
+      precio: "2380",
+      descripcion: "Mochila"
+    },
+    {
+      codigo: "m107",
+      imagen: "../assets/accesorios/mochilas/8.jpg",
+      precio: "1700",
+      descripcion: "Mochila"
+    },
+    {
+      codigo: "m108",
+      imagen: "../assets/accesorios/mochilas/9.jpg",
+      precio: "1320",
+      descripcion: "Mochila"
+    },
+    {
+      codigo: "m109",
+      imagen: "../assets/accesorios/mochilas/10.jpg",
+      precio: "1980",
+      descripcion: "Mochila"
+    },
+    {
+      codigo: "m110",
+      imagen: "../assets/accesorios/mochilas/11.jpg",
+      precio: "1584",
+      descripcion: "Mochila"
+    },
+    {
+      codigo: "m111",
+      imagen: "../assets/accesorios/mochilas/12.jpg",
+      precio: "1700",
+      descripcion: "Mochila"
+    },
+  ]
   necesers=[
     {
       codigo: "n100",
@@ -2367,6 +2441,10 @@ export class AccesoriosComponent implements OnInit {
     else if (this.accesorio.tipo == "iluminadores"){
       this.imag = "../assets/acc/iluminadores.png"
       this.acc = this.iluminadores
+    }
+    else if (this.accesorio.tipo == "mochilas"){
+      this.imag = "../assets/acc/mochilas.png"
+      this.acc = this.mochilas
     }
     else if (this.accesorio.tipo == "necesers"){
       this.imag = "../assets/acc/necesers.png"
