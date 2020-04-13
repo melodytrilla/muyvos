@@ -1718,6 +1718,224 @@ export class AccesoriosComponent implements OnInit {
       descripcion: "Esmalte"
     },
   ]
+  gorras=[
+    {
+      codigo: "g100",
+      imagen: "../assets/accesorios/gorras/1.jpg",
+      precio: "480",
+      descripcion: "Gorra"
+    },
+    {
+      codigo: "g101",
+      imagen: "../assets/accesorios/gorras/2.jpg",
+      precio: "480",
+      descripcion: "Gorra"
+    },
+    {
+      codigo: "g102",
+      imagen: "../assets/accesorios/gorras/3.jpg",
+      precio: "470",
+      descripcion: "Gorra"
+    },
+    {
+      codigo: "g103",
+      imagen: "../assets/accesorios/gorras/4.jpg",
+      precio: "570",
+      descripcion: "Gorra"
+    },
+    {
+      codigo: "g104",
+      imagen: "../assets/accesorios/gorras/5.jpg",
+      precio: "570",
+      descripcion: "Gorra"
+    },
+    {
+      codigo: "g105",
+      imagen: "../assets/accesorios/gorras/6.jpg",
+      precio: "470",
+      descripcion: "Gorra"
+    },
+    {
+      codigo: "g106",
+      imagen: "../assets/accesorios/gorras/7.jpg",
+      precio: "470",
+      descripcion: "Gorra"
+    },
+    {
+      codigo: "g107",
+      imagen: "../assets/accesorios/gorras/8.jpg",
+      precio: "470",
+      descripcion: "Gorra"
+    },
+    {
+      codigo: "g108",
+      imagen: "../assets/accesorios/gorras/9.jpg",
+      precio: "470",
+      descripcion: "Gorra"
+    },
+    {
+      codigo: "g109",
+      imagen: "../assets/accesorios/gorras/10.jpg",
+      precio: "350",
+      descripcion: "Gorra"
+    },
+    {
+      codigo: "g110",
+      imagen: "../assets/accesorios/gorras/11.jpg",
+      precio: "350",
+      descripcion: "Gorra"
+    },
+    {
+      codigo: "g111",
+      imagen: "../assets/accesorios/gorras/12.jpg",
+      precio: "380",
+      descripcion: "Gorra"
+    },
+    {
+      codigo: "g112",
+      imagen: "../assets/accesorios/gorras/13.jpg",
+      precio: "250",
+      descripcion: "Gorra"
+    },
+    {
+      codigo: "g113",
+      imagen: "../assets/accesorios/gorras/14.jpg",
+      precio: "350",
+      descripcion: "Gorra"
+    },
+    {
+      codigo: "g114",
+      imagen: "../assets/accesorios/gorras/15.jpg",
+      precio: "350",
+      descripcion: "Gorra"
+    },
+    {
+      codigo: "g115",
+      imagen: "../assets/accesorios/gorras/16.jpg",
+      precio: "",
+      descripcion: "Gorra"
+    },
+    {
+      codigo: "g116",
+      imagen: "../assets/accesorios/gorras/17.jpg",
+      precio: "385",
+      descripcion: "Gorra"
+    },
+    {
+      codigo: "g117",
+      imagen: "../assets/accesorios/gorras/18.jpg",
+      precio: "385",
+      descripcion: "Gorra"
+    },
+    {
+      codigo: "g118",
+      imagen: "../assets/accesorios/gorras/19.jpg",
+      precio: "350",
+      descripcion: "Gorra"
+    },
+    {
+      codigo: "g119",
+      imagen: "../assets/accesorios/gorras/20.jpg",
+      precio: "350",
+      descripcion: "Gorra"
+    },
+    {
+      codigo: "g120",
+      imagen: "../assets/accesorios/gorras/21.jpg",
+      precio: "350",
+      descripcion: "Gorra"
+    },
+    {
+      codigo: "g121",
+      imagen: "../assets/accesorios/gorras/22.jpg",
+      precio: "430",
+      descripcion: "Gorra"
+    },
+    {
+      codigo: "g122",
+      imagen: "../assets/accesorios/gorras/23.jpg",
+      precio: "295",
+      descripcion: "Gorra"
+    },
+    {
+      codigo: "g123",
+      imagen: "../assets/accesorios/gorras/24.jpg",
+      precio: "320",
+      descripcion: "Gorra"
+    },
+    {
+      codigo: "g124",
+      imagen: "../assets/accesorios/gorras/25.jpg",
+      precio: "325",
+      descripcion: "Gorra"
+    },
+    {
+      codigo: "g125",
+      imagen: "../assets/accesorios/gorras/26.jpg",
+      precio: "320",
+      descripcion: "Gorra"
+    },
+    {
+      codigo: "g126",
+      imagen: "../assets/accesorios/gorras/27.jpg",
+      precio: "350",
+      descripcion: "Gorra"
+    },
+    {
+      codigo: "g127",
+      imagen: "../assets/accesorios/gorras/28.jpg",
+      precio: "350",
+      descripcion: "Gorra"
+    },
+    {
+      codigo: "g128",
+      imagen: "../assets/accesorios/gorras/29.jpg",
+      precio: "330",
+      descripcion: "Gorra"
+    },
+    {
+      codigo: "g129",
+      imagen: "../assets/accesorios/gorras/30.jpg",
+      precio: "320",
+      descripcion: "Gorra"
+    },
+    {
+      codigo: "g130",
+      imagen: "../assets/accesorios/gorras/31.jpg",
+      precio: "350",
+      descripcion: "Gorra"
+    },
+    {
+      codigo: "g131",
+      imagen: "../assets/accesorios/gorras/32.jpg",
+      precio: "350",
+      descripcion: "Gorra"
+    },
+    {
+      codigo: "g132",
+      imagen: "../assets/accesorios/gorras/33.jpg",
+      precio: "295",
+      descripcion: "Gorra"
+    },
+    {
+      codigo: "g133",
+      imagen: "../assets/accesorios/gorras/34.jpg",
+      precio: "295",
+      descripcion: "Gorra"
+    },
+    {
+      codigo: "g134",
+      imagen: "../assets/accesorios/gorras/35.jpg",
+      precio: "295",
+      descripcion: "Gorra"
+    },
+    {
+      codigo: "g135",
+      imagen: "../assets/accesorios/gorras/36.jpg",
+      precio: "420",
+      descripcion: "Gorra"
+    }
+  ]
   iluminadores=[
     {
       codigo: "i100",
@@ -2877,6 +3095,10 @@ export class AccesoriosComponent implements OnInit {
     else if (this.accesorio.tipo == "esmaltes"){
       this.imag = "../assets/acc/esmaltes.png"
       this.acc = this.esmaltes
+    }
+    else if (this.accesorio.tipo == "gorras"){
+      this.imag = "../assets/acc/gorras.png"
+      this.acc = this.gorras
     }
     else if (this.accesorio.tipo == "iluminadores"){
       this.imag = "../assets/acc/iluminadores.png"
