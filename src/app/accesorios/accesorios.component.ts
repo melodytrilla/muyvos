@@ -2280,6 +2280,104 @@ export class AccesoriosComponent implements OnInit {
       descripcion: "Neceser"
     },
   ]
+  pinceles=[
+    {
+      codigo: "pe100",
+      imagen: "../assets/accesorios/pinceles/1.jpg",
+      precio: "430",
+      descripcion: "Brocha"
+    },
+    {
+      codigo: "pe101",
+      imagen: "../assets/accesorios/pinceles/2.jpg",
+      precio: "430",
+      descripcion: "Brocha"
+    },
+    {
+      codigo: "pe102",
+      imagen: "../assets/accesorios/pinceles/3.jpg",
+      precio: "430",
+      descripcion: "Brocha"
+    },
+    {
+      codigo: "pe103",
+      imagen: "../assets/accesorios/pinceles/4.jpg",
+      precio: "280",
+      descripcion: "Brocha"
+    },
+    {
+      codigo: "pe104",
+      imagen: "../assets/accesorios/pinceles/5.jpg",
+      precio: "160",
+      descripcion: "Brocha"
+    },
+    {
+      codigo: "pe105",
+      imagen: "../assets/accesorios/pinceles/6.jpg",
+      precio: "145",
+      descripcion: "Brocha"
+    },
+    {
+      codigo: "pe106",
+      imagen: "../assets/accesorios/pinceles/7.jpg",
+      precio: "350",
+      descripcion: "Brocha"
+    },
+    {
+      codigo: "pe107",
+      imagen: "../assets/accesorios/pinceles/8.jpg",
+      precio: "160",
+      descripcion: "Brocha"
+    },
+    {
+      codigo: "pe108",
+      imagen: "../assets/accesorios/pinceles/9.jpg",
+      precio: "260",
+      descripcion: "Brocha"
+    },
+    {
+      codigo: "pe109",
+      imagen: "../assets/accesorios/pinceles/10.jpg",
+      precio: "185",
+      descripcion: "Brocha"
+    },
+    {
+      codigo: "pe110",
+      imagen: "../assets/accesorios/pinceles/11.jpg",
+      precio: "185",
+      descripcion: "Brocha"
+    },
+    {
+      codigo: "pe111",
+      imagen: "../assets/accesorios/pinceles/12.jpg",
+      precio: "185",
+      descripcion: "Brocha"
+    },
+    {
+      codigo: "pe112",
+      imagen: "../assets/accesorios/pinceles/13.jpg",
+      precio: "125",
+      descripcion: "Brocha"
+    },
+    {
+      codigo: "pe113",
+      imagen: "../assets/accesorios/pinceles/14.jpg",
+      precio: "140",
+      descripcion: "Brocha"
+    },
+    {
+      codigo: "pe114",
+      imagen: "../assets/accesorios/pinceles/15.jpg",
+      precio: "145",
+      descripcion: "Brocha"
+    },
+    {
+      codigo: "pe115",
+      imagen: "../assets/accesorios/pinceles/16.jpg",
+      precio: "145",
+      descripcion: "Brocha"
+    },
+  ]
   relojes=[
     {
       codigo: "r100",
@@ -3115,6 +3213,10 @@ export class AccesoriosComponent implements OnInit {
     else if (this.accesorio.tipo == "necesers"){
       this.imag = "../assets/acc/necesers.png"
       this.acc = this.necesers
+    }
+    else if (this.accesorio.tipo == "pinceles"){
+      this.imag = "../assets/acc/pinceles.png"
+      this.acc = this.pinceles
     }
     else if (this.accesorio.tipo == "relojes"){
       this.imag = "../assets/acc/relojes.png"
