@@ -729,7 +729,7 @@ export class AccesoriosComponent implements OnInit {
       codigo: "k104",
       imagen: "../assets/accesorios/collares/5.jpg",
       precio: "210",
-      descripcion: "Collar"
+      descripcion: "Chocker"
     },
     {
       codigo: "k105",
@@ -897,13 +897,13 @@ export class AccesoriosComponent implements OnInit {
       codigo: "k132",
       imagen: "../assets/accesorios/collares/33.jpg",
       precio: "210",
-      descripcion: "Collar"
+      descripcion: "Chocker"
     },
     {
       codigo: "k133",
       imagen: "../assets/accesorios/collares/34.jpg",
       precio: "110",
-      descripcion: "Collar"
+      descripcion: "Chocker"
     },
     {
       codigo: "k134",
@@ -915,7 +915,7 @@ export class AccesoriosComponent implements OnInit {
       codigo: "k135",
       imagen: "../assets/accesorios/collares/36.jpg",
       precio: "170",
-      descripcion: "Collar"
+      descripcion: "Chocker"
     },
     ]
   colitas= [
@@ -923,211 +923,211 @@ export class AccesoriosComponent implements OnInit {
       codigo: "co100",
       imagen: "../assets/accesorios/colitas/1.jpg",
       precio: "70",
-      descripcion: "Colita con strass"
+      descripcion: "Colita"
     },
     {
       codigo: "co101",
       imagen: "../assets/accesorios/colitas/2.jpg",
       precio: "70",
-      descripcion: "Colita con strass"
+      descripcion: "Colita"
     },
     {
       codigo: "co102",
       imagen: "../assets/accesorios/colitas/3.jpg",
       precio: "70",
-      descripcion: "Colita con strass"
+      descripcion: "Colita"
     },
     {
       codigo: "co103",
       imagen: "../assets/accesorios/colitas/4.jpg",
       precio: "70",
-      descripcion: "Colita con strass"
+      descripcion: "Colita"
     },
     {
       codigo: "co104",
       imagen: "../assets/accesorios/colitas/5.jpg",
       precio: "300",
-      descripcion: "Colita moño"
+      descripcion: "Colita"
     },
     {
       codigo: "co105",
       imagen: "../assets/accesorios/colitas/6.jpg",
       precio: "300",
-      descripcion: "Colita moño"
+      descripcion: "Colita"
     },
     {
       codigo: "co106",
       imagen: "../assets/accesorios/colitas/7.jpg",
       precio: "300",
-      descripcion: "Colita moño"
+      descripcion: "Colita"
     },
     {
       codigo: "co107",
       imagen: "../assets/accesorios/colitas/8.jpg",
       precio: "130",
-      descripcion: "Colita moño"
+      descripcion: "Colita"
     },
     {
       codigo: "co108",
       imagen: "../assets/accesorios/colitas/9.jpg",
       precio: "190",
-      descripcion: "Colita moño"
+      descripcion: "Colita"
     },
     {
       codigo: "co109",
       imagen: "../assets/accesorios/colitas/10.jpg",
       precio: "190",
-      descripcion: "Colita moño"
+      descripcion: "Colita"
     },
     {
       codigo: "co110",
       imagen: "../assets/accesorios/colitas/11.jpg",
       precio: "190",
-      descripcion: "Colita moño"
+      descripcion: "Colita"
     },
     {
       codigo: "co111",
       imagen: "../assets/accesorios/colitas/12.jpg",
       precio: "130",
-      descripcion: "Colita moño"
+      descripcion: "Colita"
     },
     {
       codigo: "co112",
       imagen: "../assets/accesorios/colitas/13.jpg",
       precio: "130",
-      descripcion: "Colita moño"
+      descripcion: "Colita"
     },
     {
       codigo: "co113",
       imagen: "../assets/accesorios/colitas/14.jpg",
       precio: "130",
-      descripcion: "Colita moño"
+      descripcion: "Colita"
     },
     {
       codigo: "co114",
       imagen: "../assets/accesorios/colitas/15.jpg",
       precio: "130",
-      descripcion: "Colita moño"
+      descripcion: "Colita"
     },
     {
       codigo: "co115",
       imagen: "../assets/accesorios/colitas/16.jpg",
       precio: "130",
-      descripcion: "Colita moño"
+      descripcion: "Colita"
     },
     {
       codigo: "co116",
       imagen: "../assets/accesorios/colitas/17.jpg",
       precio: "130",
-      descripcion: "Colita moño"
+      descripcion: "Colita"
     },
     {
       codigo: "co117",
       imagen: "../assets/accesorios/colitas/18.jpg",
       precio: "130",
-      descripcion: "Colita moño"
+      descripcion: "Colita"
     },
     {
       codigo: "co118",
       imagen: "../assets/accesorios/colitas/19.jpg",
       precio: "130",
-      descripcion: "Colita moño"
+      descripcion: "Colita"
     },
     {
       codigo: "co119",
       imagen: "../assets/accesorios/colitas/20.jpg",
       precio: "130",
-      descripcion: "Colita moño"
+      descripcion: "Colita"
     },
     {
       codigo: "co120",
       imagen: "../assets/accesorios/colitas/21.jpg",
       precio: "130",
-      descripcion: "Colita moño"
+      descripcion: "Colita"
     },
     {
       codigo: "co121",
       imagen: "../assets/accesorios/colitas/22.jpg",
       precio: "110",
-      descripcion: "Colita moño"
+      descripcion: "Colita"
     },
     {
       codigo: "co122",
       imagen: "../assets/accesorios/colitas/23.jpg",
       precio: "110",
-      descripcion: "Colita moño"
+      descripcion: "Colita"
     },
     {
       codigo: "co123",
       imagen: "../assets/accesorios/colitas/24.jpg",
       precio: "110",
-      descripcion: "Colita moño"
+      descripcion: "Colita"
     },
     {
       codigo: "co124",
       imagen: "../assets/accesorios/colitas/25.jpg",
       precio: "70",
-      descripcion: "Colita corazón"
+      descripcion: "Colita"
     },
     {
       codigo: "co125",
       imagen: "../assets/accesorios/colitas/26.jpg",
       precio: "70",
-      descripcion: "Colita corazón"
+      descripcion: "Colita"
     },
     {
       codigo: "co126",
       imagen: "../assets/accesorios/colitas/27.jpg",
       precio: "80",
-      descripcion: "Colita moño"
+      descripcion: "Colita"
     },
     {
       codigo: "co127",
       imagen: "../assets/accesorios/colitas/28.jpg",
       precio: "190",
-      descripcion: "Colita moño"
+      descripcion: "Colita"
     },
     {
       codigo: "co128",
       imagen: "../assets/accesorios/colitas/29.jpg",
       precio: "80",
-      descripcion: "Colita moño"
+      descripcion: "Colita"
     },
     {
       codigo: "co129",
       imagen: "../assets/accesorios/colitas/30.jpg",
       precio: "80",
-      descripcion: "Colita moño"
+      descripcion: "Colita"
     },
     {
       codigo: "co130",
       imagen: "../assets/accesorios/colitas/31.jpg",
       precio: "80",
-      descripcion: "Colita moño"
+      descripcion: "Colita"
     },
     {
       codigo: "co131",
       imagen: "../assets/accesorios/colitas/32.jpg",
       precio: "80",
-      descripcion: "Colita moño"
+      descripcion: "Colita"
     },
     {
       codigo: "co132",
       imagen: "../assets/accesorios/colitas/33.jpg",
       precio: "80",
-      descripcion: "Colita moño"
+      descripcion: "Colita"
     },
     {
       codigo: "co133",
       imagen: "../assets/accesorios/colitas/34.jpg",
       precio: "80",
-      descripcion: "Colita moño"
+      descripcion: "Colita"
     },
     {
       codigo: "co134",
       imagen: "../assets/accesorios/colitas/35.jpg",
       precio: "80",
-      descripcion: "Colita moño"
+      descripcion: "Colita"
     },
     {
       codigo: "co135",
@@ -1415,7 +1415,7 @@ export class AccesoriosComponent implements OnInit {
       codigo: "e101",
       imagen: "../assets/accesorios/esmaltes/2.jpg",
       precio: "190",
-      descripcion: "Ablandador de Cutículas"
+      descripcion: "Ablanda Cutículas"
     },
     {
       codigo: "e102",
@@ -1655,67 +1655,67 @@ export class AccesoriosComponent implements OnInit {
       codigo: "e141",
       imagen: "../assets/accesorios/esmaltes/42.jpg",
       precio: "180",
-      descripcion: "Esmalte"
+      descripcion: "Esmalte celeste"
     },
     {
       codigo: "e142",
       imagen: "../assets/accesorios/esmaltes/43.jpg",
       precio: "180",
-      descripcion: "Esmalte"
+      descripcion: "Esmalte coral"
     },
     {
       codigo: "e143",
       imagen: "../assets/accesorios/esmaltes/44.jpg",
       precio: "180",
-      descripcion: "Esmalte"
+      descripcion: "Esmalte gris"
     },
     {
       codigo: "e144",
       imagen: "../assets/accesorios/esmaltes/45.jpg",
       precio: "180",
-      descripcion: "Esmalte"
+      descripcion: "Esmalte rojo"
     },
     {
       codigo: "e145",
       imagen: "../assets/accesorios/esmaltes/46.jpg",
       precio: "180",
-      descripcion: "Esmalte"
+      descripcion: "Esmalte rosa"
     },
     {
       codigo: "e146",
       imagen: "../assets/accesorios/esmaltes/47.jpg",
       precio: "180",
-      descripcion: "Esmalte"
+      descripcion: "Esmalte rosa"
     },
     {
       codigo: "e147",
       imagen: "../assets/accesorios/esmaltes/48.jpg",
       precio: "180",
-      descripcion: "Esmalte"
+      descripcion: "Esmalte rojo"
     },
     {
       codigo: "e148",
       imagen: "../assets/accesorios/esmaltes/49.jpg",
       precio: "180",
-      descripcion: "Esmalte"
+      descripcion: "Esmalte salmón"
     },
     {
       codigo: "e149",
       imagen: "../assets/accesorios/esmaltes/50.jpg",
       precio: "180",
-      descripcion: "Esmalte"
+      descripcion: "Esmalte rosa"
     },
     {
       codigo: "e150",
       imagen: "../assets/accesorios/esmaltes/51.jpg",
       precio: "220",
-      descripcion: "Esmalte"
+      descripcion: "Esmalte brilloso"
     },
     {
       codigo: "e151",
       imagen: "../assets/accesorios/esmaltes/52.jpg",
       precio: "220",
-      descripcion: "Esmalte"
+      descripcion: "Esmalte brilloso"
     },
   ]
   gorras=[
@@ -2285,19 +2285,19 @@ export class AccesoriosComponent implements OnInit {
       codigo: "pe100",
       imagen: "../assets/accesorios/pinceles/1.jpg",
       precio: "430",
-      descripcion: "Brocha"
+      descripcion: "Set"
     },
     {
       codigo: "pe101",
       imagen: "../assets/accesorios/pinceles/2.jpg",
       precio: "430",
-      descripcion: "Brocha"
+      descripcion: "Set"
     },
     {
       codigo: "pe102",
       imagen: "../assets/accesorios/pinceles/3.jpg",
       precio: "430",
-      descripcion: "Brocha"
+      descripcion: "Set"
     },
     {
       codigo: "pe103",
@@ -2357,25 +2357,25 @@ export class AccesoriosComponent implements OnInit {
       codigo: "pe112",
       imagen: "../assets/accesorios/pinceles/13.jpg",
       precio: "125",
-      descripcion: "Brocha"
+      descripcion: "Limpiador"
     },
     {
       codigo: "pe113",
       imagen: "../assets/accesorios/pinceles/14.jpg",
       precio: "140",
-      descripcion: "Brocha"
+      descripcion: "Esponja"
     },
     {
       codigo: "pe114",
       imagen: "../assets/accesorios/pinceles/15.jpg",
       precio: "145",
-      descripcion: "Brocha"
+      descripcion: "Esponja"
     },
     {
       codigo: "pe115",
       imagen: "../assets/accesorios/pinceles/16.jpg",
       precio: "145",
-      descripcion: "Brocha"
+      descripcion: "Esponja"
     },
   ]
   pulseras=[
@@ -3457,7 +3457,7 @@ export class AccesoriosComponent implements OnInit {
       this.acc = this.necesers
     }
     else if (this.accesorio.tipo == "pinceles"){
-      this.imag = "../assets/acc/pinceles.png"
+      this.imag = "../assets/acc/pincelesYEsponjas.png"
       this.acc = this.pinceles
     }
     else if (this.accesorio.tipo == "pulseras"){
