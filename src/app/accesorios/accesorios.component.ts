@@ -2357,7 +2357,7 @@ export class AccesoriosComponent implements OnInit {
       codigo: "pe112",
       imagen: "../assets/accesorios/pinceles/13.jpg",
       precio: "125",
-      descripcion: "Limpiador"
+      descripcion: "Limpia B"
     },
     {
       codigo: "pe113",
