@@ -1421,115 +1421,115 @@ export class AccesoriosComponent implements OnInit {
       codigo: "e102",
       imagen: "../assets/accesorios/esmaltes/3.jpg",
       precio: "365",
-      descripcion: "Esmalte semipermanente"
+      descripcion: "Esmalte UV&LED"
     },
     {
       codigo: "e103",
       imagen: "../assets/accesorios/esmaltes/4.jpg",
       precio: "365",
-      descripcion: "Esmalte semipermanente"
+      descripcion: "Esmalte UV&LED"
     },
     {
       codigo: "e104",
       imagen: "../assets/accesorios/esmaltes/5.jpg",
       precio: "365",
-      descripcion: "Esmalte semipermanente"
+      descripcion: "Esmalte UV&LED"
     },
     {
       codigo: "e105",
       imagen: "../assets/accesorios/esmaltes/6.jpg",
       precio: "365",
-      descripcion: "Esmalte semipermanente"
+      descripcion: "Esmalte UV&LED"
     },
     {
       codigo: "e106",
       imagen: "../assets/accesorios/esmaltes/7.jpg",
       precio: "365",
-      descripcion: "Esmalte semipermanente"
+      descripcion: "Esmalte UV&LED"
     },
     {
       codigo: "e107",
       imagen: "../assets/accesorios/esmaltes/8.jpg",
       precio: "365",
-      descripcion: "Esmalte semipermanente"
+      descripcion: "Esmalte UV&LED"
     },
     {
       codigo: "e108",
       imagen: "../assets/accesorios/esmaltes/9.jpg",
       precio: "365",
-      descripcion: "Esmalte semipermanente"
+      descripcion: "Esmalte UV&LED"
     },
     {
       codigo: "e109",
       imagen: "../assets/accesorios/esmaltes/10.jpg",
       precio: "365",
-      descripcion: "Esmalte semipermanente"
+      descripcion: "Esmalte UV&LED"
     },
     {
       codigo: "e110",
       imagen: "../assets/accesorios/esmaltes/11.jpg",
       precio: "365",
-      descripcion: "Esmalte semipermanente"
+      descripcion: "Esmalte UV&LED"
     },
     {
       codigo: "e111",
       imagen: "../assets/accesorios/esmaltes/12.jpg",
       precio: "320",
-      descripcion: "Esmalte semipermanente"
+      descripcion: "Esmalte UV&LED"
     },
     {
       codigo: "e112",
       imagen: "../assets/accesorios/esmaltes/13.jpg",
       precio: "320",
-      descripcion: "Esmalte semipermanente"
+      descripcion: "Esmalte UV&LED"
     },
     {
       codigo: "e113",
       imagen: "../assets/accesorios/esmaltes/14.jpg",
       precio: "320",
-      descripcion: "Esmalte semipermanente"
+      descripcion: "Esmalte UV&LED"
     },
     {
       codigo: "e114",
       imagen: "../assets/accesorios/esmaltes/15.jpg",
       precio: "320",
-      descripcion: "Esmalte semipermanente"
+      descripcion: "Esmalte UV&LED"
     },
     {
       codigo: "e115",
       imagen: "../assets/accesorios/esmaltes/16.jpg",
       precio: "320",
-      descripcion: "Esmalte semipermanente"
+      descripcion: "Esmalte UV&LED"
     },
     {
       codigo: "e116",
       imagen: "../assets/accesorios/esmaltes/17.jpg",
       precio: "320",
-      descripcion: "Esmalte semipermanente"
+      descripcion: "Esmalte UV&LED"
     },
     {
       codigo: "e117",
       imagen: "../assets/accesorios/esmaltes/18.jpg",
       precio: "320",
-      descripcion: "Esmalte semipermanente"
+      descripcion: "Esmalte UV&LED"
     },
     {
       codigo: "e118",
       imagen: "../assets/accesorios/esmaltes/19.jpg",
       precio: "320",
-      descripcion: "Esmalte semipermanente"
+      descripcion: "Esmalte UV&LED"
     },
     {
       codigo: "e119",
       imagen: "../assets/accesorios/esmaltes/20.jpg",
       precio: "320",
-      descripcion: "Esmalte semipermanente"
+      descripcion: "Esmalte UV&LED"
     },
     {
       codigo: "e120",
       imagen: "../assets/accesorios/esmaltes/21.jpg",
       precio: "320",
-      descripcion: "Esmalte semipermanente"
+      descripcion: "Esmalte UV&LED"
     },
     {
       codigo: "e121",
