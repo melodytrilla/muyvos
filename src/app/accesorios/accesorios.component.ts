@@ -2378,6 +2378,248 @@ export class AccesoriosComponent implements OnInit {
       descripcion: "Brocha"
     },
   ]
+  pulseras=[
+    {
+      codigo: "pu100",
+      imagen: "../assets/accesorios/pulseras/1.jpg",
+      precio: "270",
+      descripcion: "Pulsera"
+    },
+    {
+      codigo: "pu101",
+      imagen: "../assets/accesorios/pulseras/2.jpg",
+      precio: "145",
+      descripcion: "Pulsera"
+    },
+    {
+      codigo: "pu102",
+      imagen: "../assets/accesorios/pulseras/3.jpg",
+      precio: "130",
+      descripcion: "Pulsera"
+    },
+    {
+      codigo: "pu103",
+      imagen: "../assets/accesorios/pulseras/4.jpg",
+      precio: "230",
+      descripcion: "Pulsera"
+    },
+    {
+      codigo: "pu104",
+      imagen: "../assets/accesorios/pulseras/5.jpg",
+      precio: "145",
+      descripcion: "Pulsera"
+    },
+    {
+      codigo: "pu105",
+      imagen: "../assets/accesorios/pulseras/6.jpg",
+      precio: "340",
+      descripcion: "Pulsera"
+    },
+    {
+      codigo: "pu106",
+      imagen: "../assets/accesorios/pulseras/7.jpg",
+      precio: "190",
+      descripcion: "Pulsera"
+    },
+    {
+      codigo: "pu107",
+      imagen: "../assets/accesorios/pulseras/8.jpg",
+      precio: "190",
+      descripcion: "Pulsera"
+    },
+    {
+      codigo: "pu108",
+      imagen: "../assets/accesorios/pulseras/9.jpg",
+      precio: "140",
+      descripcion: "Pulsera"
+    },
+    {
+      codigo: "pu109",
+      imagen: "../assets/accesorios/pulseras/10.jpg",
+      precio: "240",
+      descripcion: "Pulsera"
+    },
+    {
+      codigo: "pu110",
+      imagen: "../assets/accesorios/pulseras/11.jpg",
+      precio: "300",
+      descripcion: "Pulsera"
+    },
+    {
+      codigo: "pu111",
+      imagen: "../assets/accesorios/pulseras/12.jpg",
+      precio: "290",
+      descripcion: "Pulsera"
+    },
+    {
+      codigo: "pu112",
+      imagen: "../assets/accesorios/pulseras/13.jpg",
+      precio: "240",
+      descripcion: "Pulsera"
+    },
+    {
+      codigo: "pu113",
+      imagen: "../assets/accesorios/pulseras/14.jpg",
+      precio: "160",
+      descripcion: "Pulsera"
+    },
+    {
+      codigo: "pu114",
+      imagen: "../assets/accesorios/pulseras/15.jpg",
+      precio: "130",
+      descripcion: "Pulsera"
+    },
+    {
+      codigo: "pu115",
+      imagen: "../assets/accesorios/pulseras/16.jpg",
+      precio: "340",
+      descripcion: "Pulsera"
+    },
+    {
+      codigo: "pu116",
+      imagen: "../assets/accesorios/pulseras/17.jpg",
+      precio: "310",
+      descripcion: "Pulsera"
+    },
+    {
+      codigo: "pu117",
+      imagen: "../assets/accesorios/pulseras/18.jpg",
+      precio: "310",
+      descripcion: "Pulsera"
+    },
+    {
+      codigo: "pu118",
+      imagen: "../assets/accesorios/pulseras/19.jpg",
+      precio: "98",
+      descripcion: "Pulsera"
+    },
+    {
+      codigo: "pu119",
+      imagen: "../assets/accesorios/pulseras/20.jpg",
+      precio: "120",
+      descripcion: "Pulsera"
+    },
+    {
+      codigo: "pu120",
+      imagen: "../assets/accesorios/pulseras/21.jpg",
+      precio: "145",
+      descripcion: "Pulsera"
+    },
+    {
+      codigo: "pu121",
+      imagen: "../assets/accesorios/pulseras/22.jpg",
+      precio: "140",
+      descripcion: "Pulsera"
+    },
+    {
+      codigo: "pu122",
+      imagen: "../assets/accesorios/pulseras/23.jpg",
+      precio: "150",
+      descripcion: "Pulsera"
+    },
+    {
+      codigo: "pu123",
+      imagen: "../assets/accesorios/pulseras/24.jpg",
+      precio: "145",
+      descripcion: "Pulsera"
+    },
+    {
+      codigo: "pu124",
+      imagen: "../assets/accesorios/pulseras/25.jpg",
+      precio: "410",
+      descripcion: "Pulsera"
+    },
+    {
+      codigo: "pu125",
+      imagen: "../assets/accesorios/pulseras/26.jpg",
+      precio: "180",
+      descripcion: "Pulsera"
+    },
+    {
+      codigo: "pu126",
+      imagen: "../assets/accesorios/pulseras/27.jpg",
+      precio: "280",
+      descripcion: "Pulsera"
+    },
+    {
+      codigo: "pu127",
+      imagen: "../assets/accesorios/pulseras/28.jpg",
+      precio: "",
+      descripcion: "Pulsera"
+    },
+    {
+      codigo: "pu128",
+      imagen: "../assets/accesorios/pulseras/29.jpg",
+      precio: "145",
+      descripcion: "Pulsera"
+    },
+    {
+      codigo: "pu129",
+      imagen: "../assets/accesorios/pulseras/30.jpg",
+      precio: "150",
+      descripcion: "Pulsera"
+    },
+    {
+      codigo: "pu130",
+      imagen: "../assets/accesorios/pulseras/31.jpg",
+      precio: "150",
+      descripcion: "Pulsera"
+    },
+    {
+      codigo: "pu131",
+      imagen: "../assets/accesorios/pulseras/32.jpg",
+      precio: "160",
+      descripcion: "Pulsera"
+    },
+    {
+      codigo: "pu132",
+      imagen: "../assets/accesorios/pulseras/33.jpg",
+      precio: "120",
+      descripcion: "Pulsera"
+    },
+    {
+      codigo: "pu133",
+      imagen: "../assets/accesorios/pulseras/34.jpg",
+      precio: "150",
+      descripcion: "Pulsera"
+    },
+    {
+      codigo: "pu134",
+      imagen: "../assets/accesorios/pulseras/35.jpg",
+      precio: "190",
+      descripcion: "Pulsera"
+    },
+    {
+      codigo: "pu135",
+      imagen: "../assets/accesorios/pulseras/36.jpg",
+      precio: "520",
+      descripcion: "Pulsera"
+    },
+    {
+      codigo: "pu136",
+      imagen: "../assets/accesorios/pulseras/37.jpg",
+      precio: "460",
+      descripcion: "Pulsera"
+    },
+    {
+      codigo: "pu137",
+      imagen: "../assets/accesorios/pulseras/38.jpg",
+      precio: "",
+      descripcion: "Pulsera"
+    },
+    {
+      codigo: "pu138",
+      imagen: "../assets/accesorios/pulseras/39.jpg",
+      precio: "140",
+      descripcion: "Pulsera"
+    },
+    {
+      codigo: "pu139",
+      imagen: "../assets/accesorios/pulseras/40.jpg",
+      precio: "185",
+      descripcion: "Pulsera"
+    }
+  ]
   relojes=[
     {
       codigo: "r100",
@@ -3217,6 +3459,10 @@ export class AccesoriosComponent implements OnInit {
     else if (this.accesorio.tipo == "pinceles"){
       this.imag = "../assets/acc/pinceles.png"
       this.acc = this.pinceles
+    }
+    else if (this.accesorio.tipo == "pulseras"){
+      this.imag = "../assets/acc/pulseras.png"
+      this.acc = this.pulseras
     }
     else if (this.accesorio.tipo == "relojes"){
       this.imag = "../assets/acc/relojes.png"
