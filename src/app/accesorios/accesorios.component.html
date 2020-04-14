@@ -3,11 +3,14 @@
         <img src="{{imag}}" class="im">
 </div>
 <section id="galeria">
-        <div *ngFor="let acces of acc; let i=index" class="imagen">
+        <div *ngFor="let acces of acc | paginate: { itemsPerPage: 12, currentPage: q }; let i=index " class="imagen">
                 <img src="{{acces.imagen}}" (click)="open(i)"> 
                 <div class="agregar"><p style="margin-bottom: 0px;">{{acces.codigo}} - {{acces.descripcion}}</p></div>
                 <div class="precio"><p> ${{acces.precio}}</p></div>
                 <!--<div class="agregar">AGREGAR AL CARRITO</div>-->
-        </div>
+        </div>    
 </section>
+<div style="text-align: center">
+        <pagination-controls class="custom-pagination" (pageChange)="q = $event"></pagination-controls>
+</div>
 <app-nav-bottom></app-nav-bottom>

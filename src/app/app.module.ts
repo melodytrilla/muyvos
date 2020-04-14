@@ -14,6 +14,7 @@ import { MaterialModule } from './material.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import { LightboxModule } from 'ngx-lightbox';
+import { NgxPaginationModule } from 'ngx-pagination';
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import { LightboxModule } from 'ngx-lightbox';
     BrowserAnimationsModule,
     AngularFontAwesomeModule,
     LightboxModule,
+    NgxPaginationModule
   ],
   exports: [MaterialModule],
   providers: [],
