@@ -2725,7 +2725,7 @@ export class AccesoriosComponent implements OnInit {
     },
     {
       codigo: "r117",
-      imagen: "../assets/accesorios/relojes/18.jpg",
+      imagen: "../assets/accesorios/relojes/18.mp4",
       precio: "350",
       descripcion: "Reloj"
     },
