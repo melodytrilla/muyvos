@@ -260,6 +260,272 @@ export class AccesoriosComponent implements OnInit {
       descripcion: "Alcohol en gel"
     }
   ]
+  anillos=[
+    {
+      codigo: "an100",
+      imagen: "../assets/accesorios/anillos/1.jpg",
+      precio: "520",
+      descripcion: "Anillo"
+    },
+    {
+      codigo: "an101",
+      imagen: "../assets/accesorios/anillos/2.jpg",
+      precio: "520",
+      descripcion: "Anillo"
+    },
+    {
+      codigo: "an102",
+      imagen: "../assets/accesorios/anillos/3.jpg",
+      precio: "250",
+      descripcion: "Anillo"
+    },
+    {
+      codigo: "an103",
+      imagen: "../assets/accesorios/anillos/4.jpg",
+      precio: "560",
+      descripcion: "Anillo"
+    },
+    {
+      codigo: "an104",
+      imagen: "../assets/accesorios/anillos/5.jpg",
+      precio: "230",
+      descripcion: "Anillo"
+    },
+    {
+      codigo: "an105",
+      imagen: "../assets/accesorios/anillos/6.jpg",
+      precio: "345",
+      descripcion: "Anillo"
+    },
+    {
+      codigo: "an106",
+      imagen: "../assets/accesorios/anillos/7.jpg",
+      precio: "510",
+      descripcion: "Anillo"
+    },
+    {
+      codigo: "an107",
+      imagen: "../assets/accesorios/anillos/8.jpg",
+      precio: "250",
+      descripcion: "Anillo"
+    },
+    {
+      codigo: "an108",
+      imagen: "../assets/accesorios/anillos/9.jpg",
+      precio: "250",
+      descripcion: "Anillo"
+    },
+    {
+      codigo: "an109",
+      imagen: "../assets/accesorios/anillos/10.jpg",
+      precio: "520",
+      descripcion: "Anillo"
+    },
+    {
+      codigo: "an110",
+      imagen: "../assets/accesorios/anillos/11.jpg",
+      precio: "125",
+      descripcion: "Anillo"
+    },
+    {
+      codigo: "an111",
+      imagen: "../assets/accesorios/anillos/12.jpg",
+      precio: "520",
+      descripcion: "Anillo"
+    },
+    {
+      codigo: "an112",
+      imagen: "../assets/accesorios/anillos/13.jpg",
+      precio: "720",
+      descripcion: "Anillo"
+    },
+    {
+      codigo: "an113",
+      imagen: "../assets/accesorios/anillos/14.jpg",
+      precio: "560",
+      descripcion: "Anillo"
+    },
+    {
+      codigo: "an114",
+      imagen: "../assets/accesorios/anillos/15.jpg",
+      precio: "235",
+      descripcion: "Anillo"
+    },
+    {
+      codigo: "an115",
+      imagen: "../assets/accesorios/anillos/16.jpg",
+      precio: "235",
+      descripcion: "Anillo"
+    },
+    {
+      codigo: "an116",
+      imagen: "../assets/accesorios/anillos/17.jpg",
+      precio: "498",
+      descripcion: "Anillo"
+    },
+    {
+      codigo: "an117",
+      imagen: "../assets/accesorios/anillos/18.jpg",
+      precio: "560",
+      descripcion: "Anillo"
+    },
+    {
+      codigo: "an118",
+      imagen: "../assets/accesorios/anillos/19.jpg",
+      precio: "280",
+      descripcion: "Anillo"
+    },
+    {
+      codigo: "an119",
+      imagen: "../assets/accesorios/anillos/20.jpg",
+      precio: "360",
+      descripcion: "Anillo"
+    },
+    {
+      codigo: "an120",
+      imagen: "../assets/accesorios/anillos/21.jpg",
+      precio: "460",
+      descripcion: "Anillo"
+    },
+    {
+      codigo: "an121",
+      imagen: "../assets/accesorios/anillos/22.jpg",
+      precio: "360",
+      descripcion: "Anillo"
+    },
+    {
+      codigo: "an122",
+      imagen: "../assets/accesorios/anillos/23.jpg",
+      precio: "360",
+      descripcion: "Anillo"
+    },
+    {
+      codigo: "an123",
+      imagen: "../assets/accesorios/anillos/24.jpg",
+      precio: "260",
+      descripcion: "Anillo"
+    },
+    {
+      codigo: "an124",
+      imagen: "../assets/accesorios/anillos/25.jpg",
+      precio: "435",
+      descripcion: "Anillo"
+    },
+    {
+      codigo: "an125",
+      imagen: "../assets/accesorios/anillos/26.jpg",
+      precio: "470",
+      descripcion: "Anillo"
+    },
+    {
+      codigo: "an126",
+      imagen: "../assets/accesorios/anillos/27.jpg",
+      precio: "360",
+      descripcion: "Anillo"
+    },
+    {
+      codigo: "an127",
+      imagen: "../assets/accesorios/anillos/28.jpg",
+      precio: "530",
+      descripcion: "Anillo"
+    },
+    {
+      codigo: "an128",
+      imagen: "../assets/accesorios/anillos/29.jpg",
+      precio: "185",
+      descripcion: "Anillo"
+    },
+    {
+      codigo: "an129",
+      imagen: "../assets/accesorios/anillos/30.jpg",
+      precio: "430",
+      descripcion: "Anillo"
+    },
+    {
+      codigo: "an130",
+      imagen: "../assets/accesorios/anillos/31.jpg",
+      precio: "360",
+      descripcion: "Anillo"
+    },
+    {
+      codigo: "an131",
+      imagen: "../assets/accesorios/anillos/32.jpg",
+      precio: "235",
+      descripcion: "Anillo"
+    },
+    {
+      codigo: "an132",
+      imagen: "../assets/accesorios/anillos/33.jpg",
+      precio: "235",
+      descripcion: "Anillo"
+    },
+    {
+      codigo: "an133",
+      imagen: "../assets/accesorios/anillos/34.jpg",
+      precio: "430",
+      descripcion: "Anillo"
+    },
+    {
+      codigo: "an134",
+      imagen: "../assets/accesorios/anillos/35.jpg",
+      precio: "250",
+      descripcion: "Anillo"
+    },
+    {
+      codigo: "an135",
+      imagen: "../assets/accesorios/anillos/36.jpg",
+      precio: "360",
+      descripcion: "Anillo"
+    },
+    {
+      codigo: "an136",
+      imagen: "../assets/accesorios/anillos/37.jpg",
+      precio: "380",
+      descripcion: "Anillo"
+    },
+    {
+      codigo: "an137",
+      imagen: "../assets/accesorios/anillos/38.jpg",
+      precio: "530",
+      descripcion: "Anillo"
+    },
+    {
+      codigo: "an138",
+      imagen: "../assets/accesorios/anillos/39.jpg",
+      precio: "310",
+      descripcion: "Anillo"
+    },
+    {
+      codigo: "an139",
+      imagen: "../assets/accesorios/anillos/40.jpg",
+      precio: "260",
+      descripcion: "Anillo"
+    },
+    {
+      codigo: "an140",
+      imagen: "../assets/accesorios/anillos/41.jpg",
+      precio: "470",
+      descripcion: "Anillo"
+    },
+    {
+      codigo: "an141",
+      imagen: "../assets/accesorios/anillos/42.jpg",
+      precio: "470",
+      descripcion: "Anillo"
+    },
+    {
+      codigo: "an142",
+      imagen: "../assets/accesorios/anillos/43.jpg",
+      precio: "530",
+      descripcion: "Anillo"
+    },
+    {
+      codigo: "an143",
+      imagen: "../assets/accesorios/anillos/44.jpg",
+      precio: "520",
+      descripcion: "Anillo"
+    },
+  ]
   billeteras=[
     {
       codigo: "b100",
@@ -3452,6 +3718,10 @@ export class AccesoriosComponent implements OnInit {
     else if (this.accesorio.tipo == 'alcoholEnGel'){
       this.imag = "../assets/acc/alcoholEnGel.png"
       this.acc = this.alcoholes;
+    }
+    else if (this.accesorio.tipo == 'anillosAcero'){
+      this.imag = "../assets/acc/anillosAcero.png"
+      this.acc = this.anillos;
     }
     else if (this.accesorio.tipo == 'billeteras'){
       this.imag = "../assets/acc/billeteras.png"

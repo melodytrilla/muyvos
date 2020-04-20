@@ -20,7 +20,6 @@
             <button mat-menu-item (click)="this.sendTo('collares')">COLLARES</button>
             <button mat-menu-item disabled="true" (click)="this.sendTo('dijes')">DIJES</button>
             <button mat-menu-item (click)="this.sendTo('pulseras')">PULSERAS</button>
-            <button mat-menu-item disabled="true" (click)="this.sendTo('anillos')">ANILLOS</button>
             <button mat-menu-item disabled="true" (click)="this.sendTo('aros')">AROS</button>
             <button mat-menu-item (click)="this.sendTo('abridores')">ABRIDORES</button>
             <button mat-menu-item disabled="true" (click)="this.sendTo('llaveros')">LLAVEROS</button>
@@ -32,7 +31,7 @@
         <mat-menu #acero="matMenu">
             <button mat-menu-item disabled="true" (click)="this.sendTo('pulserasAcero')">PULSERAS</button>
             <button mat-menu-item disabled="true" (click)="this.sendTo('dijesAcero')">DIJES</button>
-            <button mat-menu-item disabled="true" (click)="this.sendTo('anillosAcero')">ANILLOS</button>
+            <button mat-menu-item (click)="this.sendTo('anillosAcero')">ANILLOS</button>
             <button mat-menu-item disabled="true" (click)="this.sendTo('cadenitasAcero')">CADENITAS</button>
             <button mat-menu-item disabled="true" (click)="this.sendTo('arosAcero')">AROS</button>
         </mat-menu>
