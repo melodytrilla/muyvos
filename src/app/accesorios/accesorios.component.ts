@@ -1276,9 +1276,58 @@ export class AccesoriosComponent implements OnInit {
     {
       codigo: "co159",
       imagen: "../assets/accesorios/colitas/60.jpg",
-      precio: "48",
+      precio: "80",
+      descripcion: "Colita"
+    },
+    {
+      codigo: "co160",
+      imagen: "../assets/accesorios/colitas/61.jpg",
+      precio: "80",
+      descripcion: "Colita"
+    },
+    {
+      codigo: "co161",
+      imagen: "../assets/accesorios/colitas/62.jpg",
+      precio: "60",
+      descripcion: "Colita"
+    },
+    {
+      codigo: "co162",
+      imagen: "../assets/accesorios/colitas/63.jpg",
+      precio: "60",
+      descripcion: "Colita"
+    },
+    {
+      codigo: "co163",
+      imagen: "../assets/accesorios/colitas/64.jpg",
+      precio: "70",
+      descripcion: "Colita"
+    },
+    {
+      codigo: "co164",
+      imagen: "../assets/accesorios/colitas/65.jpg",
+      precio: "70",
+      descripcion: "Colita"
+    },
+    {
+      codigo: "co165",
+      imagen: "../assets/accesorios/colitas/66.jpg",
+      precio: "70",
+      descripcion: "Colita"
+    },
+    {
+      codigo: "co166",
+      imagen: "../assets/accesorios/colitas/67.jpg",
+      precio: "70",
+      descripcion: "Colita"
+    },
+    {
+      codigo: "co167",
+      imagen: "../assets/accesorios/colitas/68.jpg",
+      precio: "70",
       descripcion: "Colita"
     }
+
   ]
   correctores=[
     {
