@@ -1723,307 +1723,307 @@ export class AccesoriosComponent implements OnInit {
     {
       codigo: "di100",
       imagen: "../assets/accesorios/dijes/1.jpg",
-      precio: "",
+      precio: "235",
       descripcion: "Dije"
     },
     {
       codigo: "di101",
       imagen: "../assets/accesorios/dijes/2.jpg",
-      precio: "",
+      precio: "355",
       descripcion: "Dije"
     },
     {
       codigo: "di102",
       imagen: "../assets/accesorios/dijes/3.jpg",
-      precio: "",
+      precio: "80",
       descripcion: "Dije"
     },
     {
       codigo: "di103",
       imagen: "../assets/accesorios/dijes/4.jpg",
-      precio: "",
+      precio: "190",
       descripcion: "Dije"
     },
     {
       codigo: "di104",
       imagen: "../assets/accesorios/dijes/5.jpg",
-      precio: "",
+      precio: "120",
       descripcion: "Dije"
     },
     {
       codigo: "di105",
       imagen: "../assets/accesorios/dijes/6.jpg",
-      precio: "",
+      precio: "140",
       descripcion: "Dije"
     },
     {
       codigo: "di106",
       imagen: "../assets/accesorios/dijes/7.jpg",
-      precio: "",
+      precio: "220",
       descripcion: "Dije"
     },
     {
       codigo: "di107",
       imagen: "../assets/accesorios/dijes/8.jpg",
-      precio: "",
+      precio: "130",
       descripcion: "Dije"
     },
     {
       codigo: "di108",
       imagen: "../assets/accesorios/dijes/9.jpg",
-      precio: "",
+      precio: "75",
       descripcion: "Dije"
     },
     {
       codigo: "di109",
       imagen: "../assets/accesorios/dijes/10.jpg",
-      precio: "",
+      precio: "180",
       descripcion: "Dije"
     },
     {
       codigo: "di110",
       imagen: "../assets/accesorios/dijes/11.jpg",
-      precio: "",
+      precio: "85",
       descripcion: "Dije"
     },
     {
       codigo: "di111",
       imagen: "../assets/accesorios/dijes/12.jpg",
-      precio: "",
+      precio: "195",
       descripcion: "Dije"
     },
     {
       codigo: "di112",
       imagen: "../assets/accesorios/dijes/13.jpg",
-      precio: "",
+      precio: "95",
       descripcion: "Dije"
     },
     {
       codigo: "di113",
       imagen: "../assets/accesorios/dijes/14.jpg",
-      precio: "",
+      precio: "95",
       descripcion: "Dije"
     },
     {
       codigo: "di114",
       imagen: "../assets/accesorios/dijes/15.jpg",
-      precio: "",
+      precio: "135",
       descripcion: "Dije"
     },
     {
       codigo: "di115",
       imagen: "../assets/accesorios/dijes/16.jpg",
-      precio: "",
+      precio: "65",
       descripcion: "Dije"
     },
     {
       codigo: "di116",
       imagen: "../assets/accesorios/dijes/17.jpg",
-      precio: "",
+      precio: "135",
       descripcion: "Dije"
     },
     {
       codigo: "di117",
       imagen: "../assets/accesorios/dijes/18.jpg",
-      precio: "",
+      precio: "80",
       descripcion: "Dije"
     },
     {
       codigo: "di118",
       imagen: "../assets/accesorios/dijes/19.jpg",
-      precio: "",
+      precio: "50",
       descripcion: "Dije"
     },
     {
       codigo: "di119",
       imagen: "../assets/accesorios/dijes/20.jpg",
-      precio: "",
+      precio: "65",
       descripcion: "Dije"
     },
     {
       codigo: "di120",
       imagen: "../assets/accesorios/dijes/21.jpg",
-      precio: "",
+      precio: "65",
       descripcion: "Dije"
     },
     {
       codigo: "di121",
       imagen: "../assets/accesorios/dijes/22.jpg",
-      precio: "",
+      precio: "160",
       descripcion: "Dije"
     },
     {
       codigo: "di122",
       imagen: "../assets/accesorios/dijes/23.jpg",
-      precio: "",
+      precio: "195",
       descripcion: "Dije"
     },
     {
       codigo: "di123",
       imagen: "../assets/accesorios/dijes/24.jpg",
-      precio: "",
+      precio: "210",
       descripcion: "Dije"
     },
     {
       codigo: "di124",
       imagen: "../assets/accesorios/dijes/25.jpg",
-      precio: "",
+      precio: "80",
       descripcion: "Dije"
     },
     {
       codigo: "di125",
       imagen: "../assets/accesorios/dijes/26.jpg",
-      precio: "",
+      precio: "180",
       descripcion: "Dije"
     },
     {
       codigo: "di126",
       imagen: "../assets/accesorios/dijes/27.jpg",
-      precio: "",
+      precio: "325",
       descripcion: "Dije"
     },
     {
       codigo: "di127",
       imagen: "../assets/accesorios/dijes/28.jpg",
-      precio: "",
+      precio: "180",
       descripcion: "Dije"
     },
     {
       codigo: "di128",
       imagen: "../assets/accesorios/dijes/29.jpg",
-      precio: "",
+      precio: "95",
       descripcion: "Dije"
     },
     {
       codigo: "di129",
       imagen: "../assets/accesorios/dijes/30.jpg",
-      precio: "",
+      precio: "95",
       descripcion: "Dije"
     },
     {
       codigo: "di130",
       imagen: "../assets/accesorios/dijes/31.jpg",
-      precio: "",
+      precio: "80",
       descripcion: "Dije"
     },
     {
       codigo: "di131",
       imagen: "../assets/accesorios/dijes/32.jpg",
-      precio: "",
+      precio: "180",
       descripcion: "Dije"
     },
     {
       codigo: "di132",
       imagen: "../assets/accesorios/dijes/33.jpg",
-      precio: "",
+      precio: "285",
       descripcion: "Dije"
     },
     {
       codigo: "di133",
       imagen: "../assets/accesorios/dijes/34.jpg",
-      precio: "",
+      precio: "90",
       descripcion: "Dije"
     },
     {
       codigo: "di134",
       imagen: "../assets/accesorios/dijes/35.jpg",
-      precio: "",
+      precio: "110",
       descripcion: "Dije"
     },
     {
       codigo: "di135",
       imagen: "../assets/accesorios/dijes/36.jpg",
-      precio: "",
+      precio: "80",
       descripcion: "Dije"
     },
     {
       codigo: "di136",
       imagen: "../assets/accesorios/dijes/37.jpg",
-      precio: "",
+      precio: "80",
       descripcion: "Dije"
     },
     {
       codigo: "di137",
       imagen: "../assets/accesorios/dijes/38.jpg",
-      precio: "",
+      precio: "70",
       descripcion: "Dije"
     },
     {
       codigo: "di138",
       imagen: "../assets/accesorios/dijes/39.jpg",
-      precio: "",
+      precio: "85",
       descripcion: "Dije"
     },
     {
       codigo: "di139",
       imagen: "../assets/accesorios/dijes/40.jpg",
-      precio: "",
+      precio: "95",
       descripcion: "Dije"
     },
     {
       codigo: "di140",
       imagen: "../assets/accesorios/dijes/41.jpg",
-      precio: "",
+      precio: "50",
       descripcion: "Dije"
     },
     {
       codigo: "di141",
       imagen: "../assets/accesorios/dijes/42.jpg",
-      precio: "",
+      precio: "140",
       descripcion: "Dije"
     },
     {
       codigo: "di142",
       imagen: "../assets/accesorios/dijes/43.jpg",
-      precio: "",
+      precio: "145",
       descripcion: "Dije"
     },
     {
       codigo: "di143",
       imagen: "../assets/accesorios/dijes/44.jpg",
-      precio: "",
+      precio: "90",
       descripcion: "Dije"
     },
     {
       codigo: "di144",
       imagen: "../assets/accesorios/dijes/45.jpg",
-      precio: "",
+      precio: "80",
       descripcion: "Dije"
     },
     {
       codigo: "di145",
       imagen: "../assets/accesorios/dijes/46.jpg",
-      precio: "",
+      precio: "140",
       descripcion: "Dije"
     },
     {
       codigo: "di146",
       imagen: "../assets/accesorios/dijes/47.jpg",
-      precio: "",
+      precio: "80",
       descripcion: "Dije"
     },
     {
       codigo: "di147",
       imagen: "../assets/accesorios/dijes/48.jpg",
-      precio: "",
+      precio: "50",
       descripcion: "Dije"
     },
     {
       codigo: "di148",
       imagen: "../assets/accesorios/dijes/49.jpg",
-      precio: "",
+      precio: "198",
       descripcion: "Dije"
     },
     {
       codigo: "di149",
       imagen: "../assets/accesorios/dijes/50.jpg",
-      precio: "",
+      precio: "198",
       descripcion: "Dije"
     },
     {
       codigo: "di150",
       imagen: "../assets/accesorios/dijes/51.jpg",
-      precio: "",
+      precio: "90",
       descripcion: "Dije"
     },
     {
