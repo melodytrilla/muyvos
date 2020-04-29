@@ -1969,7 +1969,7 @@ export class AccesoriosComponent implements OnInit {
     {
       codigo: "di141",
       imagen: "../assets/accesorios/dijes/42.jpg",
-      precio: "140",
+      precio: "80",
       descripcion: "Dije"
     },
     {
