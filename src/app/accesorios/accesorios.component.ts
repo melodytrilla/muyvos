@@ -1719,6 +1719,440 @@ export class AccesoriosComponent implements OnInit {
       descripcion: "Delineador en gel"
     },
   ]
+  dijes=[
+    {
+      codigo: "di100",
+      imagen: "../assets/accesorios/dijes/1.jpg",
+      precio: "",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di101",
+      imagen: "../assets/accesorios/dijes/2.jpg",
+      precio: "",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di102",
+      imagen: "../assets/accesorios/dijes/3.jpg",
+      precio: "",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di103",
+      imagen: "../assets/accesorios/dijes/4.jpg",
+      precio: "",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di104",
+      imagen: "../assets/accesorios/dijes/5.jpg",
+      precio: "",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di105",
+      imagen: "../assets/accesorios/dijes/6.jpg",
+      precio: "",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di106",
+      imagen: "../assets/accesorios/dijes/7.jpg",
+      precio: "",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di107",
+      imagen: "../assets/accesorios/dijes/8.jpg",
+      precio: "",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di108",
+      imagen: "../assets/accesorios/dijes/9.jpg",
+      precio: "",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di109",
+      imagen: "../assets/accesorios/dijes/10.jpg",
+      precio: "",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di110",
+      imagen: "../assets/accesorios/dijes/11.jpg",
+      precio: "",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di111",
+      imagen: "../assets/accesorios/dijes/12.jpg",
+      precio: "",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di112",
+      imagen: "../assets/accesorios/dijes/13.jpg",
+      precio: "",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di113",
+      imagen: "../assets/accesorios/dijes/14.jpg",
+      precio: "",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di114",
+      imagen: "../assets/accesorios/dijes/15.jpg",
+      precio: "",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di115",
+      imagen: "../assets/accesorios/dijes/16.jpg",
+      precio: "",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di116",
+      imagen: "../assets/accesorios/dijes/17.jpg",
+      precio: "",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di117",
+      imagen: "../assets/accesorios/dijes/18.jpg",
+      precio: "",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di118",
+      imagen: "../assets/accesorios/dijes/19.jpg",
+      precio: "",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di119",
+      imagen: "../assets/accesorios/dijes/20.jpg",
+      precio: "",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di120",
+      imagen: "../assets/accesorios/dijes/21.jpg",
+      precio: "",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di121",
+      imagen: "../assets/accesorios/dijes/22.jpg",
+      precio: "",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di122",
+      imagen: "../assets/accesorios/dijes/23.jpg",
+      precio: "",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di123",
+      imagen: "../assets/accesorios/dijes/24.jpg",
+      precio: "",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di124",
+      imagen: "../assets/accesorios/dijes/25.jpg",
+      precio: "",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di125",
+      imagen: "../assets/accesorios/dijes/26.jpg",
+      precio: "",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di126",
+      imagen: "../assets/accesorios/dijes/27.jpg",
+      precio: "",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di127",
+      imagen: "../assets/accesorios/dijes/28.jpg",
+      precio: "",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di128",
+      imagen: "../assets/accesorios/dijes/29.jpg",
+      precio: "",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di129",
+      imagen: "../assets/accesorios/dijes/30.jpg",
+      precio: "",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di130",
+      imagen: "../assets/accesorios/dijes/31.jpg",
+      precio: "",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di131",
+      imagen: "../assets/accesorios/dijes/32.jpg",
+      precio: "",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di132",
+      imagen: "../assets/accesorios/dijes/33.jpg",
+      precio: "",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di133",
+      imagen: "../assets/accesorios/dijes/34.jpg",
+      precio: "",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di134",
+      imagen: "../assets/accesorios/dijes/35.jpg",
+      precio: "",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di135",
+      imagen: "../assets/accesorios/dijes/36.jpg",
+      precio: "",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di136",
+      imagen: "../assets/accesorios/dijes/37.jpg",
+      precio: "",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di137",
+      imagen: "../assets/accesorios/dijes/38.jpg",
+      precio: "",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di138",
+      imagen: "../assets/accesorios/dijes/39.jpg",
+      precio: "",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di139",
+      imagen: "../assets/accesorios/dijes/40.jpg",
+      precio: "",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di140",
+      imagen: "../assets/accesorios/dijes/41.jpg",
+      precio: "",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di141",
+      imagen: "../assets/accesorios/dijes/42.jpg",
+      precio: "",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di142",
+      imagen: "../assets/accesorios/dijes/43.jpg",
+      precio: "",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di143",
+      imagen: "../assets/accesorios/dijes/44.jpg",
+      precio: "",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di144",
+      imagen: "../assets/accesorios/dijes/45.jpg",
+      precio: "",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di145",
+      imagen: "../assets/accesorios/dijes/46.jpg",
+      precio: "",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di146",
+      imagen: "../assets/accesorios/dijes/47.jpg",
+      precio: "",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di147",
+      imagen: "../assets/accesorios/dijes/48.jpg",
+      precio: "",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di148",
+      imagen: "../assets/accesorios/dijes/49.jpg",
+      precio: "",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di149",
+      imagen: "../assets/accesorios/dijes/50.jpg",
+      precio: "",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di150",
+      imagen: "../assets/accesorios/dijes/51.jpg",
+      precio: "",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di151",
+      imagen: "../assets/accesorios/dijes/52.jpg",
+      precio: "90",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di152",
+      imagen: "../assets/accesorios/dijes/53.jpg",
+      precio: "90",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di153",
+      imagen: "../assets/accesorios/dijes/54.jpg",
+      precio: "90",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di154",
+      imagen: "../assets/accesorios/dijes/55.jpg",
+      precio: "90",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di155",
+      imagen: "../assets/accesorios/dijes/56.jpg",
+      precio: "90",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di156",
+      imagen: "../assets/accesorios/dijes/57.jpg",
+      precio: "90",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di157",
+      imagen: "../assets/accesorios/dijes/58.jpg",
+      precio: "90",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di158",
+      imagen: "../assets/accesorios/dijes/59.jpg",
+      precio: "90",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di159",
+      imagen: "../assets/accesorios/dijes/60.jpg",
+      precio: "90",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di160",
+      imagen: "../assets/accesorios/dijes/61.jpg",
+      precio: "90",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di161",
+      imagen: "../assets/accesorios/dijes/62.jpg",
+      precio: "90",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di162",
+      imagen: "../assets/accesorios/dijes/63.jpg",
+      precio: "90",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di163",
+      imagen: "../assets/accesorios/dijes/64.jpg",
+      precio: "90",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di164",
+      imagen: "../assets/accesorios/dijes/65.jpg",
+      precio: "90",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di165",
+      imagen: "../assets/accesorios/dijes/66.jpg",
+      precio: "90",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di166",
+      imagen: "../assets/accesorios/dijes/67.jpg",
+      precio: "90",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di167",
+      imagen: "../assets/accesorios/dijes/68.jpg",
+      precio: "90",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di168",
+      imagen: "../assets/accesorios/dijes/69.jpg",
+      precio: "90",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di169",
+      imagen: "../assets/accesorios/dijes/70.jpg",
+      precio: "90",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di170",
+      imagen: "../assets/accesorios/dijes/71.jpg",
+      precio: "90",
+      descripcion: "Dije"
+    },
+    {
+      codigo: "di171",
+      imagen: "../assets/accesorios/dijes/72.jpg",
+      precio: "90",
+      descripcion: "Dije"
+    },
+  ]
   esmaltes=[
     {
       codigo: "e100",
@@ -3751,6 +4185,10 @@ export class AccesoriosComponent implements OnInit {
       this.imag = "../assets/acc/delineadores.png"
       this.acc = this.delineadores
     }
+    else if (this.accesorio.tipo == "dijes"){
+      this.imag = "../assets/acc/dijes.png"
+      this.acc = this.dijes
+    }
     else if (this.accesorio.tipo == "esmaltes"){
       this.imag = "../assets/acc/esmaltes.png"
       this.acc = this.esmaltes
@@ -3817,6 +4255,9 @@ export class AccesoriosComponent implements OnInit {
   })*/
       }
     
-      
+  agCarrito(i){
+    this.service.addItems(i);
+    window.alert("Se ha añadido este artículo al carrito")
+  }
     }
 

@@ -1,0 +1,14 @@
+<app-nav-top></app-nav-top>
+<p>- CARRITO DE COMPRAS -</p>
+<div class="fila">
+    <div>IMAGEN</div>
+    <div>CÓDIGO</div>
+    <div>PRECIO</div>
+</div>
+<div class="fila" *ngFor="let item of items">
+    <div><img src="{{item.imagen}}"></div>
+    <div>{{item.codigo}}-{{item.descripcion}}</div>
+    <div>{{item.precio}}</div>
+</div>
+<div>{{total}}</div>
+<app-nav-bottom></app-nav-bottom>

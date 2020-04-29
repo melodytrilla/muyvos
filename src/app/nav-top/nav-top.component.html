@@ -1,9 +1,9 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
 <div class="space">
-    <!--<div class="alinear">
-        <div class="usuario"><mat-icon class="usuarioI">person_outline</mat-icon></div>
-        <div class="carrito"><mat-icon class="carritoI">shopping_cart</mat-icon></div>
-    </div>-->
+    <div class="alinear">
+        <!--<div class="usuario"><mat-icon class="usuarioI">person_outline</mat-icon></div>-->
+        <!--<div class="carrito"><a href="/carrito"><mat-icon class="carritoI">shopping_cart</mat-icon></a></div>-->
+    </div>
     <div mat-list class="nav-top">
         <div class="item"><div mat-list-item><a href="/nosotros">NOSOTROS</a></div></div>
         <div class="item"><div mat-list-item><a href="#contacto">CONTACTO</a></div></div>
@@ -18,7 +18,6 @@
     <button mat-button [matMenuTriggerFor]="bijouterie"  #matMenuTrigger="matMenuTrigger">BIJOUTERIE</button>
         <mat-menu #bijouterie="matMenu" >
             <button mat-menu-item (click)="this.sendTo('collares')">COLLARES</button>
-            <button mat-menu-item disabled="true" (click)="this.sendTo('dijes')">DIJES</button>
             <button mat-menu-item (click)="this.sendTo('pulseras')">PULSERAS</button>
             <button mat-menu-item disabled="true" (click)="this.sendTo('aros')">AROS</button>
             <button mat-menu-item (click)="this.sendTo('abridores')">ABRIDORES</button>
@@ -30,7 +29,7 @@
         <button mat-button [matMenuTriggerFor]="acero" #matMenuTrigger2="matMenuTrigger">ACERO</button>
         <mat-menu #acero="matMenu">
             <button mat-menu-item disabled="true" (click)="this.sendTo('pulserasAcero')">PULSERAS</button>
-            <button mat-menu-item disabled="true" (click)="this.sendTo('dijesAcero')">DIJES</button>
+            <button mat-menu-item (click)="this.sendTo('dijes')">DIJES</button>
             <button mat-menu-item (click)="this.sendTo('anillosAcero')">ANILLOS</button>
             <button mat-menu-item disabled="true" (click)="this.sendTo('cadenitasAcero')">CADENITAS</button>
             <button mat-menu-item disabled="true" (click)="this.sendTo('arosAcero')">AROS</button>
