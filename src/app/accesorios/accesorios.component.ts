@@ -3369,6 +3369,152 @@ export class AccesoriosComponent implements OnInit {
       descripcion: "Pulsera"
     }
   ]
+  pulserasAcero = [
+    {
+      codigo: "pa100",
+      imagen: "../assets/accesorios/pulserasAcero/1.jpg",
+      precio: "290",
+      descripcion: "Pulsera"
+    },
+    {
+      codigo: "pa101",
+      imagen: "../assets/accesorios/pulserasAcero/2.jpg",
+      precio: "380",
+      descripcion: "Pulsera"
+    },
+    {
+      codigo: "pa102",
+      imagen: "../assets/accesorios/pulserasAcero/3.jpg",
+      precio: "390",
+      descripcion: "Pulsera"
+    },
+    {
+      codigo: "pa103",
+      imagen: "../assets/accesorios/pulserasAcero/4.jpg",
+      precio: "395",
+      descripcion: "Pulsera"
+    },
+    {
+      codigo: "pa104",
+      imagen: "../assets/accesorios/pulserasAcero/5.jpg",
+      precio: "330",
+      descripcion: "Pulsera"
+    },
+    {
+      codigo: "pa105",
+      imagen: "../assets/accesorios/pulserasAcero/6.jpg",
+      precio: "330",
+      descripcion: "Pulsera"
+    },
+    {
+      codigo: "pa106",
+      imagen: "../assets/accesorios/pulserasAcero/7.jpg",
+      precio: "450",
+      descripcion: "Pulsera"
+    },
+    {
+      codigo: "pa107",
+      imagen: "../assets/accesorios/pulserasAcero/8.jpg",
+      precio: "180",
+      descripcion: "Pulsera"
+    },
+    {
+      codigo: "pa108",
+      imagen: "../assets/accesorios/pulserasAcero/9.jpg",
+      precio: "360",
+      descripcion: "Pulsera"
+    },
+    {
+      codigo: "pa109",
+      imagen: "../assets/accesorios/pulserasAcero/10.jpg",
+      precio: "395",
+      descripcion: "Pulsera"
+    },
+    {
+      codigo: "pa110",
+      imagen: "../assets/accesorios/pulserasAcero/11.jpg",
+      precio: "330",
+      descripcion: "Pulsera"
+    },
+    {
+      codigo: "pa111",
+      imagen: "../assets/accesorios/pulserasAcero/12.jpg",
+      precio: "355",
+      descripcion: "Pulsera"
+    },
+    {
+      codigo: "pa112",
+      imagen: "../assets/accesorios/pulserasAcero/13.jpg",
+      precio: "355",
+      descripcion: "Pulsera"
+    },
+    {
+      codigo: "pa113",
+      imagen: "../assets/accesorios/pulserasAcero/14.jpg",
+      precio: "340",
+      descripcion: "Pulsera"
+    },
+    {
+      codigo: "pa114",
+      imagen: "../assets/accesorios/pulserasAcero/15.jpg",
+      precio: "550",
+      descripcion: "Pulsera"
+    },
+    {
+      codigo: "pa115",
+      imagen: "../assets/accesorios/pulserasAcero/16.jpg",
+      precio: "290",
+      descripcion: "Pulsera"
+    },
+    {
+      codigo: "pa116",
+      imagen: "../assets/accesorios/pulserasAcero/17.jpg",
+      precio: "320",
+      descripcion: "Pulsera"
+    },
+    {
+      codigo: "pa117",
+      imagen: "../assets/accesorios/pulserasAcero/18.jpg",
+      precio: "590",
+      descripcion: "Pulsera"
+    },
+    {
+      codigo: "pa118",
+      imagen: "../assets/accesorios/pulserasAcero/19.jpg",
+      precio: "270",
+      descripcion: "Pulsera"
+    },
+    {
+      codigo: "pa119",
+      imagen: "../assets/accesorios/pulserasAcero/20.jpg",
+      precio: "390",
+      descripcion: "Pulsera"
+    },
+    {
+      codigo: "pa120",
+      imagen: "../assets/accesorios/pulserasAcero/21.jpg",
+      precio: "210",
+      descripcion: "Pulsera"
+    },
+    {
+      codigo: "pa121",
+      imagen: "../assets/accesorios/pulserasAcero/22.jpg",
+      precio: "230",
+      descripcion: "Pulsera"
+    },
+    {
+      codigo: "pa122",
+      imagen: "../assets/accesorios/pulserasAcero/23.jpg",
+      precio: "250",
+      descripcion: "Pulsera"
+    },
+    {
+      codigo: "pa123",
+      imagen: "../assets/accesorios/pulserasAcero/24.jpg",
+      precio: "265",
+      descripcion: "Pulsera"
+    },
+  ]
   relojes=[
     {
       codigo: "r100",
@@ -4052,6 +4198,56 @@ export class AccesoriosComponent implements OnInit {
       descripcion: "Tarjetero"
     },
   ]
+  variados = [
+    {
+      codigo: "v100",
+      imagen: "../assets/accesorios/variados/1.jpg",
+      precio: "410",
+      descripcion: "Antifaz"
+    },
+    {
+      codigo: "v101",
+      imagen: "../assets/accesorios/variados/2.jpg",
+      precio: "410",
+      descripcion: "Antifaz"
+    },
+    {
+      codigo: "v102",
+      imagen: "../assets/accesorios/variados/3.jpg",
+      precio: "440",
+      descripcion: "Antifaz"
+    },
+    {
+      codigo: "v103",
+      imagen: "../assets/accesorios/variados/4.jpg",
+      precio: "40",
+      descripcion: "´Parche"
+    },
+    {
+      codigo: "v104",
+      imagen: "../assets/accesorios/variados/5.jpg",
+      precio: "90",
+      descripcion: "´Parche"
+    },
+    {
+      codigo: "v105",
+      imagen: "../assets/accesorios/variados/6.jpg",
+      precio: "90",
+      descripcion: "´Parche"
+    },
+    {
+      codigo: "v106",
+      imagen: "../assets/accesorios/variados/7.jpg",
+      precio: "90",
+      descripcion: "´Parche"
+    },
+    {
+      codigo: "v107",
+      imagen: "../assets/accesorios/variados/8.jpg",
+      precio: "90",
+      descripcion: "´Parche"
+    },
+  ]
   vinchas = [
     {
       codigo: "vi100",
@@ -4221,6 +4417,10 @@ export class AccesoriosComponent implements OnInit {
       this.imag = "../assets/acc/pulseras.png"
       this.acc = this.pulseras
     }
+    else if (this.accesorio.tipo == "pulserasAcero"){
+      this.imag = "../assets/acc/pulserasAcero.png"
+      this.acc = this.pulserasAcero
+    }
     else if (this.accesorio.tipo == "relojes"){
       this.imag = "../assets/acc/relojes.png"
       this.acc = this.relojes
@@ -4240,6 +4440,10 @@ export class AccesoriosComponent implements OnInit {
     else if (this.accesorio.tipo == "tarjeteros"){
       this.imag = "../assets/acc/tarjeteros.png"
       this.acc = this.tarjeteros
+    }
+    else if (this.accesorio.tipo == "variados"){
+      this.imag = "../assets/acc/variados.png"
+      this.acc = this.variados
     }
     else if (this.accesorio.tipo == "vinchas"){
       this.imag = "../assets/acc/vinchas.png"
