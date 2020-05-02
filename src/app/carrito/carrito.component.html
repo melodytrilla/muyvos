@@ -1,14 +1,19 @@
 <app-nav-top></app-nav-top>
 <p>- CARRITO DE COMPRAS -</p>
-<div class="fila">
+<div class="fila tit">
     <div>IMAGEN</div>
     <div>CÓDIGO</div>
     <div>PRECIO</div>
+    <div>BORRAR</div>
 </div>
-<div class="fila" *ngFor="let item of items">
-    <div><img src="{{item.imagen}}"></div>
-    <div>{{item.codigo}}-{{item.descripcion}}</div>
-    <div>{{item.precio}}</div>
+<div class="item" *ngFor="let item of items">
+    <div class="fila">
+        <div><img src="{{item.imagen}}" width= "100px" height= "100px"></div>
+        <div style="text-align: center;">{{item.codigo}} <br> {{item.descripcion}}</div>
+        <div>{{item.precio}}</div>
+        <mat-icon (click)="this.borrar(item)">clear</mat-icon>
+    </div>
+    <mat-divider></mat-divider>
 </div>
 <div>{{total}}</div>
 <app-nav-bottom></app-nav-bottom>

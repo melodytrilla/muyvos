@@ -16,8 +16,13 @@ export class CarritoComponent implements OnInit {
     this.items = this.service.getItems();
     console.log(this.items)
     for(let item of this.items){
-      this.total = this.total + item.precio;
+
+      this.total = this.total + parseInt(item.precio, 10);
     }
+  }
+  borrar(i){
+    this.service.borrarItem(i)
+    this.items = this.service.getItems()
   }
 
 }

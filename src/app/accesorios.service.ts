@@ -11,6 +11,15 @@ export class AccesoriosService {
   items: any[] = []
   constructor(private httpClient: HttpClient) { }
 
+  init(){
+    if (window.sessionStorage['carrito']){
+      this.items = JSON.parse(window.sessionStorage['carrito'])
+      console.log("hshshshsh")
+    }
+    else{
+      this.items = []
+    }
+  }
   getAccesorios(tipo: string): Observable<any>{
     tipo = encodeURIComponent(tipo);
     return this.httpClient.get<any>(
@@ -18,14 +27,19 @@ export class AccesoriosService {
     )
   }
   addItems(i){
-  //  console.log(this.items);
-  //  this.items.push(JSON.stringify(i))
-   // sessionStorage.setItem('myArray', JSON.stringify());
+    console.log(i);
+    console.log(this.items)
+    this.items.push(i);
+    this.guardarSesion();
+  }
+  guardarSesion(){
+    window.sessionStorage['carrito']=JSON.stringify(this.items)
   }
   getItems(){
-  //  var array = sessionStorage.getItem('myArray');
-// Se parsea para poder ser usado en js con JSON.parse :)
-   // console.log(array)
-    return this.items
+    return JSON.parse(window.sessionStorage['carrito'])
+  }
+  borrarItem(i){
+    this.items.splice(i);
+    this.guardarSesion()
   }
 }

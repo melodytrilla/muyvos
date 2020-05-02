@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { AccesoriosService } from '../accesorios.service';
 
 @Component({
   selector: 'app-nav-top',
@@ -8,9 +9,11 @@ import { Router } from '@angular/router';
 })
 export class NavTopComponent implements OnInit {
 
-  constructor(public router: Router) { }
+  constructor(public router: Router,
+              public service: AccesoriosService ) { }
 
   ngOnInit() {
+    this.service.init()
   }
   sendTo(a){
     let url=`/accesorios/${a}`;
