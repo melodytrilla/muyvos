@@ -39,7 +39,10 @@ export class AccesoriosService {
     return JSON.parse(window.sessionStorage['carrito'])
   }
   borrarItem(i){
-    this.items.splice(i);
+    var a = this.items.indexOf( i );
+    console.log(a)
+    this.items.splice(a, 1);
+    console.log(this.items)
     this.guardarSesion()
   }
 }

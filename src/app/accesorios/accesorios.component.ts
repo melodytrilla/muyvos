@@ -526,6 +526,152 @@ export class AccesoriosComponent implements OnInit {
       descripcion: "Anillo"
     },
   ]
+  aros=[
+    {
+      codigo: "ar100",
+      imagen: "../assets/accesorios/aros/1.jpg",
+      precio: "590",
+      descripcion: "Aros"
+    },
+    {
+      codigo: "ar101",
+      imagen: "../assets/accesorios/aros/2.jpg",
+      precio: "590",
+      descripcion: "Aros"
+    },
+    {
+      codigo: "ar102",
+      imagen: "../assets/accesorios/aros/3.jpg",
+      precio: "280",
+      descripcion: "Aros"
+    },
+    {
+      codigo: "ar103",
+      imagen: "../assets/accesorios/aros/4.jpg",
+      precio: "210",
+      descripcion: "Aros"
+    },
+    {
+      codigo: "ar104",
+      imagen: "../assets/accesorios/aros/5.jpg",
+      precio: "420",
+      descripcion: "Aros"
+    },
+    {
+      codigo: "ar105",
+      imagen: "../assets/accesorios/aros/6.jpg",
+      precio: "190",
+      descripcion: "Aros"
+    },
+    {
+      codigo: "ar106",
+      imagen: "../assets/accesorios/aros/7.jpg",
+      precio: "410",
+      descripcion: "Aros"
+    },
+    {
+      codigo: "ar107",
+      imagen: "../assets/accesorios/aros/8.jpg",
+      precio: "175",
+      descripcion: "Aros"
+    },
+    {
+      codigo: "ar108",
+      imagen: "../assets/accesorios/aros/9.jpg",
+      precio: "150",
+      descripcion: "Aros"
+    },
+    {
+      codigo: "ar109",
+      imagen: "../assets/accesorios/aros/10.jpg",
+      precio: "140",
+      descripcion: "Aros"
+    },
+    {
+      codigo: "ar110",
+      imagen: "../assets/accesorios/aros/11.jpg",
+      precio: "195",
+      descripcion: "Aros"
+    },
+    {
+      codigo: "ar111",
+      imagen: "../assets/accesorios/aros/12.jpg",
+      precio: "180",
+      descripcion: "Aros"
+    },
+    {
+      codigo: "ar112",
+      imagen: "../assets/accesorios/aros/13.jpg",
+      precio: "380",
+      descripcion: "Aros"
+    },
+    {
+      codigo: "ar113",
+      imagen: "../assets/accesorios/aros/14.jpg",
+      precio: "260",
+      descripcion: "Aros"
+    },
+    {
+      codigo: "ar114",
+      imagen: "../assets/accesorios/aros/15.jpg",
+      precio: "270",
+      descripcion: "Aros"
+    },
+    {
+      codigo: "ar115",
+      imagen: "../assets/accesorios/aros/16.jpg",
+      precio: "235",
+      descripcion: "Aros"
+    },
+    {
+      codigo: "ar116",
+      imagen: "../assets/accesorios/aros/17.jpg",
+      precio: "380",
+      descripcion: "Aros"
+    },
+    {
+      codigo: "ar117",
+      imagen: "../assets/accesorios/aros/18.jpg",
+      precio: "285",
+      descripcion: "Aros"
+    },
+    {
+      codigo: "ar118",
+      imagen: "../assets/accesorios/aros/19.jpg",
+      precio: "290",
+      descripcion: "Aros"
+    },
+    {
+      codigo: "ar119",
+      imagen: "../assets/accesorios/aros/20.jpg",
+      precio: "140",
+      descripcion: "Aros"
+    },
+    {
+      codigo: "ar120",
+      imagen: "../assets/accesorios/aros/21.jpg",
+      precio: "240",
+      descripcion: "Aros"
+    },
+    {
+      codigo: "ar121",
+      imagen: "../assets/accesorios/aros/22.jpg",
+      precio: "380",
+      descripcion: "Aros"
+    },
+    {
+      codigo: "ar122",
+      imagen: "../assets/accesorios/aros/23.jpg",
+      precio: "380",
+      descripcion: "Aros"
+    },
+    {
+      codigo: "ar123",
+      imagen: "../assets/accesorios/aros/24.jpg",
+      precio: "80",
+      descripcion: "Aros"
+    },
+  ]
   billeteras=[
     {
       codigo: "b100",
@@ -4352,6 +4498,10 @@ export class AccesoriosComponent implements OnInit {
     else if (this.accesorio.tipo == 'anillosAcero'){
       this.imag = "../assets/acc/anillosAcero.png"
       this.acc = this.anillos;
+    }
+    else if (this.accesorio.tipo == 'aros'){
+      this.imag = "../assets/acc/aros.png"
+      this.acc = this.aros;
     }
     else if (this.accesorio.tipo == 'billeteras'){
       this.imag = "../assets/acc/billeteras.png"

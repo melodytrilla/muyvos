@@ -1,19 +1,25 @@
 <app-nav-top></app-nav-top>
 <p>- CARRITO DE COMPRAS -</p>
-<div class="fila tit">
-    <div>IMAGEN</div>
-    <div>CÓDIGO</div>
-    <div>PRECIO</div>
-    <div>BORRAR</div>
-</div>
-<div class="item" *ngFor="let item of items">
-    <div class="fila">
-        <div><img src="{{item.imagen}}" width= "100px" height= "100px"></div>
-        <div style="text-align: center;">{{item.codigo}} <br> {{item.descripcion}}</div>
-        <div>{{item.precio}}</div>
-        <mat-icon (click)="this.borrar(item)">clear</mat-icon>
+<div *ngIf="total > 0">
+    <div class="fila tit">
+        <div class="colum">IMAGEN</div>
+        <div class="colum">CÓDIGO</div>
+        <div class="colum">PRECIO</div>
+        <div class="colum">BORRAR</div>
     </div>
     <mat-divider></mat-divider>
+    <div *ngFor="let item of items">
+        <div class="fila it">
+            <div class="colum"><img src="{{item.imagen}}" width= "100px" height= "100px"></div>
+            <div class="colum" style="text-align: center;">{{item.codigo}} <br> {{item.descripcion}}</div>
+            <div class="colum">${{item.precio}}</div>
+            <mat-icon class="colum" (click)="this.borrar(item)">clear</mat-icon>
+        </div>
+        <mat-divider></mat-divider>
+    </div>
+    <div class="total">Total: {{total}}</div>
 </div>
-<div>{{total}}</div>
+<div *ngIf="total==0">
+    Aún no tiene artículos en su carrito de compras.
+</div>
 <app-nav-bottom></app-nav-bottom>
